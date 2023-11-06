@@ -1,0 +1,68 @@
+<html>
+
+<head>
+   <title>Book Registration</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script type="text/javascript">
+      function PageField() {
+         document.getElementByld("blankLabel").style.display = "none";
+      }
+
+      function BlankField() {
+         var mname, phone, booktitle;
+         var notblank = true;
+         mname = document.getElementByld("mname").value;
+         phone = document.getElementById("phone").value;
+         booktitle = document.getElementById("booktitle").value;
+         if (mname.length > 0 && phone.length > 0 && booktitle.length > 0)
+            document.getElementById("blankLabel").style.display = "none";
+         if (mname.length == 0 || phone.length == 0 || booktitle.length > 0) {
+            document.getElementById("blankLabel").innerHTML = "Blank field not allowed";
+            document.getElementById("blankLabel").style.display = "block";
+            notblank = false;
+         }
+         return notblank;
+      }
+   </script>
+</head>
+
+<body onload="PageField()">
+   <header>
+      <div class="flex">
+         <h1>Online Library Management</h1>
+         <img src="logo.png">
+      </div>
+   </header>
+   <main class="flex">
+      <nav class="vertical-menu flex">
+         <a href="index.html">Home</a>
+         <a href="member_list.html">Member List</a>
+         <a href="book_registration.html" class="active">Book Registration</a>
+         <a href="feedback.html">Feedback</a>
+      </nav>
+      <section class="content flex">
+         <h2>Book Registration</h2>
+         <form name="Display" method="post" onsubmit="return blankFieid()">
+            <p><span>Member Name</span>
+               <input type="text" id="mname" name="mname" size="25" maxlength="15" onkeypress="return Number(event);">
+            </p>
+            <p><span>Phone No.</span>
+               <input type="text" id="phone" name="phone" size="25" maxlength="15" onkeypress="return Number(event);">
+            </p>
+            <p> <span>Title of Book</span>
+               <input type="text" id="booktitle" name="booktitle" size="25" maxlength="15"
+                  onkeypress="return Number(event);">
+            </p>
+            <p class="errorcss">
+               <label id="blankLabel"></label>
+            </p>
+            <p><input type="submit" value="Register"></p>
+         </form>
+      </section>
+   </main>
+   <footer class="flex">
+      <p>&#9400 Online Library Management All Rights Reserved</p>
+   </footer>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+        function PageField() {
+            document.getEIementByld("blankLabel").style.display = "none";
+        }
+
+        function BlankField() {
+            var mname, subject, feedback;
+            var notblank = true;
+            mname = document.getElementById("mname").value;
+            subject = document.getElementById("subject").value;
+            feedback = document.getElementById("feedback").value;
+            if (mname.length > 0 && subject.length > 0 && feedback.length > 0)
+                document.getElementByld("blankLabel").style.display = "none";
+            if (mname.length == 0 || subject.length == 0 || feedback.length > 0) {
+                document.getElementById("blankLabel").innerHTML = "Blank field not allowed";
+                document.getElementById("blankLabel").style.display = "block";
+                notblank = false;
+            }
+            return notblank;
+        }
+    </script>
+</head>
+
+<body onload="PageField()">
+    <header>
+        <div class="flex">
+            <h1>Online Library Management</h1>
+            <img src="logo.png">
+        </div>
+    </header>
+    <main class="flex">
+        <nav class="vertical-menu flex">
+            <a href="index.html">Home</a>
+            <a href="member_list.html">Member List</a>
+            <a href="book_registration.html">Book Registration</a>
+            <a href="feedback.html" class="active">Feedback</a>
+        </nav>
+        <section class="content flex">
+            <h2>Feedback</h2>
+
+            <form name="Display" method="post" onsubmit="return BlankField()">
+                <p><span>Member Name</span>
+                    <input type="text" id="mname" name="mname" size="25" maxlength="15"
+                        onkeypress="return Number(event);">
+                </p>
+                <p><span>Subject</span>
+                    <input type="text" id="subject" name="subject" size="25" maxlength="15"
+                        onkeypress="return Number(event);">
+                </p>
+                <p><span>Feedback</span>
+                    <textarea id=" feedback" name="feedback" placeholder="Enter text here..."
+                        maxlength="250"></textarea>
+                </p>
+
+                <p class="errorcss">
+                    <label id="blankLabel"></label>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="flex">
+        <p>&#9400 Online Library Management All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
