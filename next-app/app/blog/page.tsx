@@ -1,21 +1,17 @@
-
 import Link from 'next/link';
- 
+import React from 'react'
 
-export const getStaticProps = async ()=> { 
-  
-  const res = await fetch( 
-      `https://jsonplaceholder.typicode.com/posts` 
-  ); 
-  const data = await res.json(); 
-  return { 
-      props: { 
-          data, 
-      }, 
-  }; 
-}; 
+interface Post {
+    id: number;
+    title : string;
+    body : string;
+}
 
-export default function Blog({data}) {
+
+const Blog = async () => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts', { cache: 'no-store' });
+  const posts: Post[] = await res.json();
+
   return (
 
       <main>
@@ -31,13 +27,13 @@ export default function Blog({data}) {
             <div className='col-12'>
               <div className='blog-list d-flex flex-wrap'>
                 
-        {data.slice(0,10).map((curElem) => {
-              return <div key={curElem.id} className='blog-item'>
+        {posts.slice(0,10).map((post) => {
+              return <div key={post.id} className='blog-item'>
                 <div className='blog-box limit-text'>
-                <h3 className='d-flex align-items-center justify-content-center'>{curElem.id}</h3>
-                <h2>{curElem.title}</h2>
-                <p>{curElem.body}</p>
-                <Link className='btn btn-info text-white' href={`/blog/${curElem.id}`}>Read More</Link>
+                <h3 className='d-flex align-items-center justify-content-center'>{post.id}</h3>
+                <h2>{post.title}</h2>
+                <p>{post.body}</p>
+                <Link className='btn btn-info text-white' href={`/blog/${post.id}`}>Read More</Link>
                 </div>
                 
               </div>;
@@ -52,3 +48,6 @@ export default function Blog({data}) {
       </main>
   );
 }
+
+
+export default Blog
