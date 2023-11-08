@@ -10,13 +10,13 @@ interface Props {
   params: { id: number }
 }
 
-const BlogPage =async ({params: {id} }: Props) => {
+const BlogPage = async ({params: {id} }: Props) => {
 
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/posts/${id}`
   );
   const post: Post[] = await res.json();
-  console.log(post)
+  console.log(res);
 
   return (
 
@@ -31,7 +31,7 @@ const BlogPage =async ({params: {id} }: Props) => {
             <div className='col-12'>
               <div className='blog-box'>
                 <h3 className='d-flex align-items-center justify-content-center'>{data.id}</h3>
-                <h2>{data.title}</h2>
+                <h2>{post.title}</h2>
                 <p>{data.body}</p>
               </div>
             </div>
