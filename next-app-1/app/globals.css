@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer base{
+  h1 {
+    @apply font-extrabold text-2xl mb-3;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.pagination .page-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.pagination .page-link:hover {
+  @apply bg-secondary border-secondary text-primary
+}
+
+.pagination .page-item.active .page-link {
+  @apply bg-primary border-primary text-white
+}
+
+
+
