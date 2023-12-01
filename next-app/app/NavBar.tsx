@@ -1,26 +1,31 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-
-
+import { link } from 'fs'
 
 const NavBar = () => {
-    
+    const currentPath = usePathname();
 
+    const links = [
+        { label: 'Users', href: '/users' },
+        { label: 'Products', href: '/products' },
+        { label: 'Admin', href: '/admin' },
+        { label: 'About', href: '/about' },
+        { label: 'Blog', href: '/blog' },
+        { label: 'Contact', href: '/contact' }
+    ]
     return (
         <nav>
-            <div className="navbar bg-accent">
+            <div className="navbar bg-accent fixed h-20 z-10">
                 <div className="flex-1">
                     <Link href="/" className="btn btn-ghost normal-case text-xl">Next App</Link>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li className='mr-1'><Link href="/users">Users</Link></li>
-                        <li className='mr-1'><Link href="/products">Products</Link></li>
-                        <li><Link href="/admin">Admin</Link></li>
-                        <li><Link href="/about">About</Link></li>
-                        <li><Link href="/blog">Blog</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        {links.map(link =>
+                            <li key={link.href} className='mr-1'><Link className={`${link.href === currentPath ? 'active' : ''}`} href={link.href}>{link.label}</Link></li>
+                        )}
                     </ul>
                 </div>
             </div>
