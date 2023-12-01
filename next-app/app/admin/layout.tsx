@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 interface Props {
     children : ReactNode;
@@ -7,7 +7,7 @@ interface Props {
 const AdminLayout = ({children}: Props) => {
   return (
   <div className='flex'>
-    <aside className='bg-accent p-5 mr-5'>
+    <aside className='bg-slate-200 p-10 mr-5 min-h-screen'>
         Admin Sidebar
     </aside>
     <div>{children}</div>
