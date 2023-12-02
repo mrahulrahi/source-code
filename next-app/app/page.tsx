@@ -3,24 +3,21 @@ import ProductCard from './components/ProductCard'
 
 export default function Home() {
   return (
-    <main>
-      <div className='hero-container d-flex flex-column align-items-center justify-content-center w-100 vh-50 bg-success text-white py-5'>
-        <h1 className='mb-5'>Test App</h1>
-        <h3 className='mb-5'>Find out more</h3>
-        <button className='btn btn-light'>Open</button>
-      </div>
-    
-      <div className="hero h-96 bg-base-200">
+    <main>  
+      <div className="hero h-96 bg-base-200 hero-container  w-100 vh-50 bg-success text-white py-5">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hello World!</h1>
+            <h1 className='mb-5'>Test App</h1>
+        <h3 className='mb-5'>Find out more</h3>
+        <button className='btn btn-light'>Open</button>
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <ProductCard />
           </div>
         </div>
       </div>
 
-      <div className='w-full p-10 bg-green-200 flex flex-wrap gap-5 justify-between'>
+      <div className='w-full p-10 bg-accent-200 flex flex-wrap gap-5 justify-between'>
         <div className="card w-96 glass">
           <div className="card-body">
             <h2 className="card-title">User</h2>

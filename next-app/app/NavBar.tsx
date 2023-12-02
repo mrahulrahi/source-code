@@ -8,12 +8,11 @@ const NavBar = () => {
     const currentPath = usePathname();
 
     const links = [
+        { label: 'Home', href: '/' },
         { label: 'Users', href: '/users' },
         { label: 'Products', href: '/products' },
         { label: 'Admin', href: '/admin' },
-        { label: 'About', href: '/about' },
-        { label: 'Blog', href: '/blog' },
-        { label: 'Contact', href: '/contact' }
+        { label: 'Blog', href: '/blog' }
     ]
     return (
         <nav>
