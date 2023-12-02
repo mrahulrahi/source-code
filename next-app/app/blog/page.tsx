@@ -15,10 +15,14 @@ const Blog = async () => {
   return (
 
     <main>
-      <div className='hero-container d-flex flex-column align-items-center justify-content-center w-100 bg-info text-white py-5'>
-        <h1 className='mb-5'>Blog Page</h1>
-        <h3 className='mb-5'>Read latest blog</h3>
-        <button className='btn btn-light'>Open</button>
+       <div className="hero h-96 bg-base-200 hero-container w-100 vh-50 text-white py-5">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Blog Page</h1>
+            <p className="py-6">Read latest blog</p>
+            <Link className='btn btn-success' href="/users">Open</Link>
+          </div>
+        </div>
       </div>
 
       <div className='content-container'>
