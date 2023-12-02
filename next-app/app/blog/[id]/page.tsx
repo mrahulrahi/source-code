@@ -1,3 +1,4 @@
+import Hero from '@/app/components/Hero';
 import React from 'react'
 
 interface Post {
@@ -19,8 +20,7 @@ const BlogPage = async ({ params: { id } }: Props) => {
     return (
 
         <main>
-            <h1 className='my-5 text-center'>{post.id} - {post.title}</h1>
-            <h1 className='text-uppercase'></h1>
+            <Hero title={post.id} para={post.title}></Hero>
 
             <div className="card w-full bg-base-100 shadow-xl">
                 <div className="card-body">

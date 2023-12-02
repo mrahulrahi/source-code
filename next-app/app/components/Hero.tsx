@@ -1,9 +1,9 @@
-import React, { Children, ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 
 interface Props {
-    title: string;
+    title: string | number;
     para: string;
-    children: ReactNode;
+    children?: ReactNode;
 }
 
 const Hero = ({title, para, children}: Props) => {
@@ -15,7 +15,6 @@ const Hero = ({title, para, children}: Props) => {
                         <h1 className="text-5xl font-bold">{title}</h1>
                         <p className="py-6">{para}</p>
                         {children}
-                    
                     </div>
                 </div>
             </div>

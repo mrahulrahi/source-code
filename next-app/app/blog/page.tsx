@@ -1,57 +1,84 @@
+'use client'
+import ReactPaginate from "react-paginate";
+import React, { useEffect, useState } from "react";
 import Link from 'next/link';
-import React from 'react'
+import Hero from "../components/Hero";
 
-interface Post {
+interface Blog {
   id: number;
   title: string;
   body: string;
 }
 
 
-const Blog = async () => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts', { cache: 'no-store' });
-  const posts: Post[] = await res.json();
+const BlogPage = async () => {
+
+  const [items, setItems] = useState([]);
+  const [pageCount, setpageCount] = useState(0);
+  let limit = 10;
+  useEffect(() => {
+    const getBlogs = async () => {
+      const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_page=1&_limit=${limit}`, { cache: 'no-store' });
+      const data = await res.json();
+      const total = res.headers.get("x-total-count");
+      setpageCount(Math.ceil(total / limit));
+      setItems(data);
+    };
+    getBlogs();
+  },
+    [limit]);
+  const fetchBlogs = async (currentPage) => {
+    const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=${limit}`, { cache: 'no-store' });
+    const data = await res.json();
+    return data;
+  };
+  const handlePageClick = async (data : Blog[]) => {
+    console.log(data.selected);
+    let currentPage = data.selected + 1;
+    const blogsFormServer = await fetchBlogs(currentPage);
+    setItems(blogsFormServer);
+  };
+
 
   return (
-
-    <main>
-       <div className="hero h-96 bg-base-200 hero-container w-100 vh-50 text-white py-5">
-        <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Blog Page</h1>
-            <p className="py-6">Read latest blog</p>
-            <Link className='btn btn-success' href="/users">Open</Link>
-          </div>
-        </div>
-      </div>
-
-      <div className='content-container'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-12'>
-              <div className='blog-list flex flex-wrap'>
-
-                {posts.slice(0, 10).map((post) => {
-                  return <div key={post.id} className='blog-item'>
-                    <div className='blog-box limit-text'>
-                      <h3 className='flex align-items-center justify-content-center'>{post.id}</h3>
-                      <h2>{post.title}</h2>
-                      <p>{post.body}</p>
-                      <Link className='btn btn-info text-white' href={`/blog/${post.id}`}>Read More</Link>
-                    </div>
-
-                  </div>;
-                })}
+    <div>
+      <Hero title='Blog Page' para='Read latest blog'>
+        <Link className='btn btn-success' href="/users">Open</Link>
+      </Hero>
+      <div className='flex flex-wrap gap-10 align-center justify-center'>
+        {items.slice(0, 10).map(blog =>
+          <div key={blog.id} className="card w-96 bg-base-100 shadow-xl">
+            <div className="card-body">
+              <div className='badge badge-primary badge-lg'>{blog.id}</div>
+              <h2 className="card-title">{blog.title}</h2>
+              <p className='text-ellipsis overflow-hidden line-clamp-3'>{blog.body}</p>
+              <div className="card-actions justify-start mb-5">
+                <Link href={'/blog/' + blog.id} className="btn btn-primary">open</Link>
               </div>
             </div>
           </div>
-
-        </div>
+        )}
       </div>
 
-    </main>
-  );
+      <ReactPaginate
+        pageCount={pageCount}
+        marginPagesDisplayed={2}
+        pageRangeDisplayed={3}
+        onPageChange={handlePageClick}
+        containerClassName={"pagination justify-content-center"}
+        pageClassName={"page-item"}
+        pageLinkClassName={"page-link"}
+        previousClassName={"page-item"}
+        previousLinkClassName={"page-link"}
+        nextClassName={"page-item"}
+        nextLinkClassName={"page-link"}
+        breakClassName={"page-item"}
+        breakLinkClassName={"page-link"}
+        activeClassName={"active"}
+      />
+    </div>
+  )
 }
 
+export default BlogPage
 
-export default Blog
