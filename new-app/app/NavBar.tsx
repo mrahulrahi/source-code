@@ -2,7 +2,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { link } from 'fs'
 
 const NavBar = () => {
     const currentPath = usePathname();
@@ -15,20 +14,24 @@ const NavBar = () => {
         { label: 'Blog', href: '/blog' }
     ]
     return (
-        <nav>
-            <div className="navbar bg-accent fixed h-20 z-10">
-                <div className="flex-1">
-                    <Link href="/" className="btn btn-ghost normal-case text-xl">Next App</Link>
-                </div>
-                <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">Navbar</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
                         {links.map(link =>
-                            <li key={link.href} className='mr-1'><Link className={`${link.href === currentPath ? 'active' : ''}`} href={link.href}>{link.label}</Link></li>
+                            <li key={link.href} className="nav-item">
+                                <Link className={`${link.href === currentPath ? 'active' : ''} nav-link`} href={link.href}>{link.label}</Link>
+                            </li>
                         )}
                     </ul>
                 </div>
             </div>
         </nav>
+
     )
 }
 

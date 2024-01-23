@@ -1,6 +1,8 @@
+import type { Metadata } from 'next'
+import 'bootstrap/dist/css/bootstrap.css'
+import ImportBsJS from "./importBsJS";
 import './globals.css'
 import './style.css'
-import type { Metadata } from 'next'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import { Oswald, Inter } from 'next/font/google'
@@ -22,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="lemonade dark">
+      <ImportBsJS />
       <body className={`layout ${oswald.variable} ${inter.variable}`}>
         <NavBar />
         <main className='pt-20 min-h-[calc(100vh_-_250px)]'>{children}</main>
