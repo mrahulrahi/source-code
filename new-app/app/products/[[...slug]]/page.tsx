@@ -24,7 +24,7 @@ const ProductPage = async ({ params: { slug }, searchParams: { sortOrder } }: Pr
   const products: Product[] = await res.json();
   return (
     <div>
-      <h1 className='my-5 text-center'>ProductPage {slug} {sortOrder}</h1>
+      <h1 className='my-5 text-dark text-center'>ProductPage {slug} {sortOrder}</h1>
       <div className='flex flex-wrap gap-10 align-center justify-center'>
         {products.map(product =>
           <div key={product.id} className="card w-96 bg-base-100 shadow-xl">
