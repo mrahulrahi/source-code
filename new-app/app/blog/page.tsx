@@ -5,15 +5,16 @@ import Link from 'next/link';
 import Hero from "../components/Hero";
 
 interface Blog {
+  slice(arg0: number, arg1: number): unknown;
   id: number;
   title: string;
   body: string;
 }
 
 
-const BlogPage = async ({ id, title, body }: Blog) => {
+const BlogPage = async () => {
 
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState<Blog>([]);
   const [pageCount, setpageCount] = useState(0);
   let limit = 10;
   useEffect(() => {
@@ -27,9 +28,9 @@ const BlogPage = async ({ id, title, body }: Blog) => {
     getBlogs();
   },
     [limit]);
-  const fetchBlogs = async (currentPage) => {
+  const fetchBlogs = async (currentPage: any) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=${limit}`, { cache: 'no-store' });
-    const data = await res.json();
+    const data: Blog[] = await res.json();
     return data;
   };
   const handlePageClick = async (data: Blog[]) => {

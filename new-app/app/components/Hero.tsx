@@ -8,8 +8,9 @@ interface Props {
 
 const Hero = ({title, para, children}: Props) => {
     return (
-        <div>
-            <div className="hero h-96 hero-container w-100 vh-50 text-dark py-5">
+        <div className="container-xxl">
+            <div className="row">
+            <div className="col-12 hero-container vh-50 text-dark py-5">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold">{title}</h1>
@@ -18,6 +19,8 @@ const Hero = ({title, para, children}: Props) => {
                     </div>
                 </div>
             </div>
+            </div>
+        
         </div>
     )
 }
