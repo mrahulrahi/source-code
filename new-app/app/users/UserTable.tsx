@@ -20,7 +20,7 @@ const UserTable = async ({ sortOrder }: Props) => {
     const sortedUsers = sort(users).asc(sortOrder === 'email' ? user => user.email : user => user.name)
 
     return (
-        <table className='table table-bordered'>
+        <table className="table table-success table-striped-columns">
             <thead>
                 <tr>
                     <th>

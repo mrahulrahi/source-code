@@ -56,3 +56,10 @@
 .list-group-item.active{background: #f00;border-color: #f00;}
 
 input.form-control:focus{box-shadow: none;border-color: #C20E0E;}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }

@@ -11,7 +11,7 @@ interface Blog {
 }
 
 
-const BlogPage = async () => {
+const BlogPage = async ({ id, title, body }: Blog) => {
 
   const [items, setItems] = useState([]);
   const [pageCount, setpageCount] = useState(0);
@@ -32,7 +32,7 @@ const BlogPage = async () => {
     const data = await res.json();
     return data;
   };
-  const handlePageClick = async (data : Blog[]) => {
+  const handlePageClick = async (data: Blog[]) => {
     console.log(data.selected);
     let currentPage = data.selected + 1;
     const blogsFormServer = await fetchBlogs(currentPage);
@@ -45,19 +45,24 @@ const BlogPage = async () => {
       <Hero title='Blog Page' para='Read latest blog'>
         <Link className='btn btn-success' href="/users">Open</Link>
       </Hero>
-      <div className='flex flex-wrap gap-10 align-center justify-center'>
-        {items.slice(0, 10).map(blog =>
-          <div key={blog.id} className="card w-96 bg-base-100 shadow-xl">
-            <div className="card-body">
-              <div className='badge badge-primary badge-lg'>{blog.id}</div>
-              <h2 className="card-title">{blog.title}</h2>
-              <p className='text-ellipsis overflow-hidden line-clamp-3'>{blog.body}</p>
-              <div className="card-actions justify-start mb-5">
-                <Link href={'/blog/' + blog.id} className="btn btn-primary">open</Link>
+
+      <div className="container-xxl">
+        <div className="row g-3">
+          {items.slice(0, 10).map(blog =>
+            <div className="col-6">
+              <div key={blog.id} className="card h-100">
+                <div className="card-body">
+                  <div className='badge badge-primary badge-lg'>{blog.id}</div>
+                  <h2 className="card-title">{blog.title}</h2>
+                  <p className='card-text line-clamp'>{blog.body}</p>
+                  <div className="card-actions justify-start mb-5">
+                    <Link href={'/blog/' + blog.id} className="btn btn-primary">open</Link>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       <ReactPaginate
