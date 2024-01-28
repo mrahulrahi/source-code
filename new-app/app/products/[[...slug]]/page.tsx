@@ -35,11 +35,11 @@ const ProductPage = async ({ params: { slug }, searchParams: { sortOrder } }: Pr
                   <div className='badge text-bg-dark'>{product.id}</div>
                   <h2 className="card-title line-clamp">{product.title}</h2>
                   <p className='card-text line-clamp'>{product.description}</p>
-                  <div className='flex justify-between my-5'>
+                  <div className='d-flex justify-content-between my-5'>
                     <div className="badge text-bg-dark">{product.category}</div>
                     <div className="badge text-bg-dark">{product.price} $</div>
                   </div>
-                  <div className="card-actions justify-start mb-5">
+                  <div className="card-actions mb-5">
                     <Link href={'/products/' + product.id} className="btn btn-primary">open</Link>
                   </div>
                   <figure className='w-100 h-50'><img className="card-img-top w-100 h-100 object-fit-contain" src={product.image} alt="Shoes" /></figure>
