@@ -23,11 +23,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" data-theme="lemonade dark">
+    <html lang="en">
       <ImportBsJS />
       <body className={`layout ${oswald.variable} ${inter.variable}`}>
         <NavBar />
-        <main className='pt-20 min-h-[calc(100vh_-_250px)]'>{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
