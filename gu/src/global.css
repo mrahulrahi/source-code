@@ -1,6 +1,17 @@
-:root{--white: #FFF;--black: #000;--teal: #C2F6EA;--antique-white: #FAEBD7;--grey: #B4B4B4;--dark-grey: #343A40;}
- 
-@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ul,li{ padding:0; list-style-type: style none; margin:0;}
+
+
+/*--------- Tailwind Css Start ----------*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*--------- Tailwind Css End ----------*/
+
+
+:root{--white: #FFF;--black: #000;--gold: #B5AE81;--blue: #1D3458;--grey: #B4B4B4;--dark-grey: #343A40;
+--font-inter: "Inter", sans-serif;--font-courier-prime: "Courier Prime", monospace;--font-roboto: "Roboto", sans-serif;}
 
 /* =================reset css starts here=================  */
 *{margin:0;padding:0;}
@@ -10,7 +21,7 @@ ul{list-style:none;}
 a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================reset css ends here================= */
 /* =================core css starts here================= */
-body{font-family: var(--font-alkatra);font-size:16px;font-weight:400;line-height:1.5;color: inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background: var(--antique-white);}
+body{font-family: var(--font-inter);font-size:16px;font-weight:400;font-style: normal;line-height:1.5;color: inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background: var(--antique-white);}
 .container{width:100%;max-width:1320px;}
 .container-fluid{max-width: 1440px;}
 .content-container{padding: 120px 0;}
@@ -26,14 +37,14 @@ a:focus{outline:none;outline-offset:0px;text-decoration:none;color:inherit;}
 .os-animation{opacity:0;}
 .os-animation.animated{opacity:1;}
 img{max-width:100%;border:0;height:auto;}
-h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;margin-bottom:20px;font-family: var(--font-montserrat);line-height:1.6;font-weight:600;color:inherit;}
+h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;margin-bottom:20px;font-family: var(--font--courier-prime);line-height:1.6;font-weight:600;font-style: normal;color:inherit;}
 h1{font-size:58px;}
 h2{font-size:48px;}
 h3{font-size:40px;}
 h4{font-size:30px;}
 h5{font-size:26px;}
 h6{font-size:22px;}
-p{margin:0px;padding:0px;margin-bottom:30px;}
+p{font-family: var(--font--courier-prime);margin:0px;padding:0px;margin-bottom:30px;}
 strong{font-weight:700;}
 b{font-weight:400;}
 p:last-child{margin-bottom:0;}
@@ -51,8 +62,8 @@ p:last-child{margin-bottom:0;}
 .bottom-btn-box{margin-top: 40px;}
 main{min-height: 100vh;}
 
-.bg-dark-grey{background: var(--dark-grey);color: var(--white);}
-.bg-glass{background-color: transparent;border: 2px solid rgba(255, 255, 255, 0.5);backdrop-filter: blur(50px);box-shadow: 0 4px 30px rgba(255,255,255, 0.5);}
+.bg-blue{background: var(--blue);color: var(--white);}
+.text-gold{color: var(--gold);}
 
 /* =================core css ends here================= */
 

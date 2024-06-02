@@ -3,11 +3,7 @@ import './FacilityGrid.css'
 
 const FacilityGrid = () => {
     return (
-        <div>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="facility-grid d-flex flex-wrap">
+        <div className="facility-grid d-flex flex-wrap">
                             <div className="facility-list">
                                 <div className="facility-item tall">
                                     <div className="facility-box w-100 h-100">
@@ -64,10 +60,6 @@ const FacilityGrid = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     )
 }
 
