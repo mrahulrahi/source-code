@@ -1,0 +1,25 @@
+.institutions-hero-container{padding: 60px 0 120px;}
+.institutions-hero-bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
+.institutions-hero-content{max-width: 573px;font-family: var(--font-courier-prime);font-size: 18px;font-weight: 400;line-height: 1.25;color: var(--white);}
+.institutions-hero-content h1{font-family: var(--font-inter);font-size: 72px;font-weight: 900;line-height: 1.1;color: var(--white);margin-bottom: 0;text-transform: uppercase;}
+.institutions-hero-form{max-width: 573px;margin-top: 25px;}
+
+.form-control, .form-control:focus ,.form-select,.form-select:focus {font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
+.form-control::placeholder{color: #d6d6d6;}
+textarea.form-control{height: 50px;resize: none;}
+
+.hero-text-content{background: linear-gradient(90deg, rgba(126,117,82,1) 0%, rgba(166,158,135,1) 100%);transform: rotate(8.35deg);width: calc(100% + 30px);margin-left: -15px;}
+.text-carousel-list{display: flex; flex-wrap: wrap; justify-content: center;}
+.text-carousel-item{width: 20%;padding: 0 14px;}
+.text-carousel-box{width: 100%;text-align: center;display: flex;align-items: center;justify-content: center;gap: 28px;height: 58px;font-size: 30px;font-weight: 700;line-height: 1;color: #736C56;text-transform: uppercase;}
+.text-carousel-icon {width: 19px; height: 22px;flex-shrink: 0;}
+.text-carousel-icon img{width: 100%; height: 100%; object-fit: contain;}
+.textScroll.text-carousel-content{overflow: hidden; padding: 10px 0;}
+.textScroll .text-carousel-wrapper{display: inline-block; white-space: nowrap;}
+.textScroll .text-carousel-list{display: inline-block; white-space: nowrap;}
+.textScroll .text-carousel-item{width: auto;display: inline-block;} 
+@keyframes textScroll {
+  0%   {transform: translateX(0);} 
+  100% {transform: translateX(-100%);}
+}
+.textScroll .all-text-list{animation-name: textScroll; animation-duration:35s; animation-iteration-count: infinite; animation-timing-function: linear;}
