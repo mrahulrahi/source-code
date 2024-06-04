@@ -2,11 +2,12 @@ import React from 'react'
 import './institutions.css';
 import FacilityGrid from '../../components/FacilityGrid/FacilityGrid';
 import ProgramRow from '../../components/ProgramRow/ProgramRow';
+import InstitutionsHero from '../../components/InstitutionsHero/InstitutionsHero';
 
 const git = () => {
   return (
     <React.Fragment>
-
+      <InstitutionsHero />
 
       <div className="content-container programs-container">
         <div className="container">
