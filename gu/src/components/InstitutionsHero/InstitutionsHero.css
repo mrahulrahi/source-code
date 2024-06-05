@@ -5,10 +5,15 @@
 .institutions-hero-content h1{font-family: var(--font-inter);font-size: 72px;font-weight: 900;line-height: 1.1;color: var(--white);margin-bottom: 0;text-transform: uppercase;}
 .institutions-hero-form{max-width: 573px;margin-top: 25px;}
 
-.form-control, .form-control:focus ,.form-select,.form-select:focus {font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
+.form-control, .form-control:focus{font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 5.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
 .form-control::placeholder{color: #d6d6d6;}
+.form-select,.form-select:focus {font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 6.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
 textarea.form-control{height: 50px;resize: none;}
-.btn-form{}
+.btn-form{min-width: 105px;border-radius: 80px;padding: 9.5px 15px;;font-size: 9px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 4px;color: #435A80;background: var(--white);border: 1px solid var(--white);text-align: center;} 
+
+.captcha-box{background: var(--white);padding: 7px;border-radius: 4px;width: 60%;}
+.captcha-img{width: 37px;}
+.form-check-label{font-size: 9px;}
 
 .ih-text-carousel{background: linear-gradient(90deg, rgba(126,117,82,1) 0%, rgba(166,158,135,1) 100%);transform: rotate(8.35deg);width: calc(100% + 30px);margin-left: -15px;position: absolute;bottom: 34px;}
 .text-carousel-list{display: flex; flex-wrap: wrap; justify-content: center;}

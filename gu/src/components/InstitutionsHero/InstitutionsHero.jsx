@@ -2,6 +2,7 @@ import React from 'react'
 import './InstitutionsHero.css'
 import heroVideo from '../../assets/video/git-video.mp4'
 import guIcon from '../../assets/images/gu-logo-icon.svg'
+import captchaImg from '../../assets/images/captcha-img.png'
 
 const InstitutionsHero = () => {
   return (
@@ -49,13 +50,14 @@ const InstitutionsHero = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="form-group">
+                  <div className="form-group captcha-box d-flex">
                     <div className="form-check">
                       <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                       <label className="form-check-label" for="flexCheckDefault">
                         I'm not a robot
                       </label>
                     </div>
+                    <div className="captcha-img ms-auto"><img src={captchaImg} alt="" /></div>
                   </div>
                 </div>
                 <div className="col-lg-6">
