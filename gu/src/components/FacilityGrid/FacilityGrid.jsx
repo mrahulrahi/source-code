@@ -7,15 +7,15 @@ import img4 from '../../assets/images/facility-img-4.jpg'
 import img5 from '../../assets/images/facility-img-5.jpg'
 import img6 from '../../assets/images/facility-img-6.jpg'
 import img7 from '../../assets/images/facility-img-7.jpg'
-import letterR from '../../assets/images/r-letter-img.svg'
+import letterR from '../../assets/images/r-letter-img.png'
 import letterS from '../../assets/images/s-letter-img.svg'
 
 const FacilityGrid = () => {
     return (
         <div className="facility-grid">
-            <div className="facility-item w-100 h-100 tall">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img1} alt="" /></div>
+            <div className="facility-item w-full h-full tall">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img1} alt="" /></div>
                     <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterS} alt="" />
@@ -25,9 +25,9 @@ const FacilityGrid = () => {
 
                 </div>
             </div>
-            <div className="facility-item w-100 h-100">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img2} alt="" /></div>
+            <div className="facility-item w-full h-full">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img2} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterR} alt="" />
@@ -36,9 +36,9 @@ const FacilityGrid = () => {
                     <div className="facility-content">RESOURCE CENTER</div>
                 </div>
             </div>
-            <div className="facility-item w-100 h-100">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img3} alt="" /></div>
+            <div className="facility-item w-full h-full ">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img3} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterR} alt="" />
@@ -47,9 +47,9 @@ const FacilityGrid = () => {
                     <div className="facility-content">SMART CAMPUS</div>
                 </div>
             </div>
-            <div className="facility-item w-100 h-100">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img4} alt="" /></div>
+            <div className="facility-item">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img w-full h-full relative"><img src={img4} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterR} alt="" />
@@ -58,9 +58,9 @@ const FacilityGrid = () => {
                     <div className="facility-content">TRANSPORTATION FACILITY</div>
                 </div>
             </div>
-            <div className="facility-item w-100 h-100 tall">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img5} alt="" /></div>
+            <div className="facility-item w-full h-full tall">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img5} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterS} alt="" />
@@ -69,9 +69,9 @@ const FacilityGrid = () => {
                     <div className="facility-content">CAMPUS FACILITIES</div>
                 </div>
             </div>
-            <div className="facility-item w-100 h-100">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img6} alt="" /></div>
+            <div className="facility-item w-full h-full ">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img6} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterR} alt="" />
@@ -80,9 +80,9 @@ const FacilityGrid = () => {
                     <div className="facility-content">PERFORMANCE ARTS</div>
                 </div>
             </div>
-            <div className="facility-item w-100 h-100">
-                <div className="facility-box w-100 h-100 position-relative">
-                    <div className="facility-img position-relative"><img src={img7} alt="" /></div>
+            <div className="facility-item w-full h-full ">
+                <div className="facility-box w-full h-full relative">
+                    <div className="facility-img relative"><img src={img7} alt="" /></div>
                       <div className="facility-hover-box">
                         <div className="facility-hover-letter">
                             <img src={letterR} alt="" />

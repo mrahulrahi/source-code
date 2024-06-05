@@ -1,0 +1,22 @@
+.recruiters-heading{color: var(--blue);}
+.recruiters-heading h4 {font-size: 18px;letter-spacing: 0.14em;font-weight: 800;line-height: 1.2;margin-bottom: 8px;}
+.recruiters-heading h4 span {color: var(--gold);}
+.recruiters-heading h5 span {color: var(--gold);}
+.recruiters-heading h5 {font-size: 48px;font-weight: 800;line-height: 1.2;margin: 0;}
+.recruiters-heading {margin-bottom: 80px;}
+.recruiters-list-wrapper .swiper-wrapper{align-items:center;}
+.recruiters-list-wrapper {overflow: hidden;}
+.recruiters-item {display: flex;justify-content: center;align-items: center;}
+.recruiters-swiper .swiper-slide {display: flex;justify-content: center;align-items: center;width: auto !important;}
+
+@media (max-width: 767.98px) {
+.recruiters-swiper .swiper-slide {width: auto !important;}
+
+.recruiters-heading h4 {font-size: 16px;}
+.recruiters-heading h5 {font-size: 36px;}
+}
+
+
+@media (max-width: 575.98px) {
+.recruiters-heading h5 {font-size: 30px;}
+}

@@ -1,72 +1,27 @@
 import React from 'react'
 import './ProgramRow.css'
 
-const ProgramRow = () => {
+const ProgramRow = ({ programs }) => {
     return (
-        <div className="program-row">
-            <h5>Bachelors</h5>
-            <div className="program-list d-flex flex-wrap">
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Artificial Intelligence
+           <div className="container">
+               <div className="row">
+                   <div className="col-lg-12">
+                        <div className="program-row">
+                            <div className="program-list flex flex-wrap">
+                                {programs.map((program) => (
+                                    <div key={program.id} className="program-item">
+                                        <div className="program-box w-full h-full">
+                                            <div className="program-box-inner w-full h-full flex items-center">
+                                            {program.name}
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Electronics &
-                            Communications
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Computers
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Civil
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Cyber
-                            Security
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Information
-                            Technology
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Mechanicals
-                        </div>
-                    </div>
-                </div>
-                <div className="program-item">
-                    <div className="program-box w-100 h-100">
-                        <div className="program-box-inner w-100 h-100 d-flex align-items-center">
-                            Electricals
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                   </div>
+               </div>
+           </div>
     )
 }
 

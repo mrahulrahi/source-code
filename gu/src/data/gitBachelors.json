@@ -1,0 +1,11 @@
+[
+    { "id": 1, "name": "Artificial Intelligence" },
+    { "id": 2, "name": "Electronics & Communications" },
+    { "id": 3, "name": "Computers" },
+    { "id": 4, "name": "Civil" },
+    { "id": 5, "name": "Cyber Security" },
+    { "id": 6, "name": "Information Technology" },
+    { "id": 7, "name": "Mechanicals" },
+    { "id": 8, "name": "Electricals" }
+]
+  

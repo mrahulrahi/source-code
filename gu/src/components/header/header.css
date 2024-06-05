@@ -1,0 +1,82 @@
+#header {height: 90px;padding: 15px 0;background: #1022414D;position: fixed;width: 100%;z-index: 999;transition: background-color 0.3s ease;}
+#header.header-white {background: white;}
+.menu-content-box {width: 100%;height: 100vh;background: linear-gradient(180.18deg, #3B5A8B 0.31%, #112544 99.69%);padding: 40px 100px;display: flex;flex-direction: column;justify-content: space-between;}
+.header-content {display: flex;justify-content: space-between;align-items: center;}
+.header-logo {width: 115px;}
+.header-menu-icon {width: 25px;height: 25px;}
+.menu-inner-head {display: flex;justify-content: space-between;align-items: center;margin-bottom: 50px;}
+.mcb-logo {width: 115px;}
+.mcb-close {width: 25px;height: 25px;}
+.mmb-left { width: 60%;}
+.mih-menu-box { display: flex; flex-wrap: wrap;}
+.mmb-right {width: 40%;display: flex;flex-direction: column;justify-content: space-between;padding-left: 120px;position: relative;}
+.mnlb-link-list {display: flex;width: calc(100% + 40px);margin-left: -20px;}
+.nslb-link-list {display: flex;flex-wrap: wrap;align-items: center;align-content: center;}
+.nslb-link-item a {width: 25px;height: 25px;}
+.nslb-link-item a img {width: 100%;height: 100%;object-fit: contain;}
+.nslb-link-item+li.nslb-link-item {margin-left: 25px;}
+.mnlb-link-item {width: 40%;padding: 0 20px;}
+.mli-item {color: #fff;font-size: 16px;font-weight:500;}
+.mli-item+.mli-item {margin-top: 10px;}
+.mnlb-link-item+.mnlb-link-item .mli-item {text-transform: uppercase;color: #FFFFFF4F;}
+.mr-content-box {display: flex;border-bottom: 1px solid #0B1F3D;padding-bottom: 25px;}
+.mr-btn {border: 0.65px solid;color: #fff;padding: 12px 20px;border-radius: 18px;font-family: Courier Prime;line-height: 0.8;font-size: 19px;background: linear-gradient(92.73deg, #15253F 0%, #6781AC 100%);font-weight: 400;}
+.mab-address {font-size: 16px;font-family: 'Courier Prime';color: #fff;font-weight: 400;}
+.mab-phone {font-size: 16px;font-family: 'Courier Prime';color: #fff;font-weight: 400;margin-top: 20px;}
+.mab-mail {font-size: 16px;font-family: 'Courier Prime';color: #fff;font-weight: 400;margin-top: 20px;}
+.mlb-logo {width:65px;height:46px;}
+.mll-icon {width: 61px;height: 71px;}
+.mll-icon  img {width: 100%;height: 100%;object-fit: contain;}
+.menu-logo-line {margin-top: 50px;position: relative;overflow: hidden;}
+.menu-logo-line:after {content: '';position: absolute;width: 100%;border: 1px solid #0B1F3D;top: 50%;transform: translateY(-50%);left: 100px;}
+.mll-icon {width: 61px;height: 71px;}
+.mll-icon  img {width: 100%;height: 100%;object-fit: contain;}
+.menu-logo-line {margin-top: 25px;position: relative;overflow: hidden;}
+.menu-logo-line:after {content: '';position: absolute;width: 100%;border: 1px solid #0B1F3D;top: 50%;transform: translateY(-50%);left: 100px;}
+.mr-logo-box {display: flex;}
+.mlb-logo+.mlb-logo {margin-left: 40px;width: 181px;height: 40px;}
+.mmb-right:after {content: '';position: absolute;border-left: 1px solid #fff;left: 0;height: 60%;width: 1px;top: 50%;transform: translateY(-50%);}
+
+
+@media (max-width:1370.98px){
+    .menu-content-box { padding: 20px;}
+
+}
+
+@media (max-width:1199.98px){
+    .mmb-left { width: 55%;}
+    .mmb-right {width: 45%;padding-left: 80px;}
+    .mmb-left {width: 50%;}
+    .mmb-right {width: 50%;padding-left: 60px;}
+    .mnlb-link-item {width: 50%;}
+}
+    
+@media(max-width:991.98px){
+    .mab-address {font-size: 14px; margin-top: 10px;}
+    .mab-phone {font-size: 14px; margin-top: 10px;}
+    .mab-mail {font-size: 14px; margin-top: 10px;}
+    .mr-content-box{padding-bottom:10px;}
+    .mr-content-box{font-size:14px;}
+    .nslb-link-item a {width: 22px;height: 22px;}
+    .mli-item{font-size:14px;}
+    .mr-btn{font-size:14px;}
+    .menu-inner-head{margin-bottom:25px;}
+    .mmb-right{padding-left:40px;}
+}
+
+@media (max-width: 767.98px) {
+    .mmb-left {width: 100%;}
+    .mmb-right {width: 100%;padding-left: 0;margin-top: 30px;}
+    .mmb-right:after {display: none;}
+    .menu-content-box {height: 100%;}
+    .mmb-right {row-gap: 25px;}
+}
+
+@media(max-width:575.98px){
+    .mnlb-link-item{width:100%;}
+    .mnlb-link-list{display:flex; flex-wrap:wrap;}
+    .mnlb-link-item+.mnlb-link-item{margin-top:20px;}
+}
+
+
+

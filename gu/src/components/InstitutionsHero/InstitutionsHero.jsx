@@ -5,18 +5,18 @@ import guIcon from '../../assets/images/gu-logo-icon.svg'
 
 const InstitutionsHero = () => {
   return (
-    <div className="institutions-hero-container position-relative overflow-hidden">
+    <div className="institutions-hero-container relative add-index">
       <div className="institutions-hero-bg">
         <video src={heroVideo} autoplay="true" loop muted playsinline></video>
       </div>
       <div className="container add-index">
         <div className="row">
           <div className="col-lg-6">
-            <div className="institutions-hero-content ms-auto pe-5">
+            <div className="institutions-hero-content ms-lg-auto pe-xl-5">
               <h1>Institute of Technology</h1>
               <p>creating an enabling environment of active learning and become a centre of excellence.</p>
             </div>
-            <div className="institutions-hero-form ms-auto">
+            <div className="institutions-hero-form ms-lg-auto">
               <div className="row flex-column g-2">
                 <div className="col-lg-6">
                   <div className="form-group">
@@ -60,7 +60,7 @@ const InstitutionsHero = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="form-group">
-                    <input className="btn btn-default" value="Submit & Download" />
+                    <input className="btn-form" value="Submit & Download" />
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const InstitutionsHero = () => {
           </div>
         </div>
       </div>
-      <div className="hero-text-content">
+      <div className="ih-text-carousel">
         <div className="text-carousel-content text-carousel-parent textScroll">
           <div className="text-carousel-wrapper">
             <div className="text-carousel-list all-text-list">
