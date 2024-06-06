@@ -12,29 +12,29 @@ const InstitutionsHero = () => {
       </div>
       <div className="container add-index">
         <div className="row">
-          <div className="col-lg-6">
-            <div className="institutions-hero-content ms-lg-auto pe-xl-5">
+          <div className="col-lg-8 col-xl-6">
+            <div className="institutions-hero-content ms-xl-auto pe-xl-5">
               <h1>Institute of Technology</h1>
               <p>creating an enabling environment of active learning and become a centre of excellence.</p>
             </div>
-            <div className="institutions-hero-form ms-lg-auto">
+            <div className="institutions-hero-form ms-xl-auto">
               <div className="row flex-column g-2">
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <input type="text" className="form-control" placeholder="Full Name" />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <input type="email" className="form-control" placeholder="Email" />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <input type="tel" className="form-control" placeholder="Phone Number" />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <select className="form-select">
                       <option value="">Course</option>
@@ -44,13 +44,13 @@ const InstitutionsHero = () => {
                     </select>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <textarea className="form-control" placeholder="Message"></textarea>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="form-group captcha-box d-flex">
+                <div className="col-sm-6">
+                  <div className="form-group captcha-box d-flex align-items-center justify-content-between">
                     <div className="form-check">
                       <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                       <label className="form-check-label" for="flexCheckDefault">
@@ -60,7 +60,7 @@ const InstitutionsHero = () => {
                     <div className="captcha-img ms-auto"><img src={captchaImg} alt="" /></div>
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-6">
                   <div className="form-group">
                     <input className="btn-form" value="Submit & Download" />
                   </div>

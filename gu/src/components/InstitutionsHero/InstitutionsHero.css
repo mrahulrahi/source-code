@@ -1,19 +1,22 @@
 .institutions-hero-container{padding: 158px 0 120px;height: 958px;}
-.institutions-hero-bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;clip-path: polygon(0 0, 110% 0, 100% 102%, 0 80%);}
+.institutions-hero-bg{width: 100%;height: 100%;position: absolute;top: 0;left: 0;clip-path: polygon(0 0, 110% 0, 100% 104%, 0 82%);}
 .institutions-hero-bg video{width: 100%;height: 100%;object-fit: cover;}
 .institutions-hero-content{max-width: 573px;font-family: var(--font-courier-prime);font-size: 18px;font-weight: 400;line-height: 1.25;color: var(--white);}
 .institutions-hero-content h1{font-family: var(--font-inter);font-size: 72px;font-weight: 900;line-height: 1.1;color: var(--white);margin-bottom: 0;text-transform: uppercase;}
 .institutions-hero-form{max-width: 573px;margin-top: 25px;}
 
-.form-control, .form-control:focus{font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 5.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
+.form-control, .form-control:focus{height: 22px;font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 5.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
 .form-control::placeholder{color: #d6d6d6;}
-.form-select,.form-select:focus {font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 6.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
+.form-select,.form-select:focus {height: 22px;font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 6.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
 textarea.form-control{height: 50px;resize: none;}
-.btn-form{min-width: 105px;border-radius: 80px;padding: 9.5px 15px;;font-size: 9px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 4px;color: #435A80;background: var(--white);border: 1px solid var(--white);text-align: center;} 
+.btn-form{max-width: 105px;border-radius: 80px;padding: 9.5px;;font-size: 9px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 4px;color: #435A80;background: var(--white);border: 1px solid var(--white);text-align: center;margin-top: 11px;cursor: pointer;} 
 
-.captcha-box{background: var(--white);padding: 7px;border-radius: 4px;width: 60%;}
-.captcha-img{width: 37px;}
-.form-check-label{font-size: 9px;}
+.captcha-box{background: var(--white);padding: 4px 4px 4px 7px;border-radius: 4px;width: 60%;margin-top: 6px;}
+.captcha-img{width: 37px;height: 35px;}
+.captcha-img img{width: 100%;height: 100%;object-fit: contain;}
+.form-check-label{font-size: 9px;font-weight: 600;color: var(--black);}
+.form-check-input,.form-check-input:focus{border-color: var(--blue);box-shadow: none;width: 14px;height: 14px;margin-top: 6px;}
+.form-check-input:checked{background-color: var(--blue);border-color: var(--blue);}
 
 .ih-text-carousel{background: linear-gradient(90deg, rgba(126,117,82,1) 0%, rgba(166,158,135,1) 100%);transform: rotate(8.35deg);width: calc(100% + 30px);margin-left: -15px;position: absolute;bottom: 34px;}
 .text-carousel-list{display: flex; flex-wrap: wrap; justify-content: center;}
@@ -32,6 +35,26 @@ textarea.form-control{height: 50px;resize: none;}
 .textScroll .all-text-list{animation-name: textScroll; animation-duration:35s; animation-iteration-count: infinite; animation-timing-function: linear;}
 
 
-@media(max-width:767.98px){
+@media(max-width:1199.98px){
+  .institutions-hero-content h1{font-size: 64px;}
+}
 
+@media(max-width:991.98px){
+  .institutions-hero-bg{clip-path: polygon(0 0, 110% 0, 106% 104%, 0 84%);}
+  .institutions-hero-content h1{font-size: 56px;}
+}
+
+@media(max-width:767.98px){
+  .institutions-hero-bg{clip-path: polygon(0 0, 110% 0, 116% 104%, 0 84%);}
+  .institutions-hero-content{font-size: 16px;}
+  .institutions-hero-content h1{font-size: 48px;}
+}
+
+@media(max-width:575.98px){
+  .institutions-hero-bg{clip-path: polygon(0 0, 110% 0, 116% 96%, 0 92%);}
+  .institutions-hero-content h1{font-size: 42px;}
+}
+
+@media(max-width:424.98px){
+  .institutions-hero-content h1{font-size: 36px;}
 }
