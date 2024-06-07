@@ -1,29 +1,31 @@
 .innerhero {width: 100%;min-height: 700px;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 90px !important;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;background-attachment: fixed;display: flex;align-items: center;padding: 0 10px;}
-.innerhero h1 {font-size: 88px;color: #fff;text-align: center;line-height: 1.2;text-transform: uppercase;font-weight: 900;}
+.innerhero h1 {font-size: 72px;color: var(--white);text-align: center;line-height: 1.2;text-transform: uppercase;font-weight: 900;}
 
 
 @media (max-width:1199.98px){
     
-    .innerhero h1 {font-size: 70px;}
+    .innerhero h1 {font-size: 64px;}
     
 }
 
 
 @media(max-width:991.98px){
-    .innerhero h1 {font-size: 50px;}
+    .innerhero h1 {font-size: 56px;}
 }
 
 
 @media (max-width: 767.98px) {
-    .innerhero h1 {font-size: 40px;}
+    .innerhero h1 {font-size: 48px;}
     .innerhero{min-height:500px;}
 }
 
 
 @media(max-width:575.98px){
-    .innerhero h1 {font-size: 28px;}
+    .innerhero h1 {font-size: 42px;}
     .fuc-address-box {margin-top: 25px;}
-    
 }
 
+@media(max-width:424.98px){
+    .innerhero h1 {font-size: 36px;}
+}
 

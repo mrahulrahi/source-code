@@ -22,6 +22,7 @@ a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================core css starts here================= */
 body{font-family: var(--font-inter);font-size:15px;font-weight:400;font-style: normal;line-height:1.5;color: inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background: var(--white);}
 .container{width:100%;max-width:1366px !important; margin:0 auto;}
+.container.container-2{max-width: 1286px!important;}
 .container-fluid{max-width: 1440px;}
 .content-container{padding: 80px 0;}
 .add-index{position: relative;z-index: 9;}
@@ -60,15 +61,14 @@ p:last-child{margin-bottom:0;}
 .btn.btn-block{min-width: 100%;}
 .btn+.btn {margin-left: 25px;}
 
-
+body:has(.innerhero){background: var(--blue);}
+.bg-white{background: var(--white);color: var(--blue);}
 .bg-blue{background: var(--blue);color: var(--white);}
 .text-gold{color: var(--gold);}
 
 ::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}
 ::-webkit-scrollbar{width: 7px;background-color: #F5F5F5;}
 ::-webkit-scrollbar-thumb{border-radius: 0;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #182C4D;}
-
-
 
 
 /* =================core css ends here================= */
@@ -79,8 +79,9 @@ p:last-child{margin-bottom:0;}
 .heading h4{font-size: 36px;font-weight: 700;line-height: 1;margin-bottom: 0;color: var(--blue);font-family: var(--font-roboto);}
 .heading h6{font-size: 18px;font-weight: 700;line-height: 1;margin-bottom: 0;color: var(--blue);}
 
-
-
+.bg-graphic{position: relative;}
+.bg-graphic::before{content: '';position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%;max-width: 99px;height: 113px;background-image: url(/src/assets/images/bg-graphic-icon.svg);background-repeat: no-repeat;background-size: contain;background-position: center;}
+.bg-graphic::after{content: '';position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);width: 100%;max-width: 172px;height: 27px;background-image: url(/src/assets/images/click-me-img.svg);background-repeat: no-repeat;background-size: contain;background-position: center;}
 
 
 @media (max-width:1199.98px){
