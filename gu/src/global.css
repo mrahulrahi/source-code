@@ -24,7 +24,7 @@ body{font-family: var(--font-inter);font-size:15px;font-weight:400;font-style: n
 .container{width:100%;max-width:1366px !important; margin:0 auto;}
 .container.container-2{max-width: 1286px!important;}
 .container-fluid{max-width: 1440px;}
-.content-container{padding: 80px 0;}
+.content-container{padding: 60px 0;}
 .add-index{position: relative;z-index: 9;}
 a,input,button{display:inline-block;text-decoration:none;color:inherit;outline:none;transition:all 0.2s ease-in;-webkit-transition:all 0.2s ease-in;}
 a img{border:0px none;}
@@ -50,18 +50,18 @@ strong{font-weight:700;}
 b{font-weight:400;}
 p:last-child{margin-bottom:0;}
 
-.btn {min-width: 196px;border-radius: 80px;padding: 16px 15px;font-family: var(--font-montserrat);font-size: 16px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 8px;}
+.btn {min-width: 124px;height: auto;min-height: auto;padding: 9px 15px;font-family: var(--font-montserrat);font-size: 15px;font-weight: 700;line-height: 1;box-shadow: none;border-radius: 0;}
 .btn-default,.btn-default:focus { color: var(--dark-grey);background-color: var(--teal);border: solid 1px var(--violet); }
 .btn-default:hover,.btn-default:active { color: var(--dark-grey)!important;background-color: var(--antique-white)!important;border-color: var(--antique-white)!important;}
 .btn-light, .btn-light:focus{color: var(--dark-grey);background-color: var(--antique-white);border: solid 1px var(--antique-white); }
 .btn-light:hover,.btn-light:active { color: var(--teal)!important;background-color: var(--dark-grey)!important;border-color: var(--dark-grey)!important;}
-.btn-dark, .btn-dark:focus{color: var(--white);background-color: var(--dark-grey);border: solid 1px var(--dark-grey); }
-.btn-dark:hover,.btn-dark:active { color: var(--white)!important;background-color: var(--black)!important;border-color: var(--black)!important;}
+.btn-gold-outline, .btn-gold-outline:focus{color: var(--gold);background-color: transparent;border: solid 1px var(--gold); }
+.btn-gold-outline:hover,.btn-gold-outline:active { color: var(--white)!important;background-color: var(--gold)!important;border-color: var(--gold)!important;}
 
 .btn.btn-block{min-width: 100%;}
 .btn+.btn {margin-left: 25px;}
 
-body:has(.innerhero){background: var(--blue);}
+body:has(.innerhero){background: var(--blue);color: var(--white);}
 .bg-white{background: var(--white);color: var(--blue);}
 .bg-blue{background: var(--blue);color: var(--white);}
 .text-gold{color: var(--gold);}
