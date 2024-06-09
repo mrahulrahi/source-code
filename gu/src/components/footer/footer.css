@@ -1,4 +1,4 @@
-#footer{position: relative;}
+#footer{position: relative;border-top: 1px solid #fff;}
 .footer-lower {background: #182C4D;color: #fff;padding:20px 0;z-index: 1;position: relative;}
 .footer-upper {background: #1D3459;padding-top: 85px;}
 .footer-upper .container {width:100%; max-width:1519px !important; margin:0 auto; position: relative; z-index: 1;}

@@ -3,6 +3,7 @@
 .institutions-about-content h3{line-height: 1.1;margin-bottom: 18px;}
 .institutions-about-img{width: 49%;}
 .institutions-about-img img{width: 100%;height: 100%;object-fit: contain;}
+.institutions-about-img.other{width:500px;height:550px;}
 
 @media(max-width:991.98px){
     .institutions-about-content{width: 100%;margin-bottom: 30px;}
