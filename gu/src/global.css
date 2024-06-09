@@ -62,14 +62,16 @@ p:last-child{margin-bottom:0;}
 .btn+.btn {margin-left: 25px;}
 
 body:has(.innerhero){background: var(--blue);color: var(--white);}
+body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 .bg-white{background: var(--white);color: var(--blue);}
 .bg-blue{background: var(--blue);color: var(--white);}
 .text-gold{color: var(--gold);}
 
+
 ul:not([class]){list-style:none;margin-bottom:24px;text-align:left;}
-ul:not([class])>li{padding-left:22px;position:relative;margin-bottom:5px;}
+ul:not([class])>li{padding-left:21px;position:relative;margin-bottom:4px;}
 ul:not([class])>li:last-child{margin-bottom:0;}
-ul:not([class])>li:before{content:"";position:absolute;left:0px;top:9px;background:var(--black);height:4px;width:4px;border-radius:50%;}
+ul:not([class])>li:before{content:"";position:absolute;left:10px;top:7px;background: var(--black);height:4px;width:4px;border-radius:50%;}
 ol:not([class]){margin-bottom:24px;text-align:left;list-style-position:outside;margin-left:18px;padding:0;}
 ol:not([class])>li{position:relative;margin-bottom:5px;}
 ol:not([class])>li:last-child{margin-bottom:0;} 

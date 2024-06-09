@@ -2,3 +2,13 @@
 .iqac-head h4{margin-bottom: 8px;color: var(--gold);}
 
 .iqac-btn-wrap{margin-top: 10px;}
+
+.text-container{font-size: 12px;}
+.text-container h4{color: var(--gold);}
+
+.light-bg-text-container{background: #8995a8;color: var(--white);}
+.light-bg-text-container .heading{margin-bottom: 0;}
+.light-bg-text-container .heading h4{color: var(--white);letter-spacing: 0.04em;}
+.light-bg-text-container .heading + ul{margin-top: 70px;}
+.light-bg-text-container .heading + h4{margin-top: 22px;}
+.light-bg-text-container ul:not([class])>li{margin-bottom: 24px;} 
