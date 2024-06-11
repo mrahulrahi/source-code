@@ -81,14 +81,32 @@ const iic = () => {
                 <li>GIT IIC Cell in collaboration with SSIP Cell, IPR Cell and IQAC Cell has organized Impact lecture sessions on 24/9/21 and 5/10/21. The event was sponsored by the Ministry of Education and AICTE. Day-1 of the session comprised of webinar on Innovation and Design Thinking, conducted by Mr. Karmjitsinh Bihola and a webinar on IPR, conducted by Mr. Amit Patel. Day-2 of the session comprised of webinar on Startup, conducted by Mr. Darshak Doshi and Mr. Shravan Rajpurohit, founder and co-founder of Intellify Pvt. Ltd. and a webinar on Entrepreneurship, conducted by Mr. Satya Ranjan Acharya, director at a Technology Business Incubator. More than 200 Students and faculties enthusiastically participated in the event making it a grand success.</li>
                 <li>Received 3.5 Star Ranking in Institutions’ Innovation Council (2020-21) Annual Performance.</li>
               </ul>
-              <p>For more information visit <a href="#!"> https://www.mic.gov.in/iic.html</a></p>
+              <p>For more information visit <a href="#!" className="link-outline"> https://www.mic.gov.in/iic.html</a></p>
 
+              <div className="card-list d-flex flex-wrap">
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <h6>IIC- Meetings</h6>
+                    <ul>
+                      <li><a href="#!">2nd IIC Meeting Minutes</a></li>
+                      <li><a href="#!">1st IIC Meeting Minutes</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <div className="card-post">IIC Coordinator</div>
+                    <h6>Ms. Hetal Shah</h6>
+                    <div className="card-department">Coordinator Institution’s
+                      Innovation Council</div>
+                    <div className="card-email mt-auto">Email: iic@gandhinagaruni.ac.in</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-
 
     </React.Fragment>
   )

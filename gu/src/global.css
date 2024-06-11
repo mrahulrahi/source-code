@@ -65,6 +65,7 @@ body:has(.innerhero){background: var(--blue);color: var(--white);}
 body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 .bg-white{background: var(--white);color: var(--blue);}
 .bg-blue{background: var(--blue);color: var(--white);}
+.bg-gold{background: #BAB699;}
 .text-gold{color: var(--gold);}
 
 

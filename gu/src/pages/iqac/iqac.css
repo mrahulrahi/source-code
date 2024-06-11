@@ -12,3 +12,44 @@
 .light-bg-text-container .heading + ul{margin-top: 70px;}
 .light-bg-text-container .heading + h4{margin-top: 22px;}
 .light-bg-text-container ul:not([class])>li{margin-bottom: 24px;} 
+
+.link-outline{padding: 1px 21px;border: 1px solid var(--white);margin-left: 17px;}
+
+.card-list{width: calc(100% + 56px);margin-left: -28px;margin-bottom: -40px; margin-top: 50px;}
+.card-item{width: 33.33%;padding: 0 28px;margin-bottom: 40px;max-width: 300px;}
+.card-box{background: #BAB699;border-radius: 10px;padding: 20px 18px;line-height: 1.2;min-height: 124px;}
+.card-box h6{font-size: 20px;font-weight: 700;line-height: 1;margin-bottom: 4px;}
+.card-box ul{font-size: 10px;font-weight: 700;margin:12px 0 0;display: flex;flex-flow: column;flex-grow: 1;justify-content: space-between;}
+.card-box ul li a{position: relative;}
+.card-box ul:not([class])>li{margin-bottom: 6px;}
+.card-box ul:not([class])>li:before{top: 5px;}
+.card-box ul li a::after{content: '';width: 4px;height: 8px;position: absolute;top: 50%;transform: translateY(-50%);left: 100%;background-image: url(../../assets/images/chevron-right-icon.svg);background-repeat: no-repeat;background-position: center;background-size: contain;margin-left: 8px}
+.card-post{font-size: 13px;font-weight: 500;margin-bottom: 8px;}
+.card-department{font-size: 9px;margin-bottom: 6px;}
+.card-email{font-size: 10px;font-weight: 700;}
+
+.committee-card-list{width: calc(100% + 40px);margin-left: -20px;margin-bottom: -40px;margin-top: 84px;}
+.committee-card-item{width: 25%;padding: 0 20px;margin-bottom: 40px;}
+.committee-card-box{background: #BAB699;border-radius: 10px;padding: 12px 14px;line-height: 1.2;}
+.cc-title{font-size: 12px;font-weight: 500;margin-bottom: 3px;}
+.cc-name{font-size: 20px;font-weight: 700;line-height: 1;margin-bottom: 3px;}
+.cc-post{font-size: 9px;}
+
+
+    
+@media(max-width:991.98px){
+    .card-item{max-width: initial;}
+    .committee-card-item{width: 33.33%;}
+}
+
+
+@media (max-width: 767.98px) {
+    .card-item{width: 50%;}
+    .committee-card-item{width: 50%;}
+}
+    
+    
+@media(max-width:575.98px){
+    .card-item{width: 100%;}
+    .committee-card-item{width: 100%;}
+}

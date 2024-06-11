@@ -62,12 +62,87 @@ const Nisp = () => { // Corrected component name to start with an uppercase lett
       <div className="content-container text-container light-bg-text-container">
         <div className="container">
           <div className="row">
-            <div className="col-lg-9 mx-auto">
+            <div className="col-xl-9 mx-auto">
               <div className="heading text-center">
                 <h4>NISP Committee</h4>
               </div>
 
-            
+              <div className="committee-card-list d-flex flex-wrap">
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-name">Dr. H N Shah</div>
+                    <div className="cc-post">Director, NISP Chairman</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Mrugesh Khatri</div>
+                    <div className="cc-post">Start up Activity Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Mitul Maniar</div>
+                    <div className="cc-post">Social Media Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Raxit Jani</div>
+                    <div className="cc-post">Website Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Hetal Shah</div>
+                    <div className="cc-post">Innovation Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Pooja Shah</div>
+                    <div className="cc-post">Internship Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Mitul Maniar</div>
+                    <div className="cc-post">Social Media Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Mitul Maniar</div>
+                    <div className="cc-post">Social Media Coordinator</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-name">Dr. Anish Gandhi</div>
+                    <div className="cc-post">External Expert (IPR)</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-name">Mr. Keshav Bhavsar</div>
+                    <div className="cc-post">External Expert (AlumniEntrepreneur)</div>
+                  </div>
+                </div>
+                <div className="committee-card-item">
+                  <div className="committee-card-box d-flex flex-column justify-content-center w-100 h-100">
+                    <div className="cc-title">Prof</div>
+                    <div className="cc-name">Nitin Patel</div>
+                    <div className="cc-post">External Expert (Industry)</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

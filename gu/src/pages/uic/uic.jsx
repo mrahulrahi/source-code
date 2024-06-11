@@ -19,7 +19,7 @@ const uic = () => {
                   <p>Gandhinagar University (GU) has formed University Innovation Cell (UIC) to nurture the young innovators for developing the innovative ideas for the existing problems of the society. It aims to cultivate the seeds of innovation among the students and support student innovations to take them to the next possible level and convert it into a startup. The support includes mentoring support, financial support, incubation support, seed funding support, patent filing support etc. The implementation of funding schemes like Student Startup Innovation Policy (SSIP 2.0), Institute’s Innovation Council (IIC), National Innovation Startup Policy (NISP), Kalam Program for IP Literacy and Awareness (KAPILA) will provide maximum benefits to all stakeholders – the students, faculty members, alumni etc. It aims to develop a student centric startup ecosystem at the University level to support and nurture the creative ideas of students.</p>
                 </div>
 
-                <div className="iqac-btn-wrap">
+                <div className="iqac-btn-wrap d-flex gap-5 justify-content-center">
                   <a href="#!" className="btn btn-gold-outline">SSIP Policy</a>
                   <a href="#!" className="btn btn-gold-outline">SSIP Policy</a>
                 </div>
@@ -173,13 +173,44 @@ const uic = () => {
                 <li>Organized FDP on “IPR Awareness” on 28.09.18 from 9:00 am to 11:30 am</li>
                 <li>Organized Seminar on “Startup – A Creative Corner” on 18.09.18 from 11:00 am to 2:00 pm</li>
                 <li>Organized Seminar on “Startup – Make It Happen” on 04.09.18 from 10:00 am to 1:00 pm</li>
-            </ul>
+              </ul>
 
-
+              <div className="card-list d-flex flex-wrap">
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <h6>SSIP Meeting</h6>
+                    <ul>
+                      <li><a href="#!">4th SSIP Meeting Minutes</a></li>
+                      <li><a href="#!">3rd SSIP Meeting Minutes</a></li>
+                      <li><a href="#!">2nd SSIP Meeting Minutes</a></li>
+                      <li><a href="#!">1st SSIP Meeting Minutes</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <h6>SSIP Meeting</h6>
+                    <ul>
+                      <li><a href="#!">3rd IPR Meeting Minutes</a></li>
+                      <li><a href="#!">2nd IPR Meeting Minutes</a></li>
+                      <li><a href="#!">1st IPR Meeting Minutes</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <div className="card-post">IIC Coordinator</div>
+                    <h6>Mr. Mrugesh B Khatri</h6>
+                    <div className="card-department">Coordinator, University Innovation Cell
+                      (UIC-SSIP)</div>
+                    <div className="card-email mt-auto">Email: uic@gandhinagaruni.ac.in</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     </React.Fragment >
   )

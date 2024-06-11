@@ -89,6 +89,35 @@ const IQAC = () => {
                 <li>Organized GUJCOST sponsored Five-Days STTP on “IoT using ARM Cortex M4” from 19-08-2019 to 23-08-2019.</li>
                 <li>Organized GUJCOST sponsored Two days state level seminar on “Mathematical Modelling and Applications of Mathematics in Engineering – 2019 (MMAME-2019)” from 19-07-2019 to 20-07-2019.</li>
               </ul>
+
+              <div className="card-list d-flex flex-wrap">
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <h6>IQAC- Meetings</h6>
+                    <ul>
+                      <li><a href="#!">3rd IQAC Meeting Minutes</a></li>
+                      <li><a href="#!">2nd IQAC Meeting Minutes</a></li>
+                      <li><a href="#!">1st IQAC Meeting Minutes</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <div className="card-post">IIC Coordinator</div>
+                    <h6>Ms. Madhuri Chopade</h6>
+                    <div className="card-department">I/C Director Internal Quality
+                      Assurance Cell</div>
+                    <div className="card-email mt-auto">Email: iqac@git.org.in</div>
+                  </div>
+                </div>
+                <div className="card-item">
+                  <div className="card-box d-flex flex-column w-100 h-100">
+                    <div className="card-post">IIC Coordinator</div>
+                    <h6>Mr. Harshal Oza</h6>
+                    <div className="card-department">Mechanical Engineering Department</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
