@@ -1,6 +1,6 @@
+import React from 'react'
 import './gallery.css'
 import GalleryCard from '../../components/GalleryCard/GalleryCard'
-import sports from '../../data/gallerySport.json'
 
 
 const gallery = () => {
@@ -14,12 +14,10 @@ const gallery = () => {
               <div className="heading">
                 <h4>Sports</h4>
               </div>
-              <div className="gallery-card-list">
-                {sports.map((sport) => (
-                  <div key={sport.id} className="gallery-card-item">
-                    <GalleryCard item={sport} />
-                  </div>
-                ))}
+              <div className="gallery-card-list flex flex-wrap">
+              <div className="gallery-card-item">
+                <GalleryCard date="03 - jun - 23" name="Event Name" category="TOURNAMENT" img={ih} />
+              </div>
               </div>
             </div>
           </div>

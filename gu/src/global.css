@@ -81,7 +81,6 @@ ol:not([class])>li:last-child{margin-bottom:0;}
 ::-webkit-scrollbar{width: 7px;background-color: #F5F5F5;}
 ::-webkit-scrollbar-thumb{border-radius: 0;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: #182C4D;}
 
-
 /* =================core css ends here================= */
 
 .heading{margin-bottom: 60px;color: var(--blue);line-height: 1.2;}
