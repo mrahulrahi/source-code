@@ -1,2 +1,32 @@
-.gallery-card-list{width: calc(100% + 4px);margin-left: -2px;}
-.gallery-card-item{width: 11.11%;padding: 0 2px;}
+.gallery-container {padding-top: 120px;}
+
+.gallery-card-row+.gallery-card-row{margin-top: 31px;}
+
+.gallery-card-row .heading {margin-bottom: 15px;}
+.gallery-card-row .heading h4{font-family: var(--font-inter);font-weight: 800;}
+
+.gallery-card-list{width: calc(100% + 4px);margin-left: -2px;margin-bottom: -20px;}
+.gallery-card-item{width: 11.11%;padding: 0 2px;margin-bottom: 20px;}
+
+
+@media (max-width:1199.98px){
+    .gallery-card-item{width: 14.28%;}
+}
+
+
+@media (max-width:991.98px){
+    .gallery-card-item{width: 20%;}
+}
+
+
+@media (max-width: 767.98px){
+    .gallery-card-item{width: 25%;}
+}
+
+@media (max-width: 575.98px){
+    .gallery-card-item{width: 33.33%;}
+}
+
+@media (max-width: 424.98px){
+    .gallery-card-item{width: 50%;}
+}

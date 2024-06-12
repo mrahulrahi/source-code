@@ -5,7 +5,15 @@ const contact = () => {
   return (
     <React.Fragment>
 
-      <h1> Conatct  </h1>
+      <div className="content-container bg-gold">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     </React.Fragment>
