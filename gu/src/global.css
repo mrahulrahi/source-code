@@ -65,8 +65,9 @@ body:has(.innerhero){background: var(--blue);color: var(--white);}
 body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 .bg-white{background: var(--white);color: var(--blue);}
 .bg-blue{background: var(--blue);color: var(--white);}
-.bg-gold{background: #BAB699;}
+.bg-gold{background: #BAB699;color: var(--white);}
 .text-gold{color: var(--gold);}
+.text-blue{color: var(--blue);}
 
 
 ul:not([class]){list-style:none;margin-bottom:24px;text-align:left;}
