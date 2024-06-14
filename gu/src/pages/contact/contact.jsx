@@ -79,41 +79,44 @@ const contact = () => {
                 </div>
 
                 <div className="contact-form-wrapper bg-blue mx-auto">
-                <div className="row flex-column g-3 px-2">
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Full Name" />
-                  </div>
-                </div>
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group">
-                    <input type="tel" className="form-control" placeholder="Phone Number" />
-                  </div>
-                </div>
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group">
-                    <input type="email" className="form-control" placeholder="Email Address" />
-                  </div>
-                </div>
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group">
-                    <textarea className="form-control" placeholder="Your Message"></textarea>
-                  </div>
-                </div>
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group ">
-                    <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                      <label className="form-check-label" htmlFor="flexCheckDefault">Agree to terms & conditions.</label>
+                  <div className="contact-form-box mx-auto">
+                    <div className="row">
+                      <div className="col-sm-12">
+                        <div className="form-group">
+                          <input type="text" className="form-control" placeholder="Full Name" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group">
+                          <input type="tel" className="form-control" placeholder="Phone Number" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group">
+                          <input type="email" className="form-control" placeholder="Email Address" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group mb-2">
+                          <textarea className="form-control" placeholder="Your Message"></textarea>
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group mb-2">
+                          <div className="form-check">
+                            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                            <label className="form-check-label" htmlFor="flexCheckDefault">Agree to terms & conditions.</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group">
+                          <input type="submit" className="btn-form" value="Submit" />
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-sm-9 mx-auto">
-                  <div className="form-group">
-                    <input type="submit" className="btn-form" value="Submit" />
-                  </div>
-                </div>
-              </div>
+
                 </div>
               </div>
             </div>
