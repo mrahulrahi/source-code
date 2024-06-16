@@ -31,7 +31,7 @@ const Git = () => {
                     ih_Heading="Institute of Technology"
                     ih_para="Creating an enabling environment of active learning and becoming a centre of excellence."
                 />
-                <InstitutionsAbout 
+                <InstitutionsAbout
                     Aheadig="About GIT"
                     Apara={aboutText}
                     Aimg={droneImg}
@@ -40,14 +40,14 @@ const Git = () => {
 
             <div className="content-container">
                 <CommanHeading cheading="Programs" chheading="Offered Under Git" />
-                
+
                 <div className="container">
                     <div className="program-row">
                         <h5>Bachelors</h5>
                     </div>
                 </div>
                 <ProgramRow programs={gitBachelors} />
-                
+
                 <div className="mt-10">
                     <div className="container">
                         <div className="program-row">
@@ -83,8 +83,8 @@ const Git = () => {
                     different facilities which make our students feel at home."
             />
             <FacilityGrid />
-            <Recruiters />
             <Specializations />
+            <Recruiters />
         </React.Fragment>
     );
 }

@@ -9,7 +9,7 @@
 .form-control::placeholder{color: #d6d6d6;}
 .form-select,.form-select:focus {height: 22px;font-family: var(--font-inter);font-size: 9px;font-weight: 400;line-height: 1;padding: 6.5px 11px;border: 0;border-radius: 3px;box-shadow: none;color: #d6d6d6;}
 textarea.form-control{height: 50px;resize: none; min-height: 50px;}
-.btn-form{max-width: 105px;padding: 9.5px;;font-size: 9px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 4px;color: #435A80;background: var(--white);border: 1px solid var(--white);text-align: center;margin-top: 11px;cursor: pointer;} 
+.btn-form{max-width: 105px;border-radius: 80px;padding: 9.5px;;font-size: 9px;font-weight: 600;line-height: 1;box-shadow: none;border-radius: 4px;color: #435A80;background: var(--white);border: 1px solid var(--white);text-align: center;margin-top: 11px;cursor: pointer;} 
 
 .captcha-box{background: var(--white);padding: 4px 4px 4px 7px;border-radius: 4px;width: 60%;margin-top: 6px;}
 .captcha-img{width: 37px;height: 35px;}

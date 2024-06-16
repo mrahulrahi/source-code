@@ -17,7 +17,6 @@ const IQAC = () => {
                   <h4>The Internal Quality Assurance Cell</h4>
                   <p>The Internal Quality Assurance Cell (IQAC) was established in 2019 at Gandhinagar University (GU) with the focus to make the quality the defining element at GU. The IQAC ensures the effective implementation of quality initiatives through a combination of self and external quality evaluation, promotion, and sustenance initiatives. The IQAC strives for excellence in all of the university’s academic and administrative activities. For the functions of IQAC cell refer the IQAC policy.</p>
                 </div>
-
                 <div className="iqac-btn-wrap"><a href="#!" className="btn btn-gold-outline">IQAC Policy</a></div>
               </div>
             </div>
@@ -39,18 +38,18 @@ const IQAC = () => {
         </div>
       </div>
       <div className="content-container text-container light-bg-text-container">
+        <div className="background-image" style={{backgroundImage: `url(${inner4})`}}></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-9 mx-auto">
               <div className="heading text-center">
                 <h4>NISP Committee</h4>
               </div>
-
               <ul>
                 <li>Organized an expert talk on "CROWDED CAFES EMPTY LIBRARIES" for students and faculties on 22-04-2022.</li>
                 <li>Organized Seminar on "Demerger: A Strategy for Value Unlocking" for MBA students on 21-04-2022.</li>
                 <li>Organized Seminar on "Assessment of Service Quality towards Online Organised Retailers" for MBA students on 19-04-2022.</li>
-                <li>Organized Two Day Seminar on "Recent Advance Trends in Geotechnical Engineering” for civil engineering students on 11-04-22 and12-04-2022.</li>
+                <li>Organized Two Day Seminar on "Recent Advance Trends in Geotechnical Engineering” for civil engineering students on 11-04-22 and 12-04-2022.</li>
                 <li>Organized a Motivational talk on "Shift in the Conscious States of Mind" for students and faculties on 04-04-2022.</li>
                 <li>Organized Seminar on "Forex Exposure and Managing Risk" for MBA students on 31-03-2022.</li>
                 <li>Organized Seminar on "Brand Elements and Importance of Leveraging" for MBA students on 29-03-2022.</li>
@@ -89,7 +88,6 @@ const IQAC = () => {
                 <li>Organized GUJCOST sponsored Five-Days STTP on “IoT using ARM Cortex M4” from 19-08-2019 to 23-08-2019.</li>
                 <li>Organized GUJCOST sponsored Two days state level seminar on “Mathematical Modelling and Applications of Mathematics in Engineering – 2019 (MMAME-2019)” from 19-07-2019 to 20-07-2019.</li>
               </ul>
-
               <div className="card-list d-flex flex-wrap">
                 <div className="card-item">
                   <div className="card-box d-flex flex-column w-100 h-100">
@@ -122,6 +120,7 @@ const IQAC = () => {
           </div>
         </div>
       </div>
+
 
     </React.Fragment>
   );

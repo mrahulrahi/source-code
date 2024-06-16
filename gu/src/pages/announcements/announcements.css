@@ -1,0 +1,51 @@
+.important-announcements-wrapper{max-width: 1065px;background: rgba(205, 201, 173, 0.58);padding: 16px 45px 32px;border-radius: 19px;margin-bottom: 120px;backdrop-filter: blur(2px);}
+.important-announcements-wrapper h4{font-size: 36px;font-weight: 900;line-height: 1;color: var(--white);}
+
+.ia-list{gap: 25px 85px;margin-top: 28px;}
+.ia-list li{width: calc(33.33% - 85px);}
+.ia-box{position: relative;padding-left: 44px;font-size: 11px;font-weight: 700;line-height: 1.21;color: var(--white);min-height: 30px;}
+.ia-box::before{content: '';position: absolute;left: 0;top: 0;width: 12px;height: 30px;background: #8A8775;}
+
+.daily-notice-box h4{font-weight: 900;line-height: 1;margin-bottom: 8px;}
+.daily-notice-text{padding: 22px;border-radius: 5px;font-size: 12px;line-height: 1;color: var(--blue);background: var(--white);}
+.daily-notice-col{font-size: 12px;line-height: 1;}
+.daily-notice-col h6{font-size: 12px;margin-bottom: 17px;}
+
+.dn-nav-list{gap: 2px;overflow-x: auto;}
+.dn-nav-item{width: 147px;}
+.dn-nav-link{width: 100%;height: 100%;padding: 18px 42px;font-size: 18px;font-weight: 900;line-height: 1; background: #cbd0d8;color: var(--white);text-align: center;}
+.dn-nav-item:first-child .dn-nav-link{border-radius: 6px 0 0 6px;}
+.dn-nav-item:last-child .dn-nav-link{border-radius: 0 6px 6px 0;}
+.dn-nav-item.active .dn-nav-link{background: var(--blue);}
+.dn-nav-link:hover{background: var(--blue);color: var(--white);}
+
+.all-notice-list{width: calc(100% + 8px);margin-left: -4px;margin-bottom: -10px;}
+.all-notice-item{width: 33.33%;padding: 0 4px;margin-bottom: 10px;}
+.all-notice-box{width: 100%;height: 100%;min-height: 64px;color: var(--white);background: var(--blue);border-radius: 11px;}
+.all-notice-date{width: 64px;height: 100%;padding: 9px 7px;font-size: 18px;font-weight: 900;line-height: 1;background: #CCC8AC;border-radius: 11px;}
+.all-notice-content{flex-grow: 1;padding: 10px 15px;font-size: 12px;font-weight: 900;line-height: 1;text-decoration: underline;}
+
+
+@media (max-width:1199.98px){
+
+}
+
+
+@media (max-width:991.98px){
+    .ia-list{gap: 25px;}
+    .ia-list li{width: calc(50% - 25px);}
+    .all-notice-item{width: 50%;}
+}
+
+
+@media (max-width: 767.98px){
+    .important-announcements-wrapper h4{font-size: 30px;}
+    .daily-notice-box h4{font-size: 24px;}
+}
+
+@media (max-width: 575.98px){
+    .important-announcements-wrapper{padding: 16px 20px;}
+    .important-announcements-wrapper h4{font-size: 26px;}
+    .ia-list li{width: 100%;}
+    .all-notice-item{width: 100%;}
+}

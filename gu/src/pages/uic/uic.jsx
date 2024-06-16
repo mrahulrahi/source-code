@@ -1,5 +1,4 @@
 import React from 'react';
-import './uic.css';
 import inner2 from '../../assets/images/inner-img-2.jpg';
 import Innerhero from '../../components/innerhero/innerhero';
 
@@ -49,6 +48,7 @@ const uic = () => {
       </div>
 
       <div className="content-container text-container light-bg-text-container">
+       <div className="background-image" style={{backgroundImage: `url(${inner2})`}}></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-9 mx-auto">

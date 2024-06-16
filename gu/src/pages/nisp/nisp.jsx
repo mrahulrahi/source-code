@@ -1,5 +1,4 @@
 import React from 'react';
-import './nisp.css';
 import inner3 from '../../assets/images/inner-img-3.jpg';
 import Innerhero from '../../components/innerhero/innerhero';
 
@@ -60,6 +59,7 @@ const Nisp = () => { // Corrected component name to start with an uppercase lett
         </div>
       </div> 
       <div className="content-container text-container light-bg-text-container">
+        <div className="background-image" style={{backgroundImage: `url(${inner3})`}}></div>
         <div className="container">
           <div className="row">
             <div className="col-xl-9 mx-auto">

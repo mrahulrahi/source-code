@@ -21,53 +21,53 @@ const gic = () => {
         <p>GIT nurtures its students all faceted growth of its students and serves a link between theory and practice using multidisciplinary education by following New Education Policy (NEP – 2020). Academic Regulations</p>
     `;
 
-  return (
-    <React.Fragment>
-        <div className="overflow-hidden">
-            <InstitutionsHero
-                video={gicVideo}
-                ih_Heading="Institute of Commerce"
-                ih_para="creating an enabling environment of active learning and become a centre of excellence."
-            />
-           <InstitutionsAbout 
-                Aheadig="About GIT"
-                Apara={aboutText}
-                Aimg={droneImg}
-                additionalClassName="{shade}"
-            />
-        </div>
-
-        <div className="content-container">
-            <CommanHeading cheading="Programs" chheading="Offered Under Git" />
-            
-            <div className="container">
-                <div className="program-row">
-                    <h5>B.Com. 3 Years</h5>
-                </div>
+    return (
+        <React.Fragment>
+            <div className="overflow-hidden">
+                <InstitutionsHero
+                    video={gicVideo}
+                    ih_Heading="Institute of Commerce"
+                    ih_para="creating an enabling environment of active learning and become a centre of excellence."
+                    additionalClassName="shade"
+                />
+                <InstitutionsAbout
+                    Aheadig="About GIT"
+                    Apara={aboutText}
+                    Aimg={droneImg}
+                />
             </div>
-            <ProgramRow programs={gicBoc3} />
-            
-            <div className="mt-10">
+
+            <div className="content-container">
+                <CommanHeading cheading="Programs" chheading="Offered Under Git" />
+
                 <div className="container">
                     <div className="program-row">
-                        <h5>B.Com. (Hons.) 4 Years</h5>
+                        <h5>B.Com. 3 Years</h5>
                     </div>
                 </div>
-                <ProgramRow programs={gicBoc4} />
-            </div>
-        </div>
+                <ProgramRow programs={gicBoc3} />
 
-        <Heading
-            sheading="OUR"
-            shheading="FACILITIES"
-            spara="The campus provides a refreshing environment with 
+                <div className="mt-10">
+                    <div className="container">
+                        <div className="program-row">
+                            <h5>B.Com. (Hons.) 4 Years</h5>
+                        </div>
+                    </div>
+                    <ProgramRow programs={gicBoc4} />
+                </div>
+            </div>
+
+            <Heading
+                sheading="OUR"
+                shheading="FACILITIES"
+                spara="The campus provides a refreshing environment with 
                 different facilities which make our students feel at home."
-        />
-        <FacilityGrid />
-        <Recruiters />
-        <Specializations />
-    </React.Fragment>
-  )
+            />
+            <FacilityGrid />
+            <Specializations />
+            <Recruiters />
+        </React.Fragment>
+    )
 }
 
 export default gic

@@ -1,5 +1,7 @@
 import React from 'react';
 import './contact.css'
+import Innerherotwo from '../../components/innerherotwo/innerherotwo'
+import InnerHeroBg from '../../assets/images/inner-img-12.jpg'
 import AuthorityCard from "../../components/AuthorityCard/AuthorityCard"
 import ContactCard from '../../components/ContactCard/ContactCard';
 import ContactCards from '../../data/contactCard.json'
@@ -9,6 +11,8 @@ import contactBG from '../../assets/images/contact-form-bg.png'
 const contact = () => {
   return (
     <React.Fragment>
+
+      <Innerherotwo backgroundImage={InnerHeroBg} title="CONTACT US" />
 
       <div className="content-container bg-gold">
         <div className="container">

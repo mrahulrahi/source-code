@@ -86,8 +86,8 @@ const gis = () => {
             </div>
             <Heading sheading="OUR" shheading="FACILITIES" spara=" The campus provides a refreshing environment with <br /> different facilities which makes our students feel at home." />
             <FacilityGrid />
-            <Recruiters />
             <Specializations />
+            <Recruiters />
     </React.Fragment>
   )
 }

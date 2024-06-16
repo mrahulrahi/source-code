@@ -73,8 +73,8 @@ const Gia = () => {
             </div>
             <Heading sheading="OUR" shheading="FACILITIES" spara="The campus provides a refreshing environment with different facilities which makes our students feel at home." />
             <FacilityGrid />
-            <Recruiters />
             <Specializations />
+            <Recruiters />
         </React.Fragment>
     );
 };

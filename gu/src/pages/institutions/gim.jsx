@@ -24,7 +24,7 @@ const gim = () => {
         <p>GIT nurtures its students all faceted growth of its students and serves a link between theory and practice using multidisciplinary education by following New Education Policy (NEP – 2020). Academic Regulations</p>
     `;
 
-    return(
+    return (
         <React.Fragment>
             <div className="overflow-hidden">
                 <InstitutionsHero
@@ -32,7 +32,7 @@ const gim = () => {
                     ih_Heading="Institute of Management"
                     ih_para="creating an enabling environment of active learning and become a centre of excellence."
                 />
-               <InstitutionsAbout 
+                <InstitutionsAbout
                     Aheadig="About GIT"
                     Apara={aboutText}
                     Aimg={ManBill}
@@ -42,7 +42,7 @@ const gim = () => {
             </div>
 
             <div className="content-container">
-                <CommanHeading cheading="Programs" chheading="Offered Under GIM" />  
+                <CommanHeading cheading="Programs" chheading="Offered Under GIM" />
                 <div className="container">  <div className="program-row"> <h5>Bachelors</h5> </div> </div>
                 <ProgramRow programs={gimBachelors} />
                 <div className="mt-10">
@@ -68,10 +68,10 @@ const gim = () => {
             </div>
             <Heading sheading="OUR" shheading="FACILITIES" spara=" The campus provides a refreshing environment with <br /> different facilities which makes our students feel at home." />
             <FacilityGrid />
-            <Recruiters />
             <Specializations />
+            <Recruiters />
         </React.Fragment>
-  )
+    )
 }
 
 export default gim

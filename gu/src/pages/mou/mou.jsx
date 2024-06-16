@@ -1,12 +1,23 @@
 import React from 'react';
 import './mou.css'
+import Innerherotwo from '../../components/innerherotwo/innerherotwo';
+import inner8 from '../../assets/images/inner-img-8.jpg';
+import MouData from '../../components/MouCard/moudata';
 
 const mou = () => {
   return (
     <React.Fragment>
 
-<h1> mou </h1>
-
+     <Innerherotwo backgroundImage={inner8} title="MOU"/>
+     <div className="content-container blue-bg">
+         <div className="container">
+            <div className="row">
+                <div className="col-lg-12">
+                   <MouData />
+                </div>
+            </div>
+         </div>
+     </div>
     </React.Fragment>
   )
 }

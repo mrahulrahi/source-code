@@ -1,14 +1,22 @@
 import React from 'react'
 import './gallery.css'
+import Innerherotwo from '../../components/innerherotwo/innerherotwo'
+import inner10 from '../../assets/images/inner-img-10.jpg'
 import GalleryCard from '../../components/GalleryCard/GalleryCard'
 import galleryImg1 from '../../assets/images/gallery-img-1.png'
 import galleryImg2 from '../../assets/images/gallery-img-2.png'
 import galleryImg3 from '../../assets/images/gallery-img-3.png'
 import galleryImg4 from '../../assets/images/gallery-img-4.png'
+import CardSlider from '../../components/CardSlider/CardSlider';
+import galleryData from '../../data/gallery.json';
 
 const gallery = () => {
   return (
     <React.Fragment>
+
+
+     <Innerherotwo backgroundImage={inner10} title="Gallery" />
+     <CardSlider slides={galleryData} additionalClassNametwo="gold"/>
 
       <div className="content-container gallery-container bg-gold">
         <div className="container">

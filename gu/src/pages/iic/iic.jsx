@@ -1,10 +1,6 @@
 import React from 'react';
-import './iic.css';
 import Innerhero from '../../components/innerhero/innerhero';
 import inner1 from '../../assets/images/inner-img-1.jpg';
-import CommanHeading from '../../components/heading/commanheading';
-import Heading from '../../components/heading/heading';
-import FaciliyGrid from '../../components/FacilityGrid/FacilityGrid';
 
 const iic = () => {
   return (
@@ -63,6 +59,7 @@ const iic = () => {
         </div>
       </div>
       <div className="content-container text-container light-bg-text-container">
+      <div className="background-image" style={{backgroundImage: `url(${inner1})`}}></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-9 mx-auto">
