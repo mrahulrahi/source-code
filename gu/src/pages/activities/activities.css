@@ -1,0 +1,26 @@
+.activities-hero {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 515px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top:90px;
+}
+
+.activities-hero-img {
+    width: 770px;
+    left: 45.5%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+}
+
+.activities-hero h1 {
+    font-size: 96px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 59px;
+    color: #5476ad;
+}

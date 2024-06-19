@@ -1,99 +1,105 @@
 import React from 'react'
 import './announcements.css'
 import InnerHeroBg from '../../assets/images/inner-img-11.jpg'
+import DailyNotice from '../../components/DailyNotice/DailyNotice'
 
 const Announcements = () => {
    return (
       <React.Fragment>
-         <div className="innerherotwo" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
-            <div className="container">
-               <div className="row">
-                  <div className="col-lg-12">
-                     <h1>ANNOUNCEMENTS</h1>
-                     <div className="important-announcements-wrapper mx-auto">
-                        <h4 className="font-black">Important <br /> Announcements</h4>
-                        <ul className="ia-list d-flex flex-wrap justify-content-between">
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 A Report On “Webinar On Computer Applications And Technologies In Construction GITAA”
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                           <li>
-                              <div className="ia-box w-100 d-flex align-items-center">
-                                 GU_ESE_09-02-2024_B.Pham
-                              </div>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
+
+      <div className="innerherotwo2" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+                 
+               <h1>ANNOUNCEMENTS</h1>
+               <div className="important-announcements-wrapper mx-auto">
+                  <h4 className="font-black">Important <br /> Announcements</h4>
+
+                  <ul className="ia-list d-flex flex-wrap justify-content-between">
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center ">
+                           A Report On “Webinar On Computer Applications And Technologies In Construction GITAA”
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center ">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center ">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box nn w-100 d-flex align-items-center ">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box nn w-100 d-flex align-items-center ">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                     <li>
+                        <div className="ia-box w-100 d-flex align-items-center">
+                           GU_ESE_09-02-2024_B.Pham
+                        </div>
+                     </li>
+                  </ul>
                </div>
+
             </div>
-         </div>
+          </div>
+        </div>
+      </div>
+
 
          <div className="content-container bg-blue">
             <div className="container">
@@ -132,7 +138,7 @@ const Announcements = () => {
             </div>
          </div>
 
-         <div className="content-container">
+         <div className="content-container pb-0">
             <div className="container">
                <div className="row g-4">
                   <div className="col-lg-12">
@@ -166,7 +172,9 @@ const Announcements = () => {
                         </li>
                      </ul>
 
-                     <div className="all-notice-list d-flex flex-wrap mt-4">
+
+
+                     {/* <div className="all-notice-list d-flex flex-wrap mt-4">
                         <div className="all-notice-item">
                            <div className="all-notice-box d-flex">
                               <div className="all-notice-date">21,22 Sep</div>
@@ -203,11 +211,15 @@ const Announcements = () => {
                               <a href='#!' className="all-notice-content">A Report Of “VSSE ISRO”</a>
                            </div>
                         </div>
-                     </div>
+                     </div> */}
+
+
                   </div>
                </div>
             </div>
          </div>
+
+         <DailyNotice />
 
 
       </React.Fragment>

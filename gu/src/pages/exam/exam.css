@@ -23,6 +23,8 @@
 .esb-date{width: 34px;font-size: 15px;font-weight: 700;line-height: 1;color: #B6B191;background: var(--white);border-radius: 2px;text-align: center;margin-right: 12px;}
 .esb-content{font-size: 12px;font-weight: 700;line-height: 1;color: var(--white);}
 
+.innerherotwo2 {width: 100%;min-height: 790px;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 130px !important;display: flex;align-items: center;padding: 0 10px;}
+
 
 @media (max-width:1199.98px){
 

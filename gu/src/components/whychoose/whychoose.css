@@ -1,0 +1,4152 @@
+.elementor-3493 .elementor-element.elementor-element-00f1102 {
+    --display: flex;
+    --min-height: 900px;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-00f1102, .elementor-3493 .elementor-element.elementor-element-00f1102::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-5b901f0 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.7;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-5b901f0::before, .elementor-3493 .elementor-element.elementor-element-5b901f0 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-5b901f0 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-5b901f0 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-5b901f0 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-5b901f0 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-5b901f0, .elementor-3493 .elementor-element.elementor-element-5b901f0::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-31bc80d {
+    --display: grid;
+    --min-height: 900px;
+    --e-con-grid-template-columns: 7fr 5fr;
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-31bc80d, .elementor-3493 .elementor-element.elementor-element-31bc80d::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e92b870 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.92;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 30px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e92b870::before, .elementor-3493 .elementor-element.elementor-element-e92b870 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-e92b870 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-e92b870 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-e92b870 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-e92b870 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-fca57c4 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 7vw;
+    letter-spacing: -1px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fca57c4 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d915c99 .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Inter", Sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 7vw;
+    letter-spacing: -1px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-29863e1 {
+    color: #A6C7FF;
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2bdc59b {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 100px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 100px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2bdc59b:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-2bdc59b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-31.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2bdc59b, .elementor-3493 .elementor-element.elementor-element-2bdc59b::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-52d4c0a {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-52d4c0a .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 13px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-52d4c0a > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-722d2c1 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 30px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0068510 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --justify-content: center;
+    --background-transition: 0.3s;
+    --padding-top: 80px;
+    --padding-bottom: 80px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0068510, .elementor-3493 .elementor-element.elementor-element-0068510::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6f6dd90 {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f023f2f {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8f23cfc {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0945189 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 80px;
+    --padding-bottom: 80px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0945189:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-0945189 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0945189, .elementor-3493 .elementor-element.elementor-element-0945189::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li {
+    font-family: "Roboto", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #BEBAA0;
+    color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li i {
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li img {
+    width: 28px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li svg {
+    width: 28px;
+    height: 28px;
+    fill: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-tab-inline-icon li .title-before-icon {
+    margin-right: 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-tab-inline-icon li .title-after-icon {
+    margin-left: 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-tab-top-icon li i, .elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-tab-top-icon li img, .elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-tab-top-icon li svg {
+    margin-bottom: 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 > .elementor-widget-container > .eael-advance-tabs > .eael-tabs-nav ul li {
+    padding: 15px 15px 15px 15px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li:hover {
+    background-color: #A09E8C;
+    color: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li:hover > i {
+    color: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li:hover > svg {
+    fill: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li.active {
+    background-color: #A09E8C;
+    color: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li.active > i {
+    color: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-nav > ul li.active > svg {
+    fill: #fff;
+}
+
+.elementor-3493 .elementor-element.elementor-element-548f4d1 .eael-advance-tabs .eael-tabs-content > div {
+    color: #333;
+}
+
+.elementor-3493 .elementor-element.elementor-element-da008b0 .elementor-button {
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    fill: #152745;
+    color: #152745;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #152745;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-da008b0 .elementor-button:hover, .elementor-3493 .elementor-element.elementor-element-da008b0 .elementor-button:focus {
+    color: #FFFFFF;
+    background-color: #152745;
+}
+
+.elementor-3493 .elementor-element.elementor-element-da008b0 .elementor-button:hover svg, .elementor-3493 .elementor-element.elementor-element-da008b0 .elementor-button:focus svg {
+    fill: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-71e61c6 {
+    --display: flex;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --overlay-opacity: 1;
+    border-style: none;
+    --border-style: none;
+    --border-radius: 0px 0px 0px 0px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 60px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --z-index: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-71e61c6:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-71e61c6 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/Mask-group-1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-71e61c6::before, .elementor-3493 .elementor-element.elementor-element-71e61c6 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-71e61c6 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-71e61c6 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-71e61c6 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-71e61c6 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-71e61c6, .elementor-3493 .elementor-element.elementor-element-71e61c6::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65ca9aa {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65ca9aa .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 58px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65ca9aa > .elementor-widget-container {
+    margin: 160px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9ca3c31 {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9ca3c31 .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Inter", Sans-serif;
+    font-size: 128px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 116px;
+    letter-spacing: -1px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-5ad9d54 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-5ad9d54 > .elementor-widget-container {
+    margin: 10px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-49adef1 {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(2, 1fr);
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 100px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-08d0d83 {
+    --display: flex;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 1px 0px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 1px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    border-color: #CCCCCC;
+    --border-color: #CCCCCC;
+    --border-radius: 0px 0px 0px 0px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-08d0d83, .elementor-3493 .elementor-element.elementor-element-08d0d83::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-51d2582 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-51d2582 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 20px 15px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-56d2058 {
+    --display: grid;
+    --e-con-grid-template-columns: 4fr 4fr 4fr;
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    --gap: 0px 0px;
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 0px 0px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-56d2058, .elementor-3493 .elementor-element.elementor-element-56d2058::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b0004c4 {
+    --display: flex;
+    --background-transition: 0.3s;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 0px 1px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 1px;
+    --border-left-width: 0px;
+    border-color: #CCCCCC;
+    --border-color: #CCCCCC;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-left: 15px;
+    --padding-right: 15px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b0004c4, .elementor-3493 .elementor-element.elementor-element-b0004c4::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7662925 .elementor-heading-title {
+    color: #A69E87;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6b89c31 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6b89c31 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-62d33eb {
+    --display: flex;
+    --background-transition: 0.3s;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 0px 1px 1px;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 1px;
+    --border-left-width: 1px;
+    border-color: #CCCCCC;
+    --border-color: #CCCCCC;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-62d33eb, .elementor-3493 .elementor-element.elementor-element-62d33eb::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ffc345e {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-left: 15px;
+    --padding-right: 15px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ca6ffbc .elementor-heading-title {
+    color: #A69E87;
+}
+
+.elementor-3493 .elementor-element.elementor-element-12d8ec4 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-12d8ec4 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc04be4 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f8fc6a2 {
+    --display: flex;
+    --background-transition: 0.3s;
+    border-style: dashed;
+    --border-style: dashed;
+    border-width: 0px 1px 0px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 1px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    border-color: #CCCCCC;
+    --border-color: #CCCCCC;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-left: 15px;
+    --padding-right: 15px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f8fc6a2, .elementor-3493 .elementor-element.elementor-element-f8fc6a2::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-a78549e .elementor-heading-title {
+    color: #A69E87;
+}
+
+.elementor-3493 .elementor-element.elementor-element-13466ec {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-13466ec > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f8b1abc {
+    --display: flex;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 50px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d1e9d67 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d1e9d67 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-abf7f37 {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e.elementor-position-right .elementor-image-box-img {
+    margin-left: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e.elementor-position-left .elementor-image-box-img {
+    margin-right: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 32%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e > .elementor-widget-container {
+    padding: 15px 10px 15px 10px;
+    transition: background 0.5s;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1d11c4e:hover .elementor-widget-container {
+    background-color: #293549;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09.elementor-position-right .elementor-image-box-img {
+    margin-left: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09.elementor-position-left .elementor-image-box-img {
+    margin-right: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 32%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09 > .elementor-widget-container {
+    padding: 15px 10px 15px 10px;
+    transition: background 0.5s;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fc87c09:hover .elementor-widget-container {
+    background-color: #293549;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623.elementor-position-right .elementor-image-box-img {
+    margin-left: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623.elementor-position-left .elementor-image-box-img {
+    margin-right: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 32%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623 > .elementor-widget-container {
+    padding: 15px 10px 15px 10px;
+    transition: background 0.5s;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd42623:hover .elementor-widget-container {
+    background-color: #293549;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c.elementor-position-right .elementor-image-box-img {
+    margin-left: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c.elementor-position-left .elementor-image-box-img {
+    margin-right: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 32%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c > .elementor-widget-container {
+    padding: 15px 10px 15px 10px;
+    transition: background 0.5s;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-65b9c8c:hover .elementor-widget-container {
+    background-color: #293549;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f.elementor-position-right .elementor-image-box-img {
+    margin-left: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f.elementor-position-left .elementor-image-box-img {
+    margin-right: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-title {
+    margin-bottom: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 32%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f > .elementor-widget-container {
+    padding: 15px 10px 15px 10px;
+    transition: background 0.5s;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e54a06f:hover .elementor-widget-container {
+    background-color: #293549;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dc4958b {
+    --divider-border-style: solid;
+    --divider-color: #639EFF;
+    --divider-border-width: 1px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dc4958b .elementor-divider-separator {
+    width: 100%;
+    margin: 0 auto;
+    margin-center: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dc4958b .elementor-divider {
+    text-align: center;
+    padding-block-start:15px;padding-block-end:15px;}
+
+.elementor-3493 .elementor-element.elementor-element-dc4958b > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 115px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b18ba3a {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 100px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 80px;
+    --padding-bottom: 80px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+    --z-index: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b18ba3a:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-b18ba3a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b18ba3a, .elementor-3493 .elementor-element.elementor-element-b18ba3a::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c20876f {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c20876f .elementor-heading-title {
+    color: #1D3459;
+    font-family: "Inter", Sans-serif;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-51518c4 {
+    text-align: center;
+    color: #1D3459;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-51518c4 > .elementor-widget-container {
+    margin: 10px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-54ff818 {
+    --display: flex;
+    --align-items: center;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-920698e {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --justify-content: center;
+    --flex-wrap: wrap;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-920698e, .elementor-3493 .elementor-element.elementor-element-920698e::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-920698e.e-con {
+    --align-self: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-right .elementor-image-box-img {
+    margin-left: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-left .elementor-image-box-img {
+    margin-right: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 .elementor-image-box-title {
+    margin-bottom: 0px;
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 100px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 .elementor-image-box-description {
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 3em 4em 4em 4em;
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-11.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-96cb476 {
+    width: var( --container-widget-width, 31% );
+    max-width: 31%;
+    --container-widget-width: 31%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-right .elementor-image-box-img {
+    margin-left: 17px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-left .elementor-image-box-img {
+    margin-right: 17px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 17px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 .elementor-image-box-title {
+    margin-bottom: 0px;
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 67px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 .elementor-image-box-description {
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 2em 2em 2em 2em;
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-11.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-353e866 {
+    width: var( --container-widget-width, 31% );
+    max-width: 31%;
+    --container-widget-width: 31%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-right .elementor-image-box-img {
+    margin-left: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-left .elementor-image-box-img {
+    margin-right: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 .elementor-image-box-title {
+    margin-bottom: 0px;
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 100px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 .elementor-image-box-description {
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 3em 4em 4em 4em;
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-11.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9dcd7e7 {
+    width: var( --container-widget-width, 31% );
+    max-width: 31%;
+    --container-widget-width: 31%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-right .elementor-image-box-img {
+    margin-left: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-left .elementor-image-box-img {
+    margin-right: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-top .elementor-image-box-img {
+    margin-bottom: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e .elementor-image-box-title {
+    margin-bottom: 0px;
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e .elementor-image-box-wrapper .elementor-image-box-img {
+    width: 100px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e .elementor-image-box-img img {
+    transition-duration: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e .elementor-image-box-description {
+    color: #1D3459;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 3em 4em 4em 4em;
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-11.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d871a6e {
+    width: var( --container-widget-width, 31% );
+    max-width: 31%;
+    --container-widget-width: 31%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d29ef57 {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-83f1c6b {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7aa9afe .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    fill: #0C1523;
+    color: #0C1523;
+    background-color: #D4AF37;
+    border-radius: 5px 5px 5px 5px;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-7aa9afe {
+    right: 0px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-7aa9afe {
+    left: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7aa9afe {
+    bottom: 50%;
+    z-index: 9999;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3825839 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 130px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 30px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-60467cd {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-60467cd .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Inter", Sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 87px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f3655f5 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f3655f5 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-cbccff7 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7319a84 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-32fd391 {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-32fd391:hover::before, .elementor-3493 .elementor-element.elementor-element-32fd391:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-32fd391:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-32fd391 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-32fd391 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-32fd391:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-32fd391, .elementor-3493 .elementor-element.elementor-element-32fd391::before {
+    --overlay-transition: 1s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-280864d {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-797756c {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2 {
+    --display: flex;
+    --min-height: 616px;
+    --justify-content: space-between;
+    --background-transition: 0s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-44f64e2 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/three-people-sit-table-one-them-is-painting.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2:hover {
+    background-color: #C8A800;
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2:hover::before, .elementor-3493 .elementor-element.elementor-element-44f64e2:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-44f64e2:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-44f64e2 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #C8A800;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-44f64e2, .elementor-3493 .elementor-element.elementor-element-44f64e2::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-03fd127 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b373a9e .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5 {
+    --display: flex;
+    --justify-content: space-between;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-18c46b5 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-5.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5:hover::before, .elementor-3493 .elementor-element.elementor-element-18c46b5:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-18c46b5:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-18c46b5 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #A89B56;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-18c46b5, .elementor-3493 .elementor-element.elementor-element-18c46b5::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-55065df .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-92ca4fb .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7c57cd7 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091 {
+    --display: flex;
+    --justify-content: space-between;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-6425091 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/study-buddies-life-portrait-group-cheerful-young-school-kids-talking-each-other-befo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091:hover::before, .elementor-3493 .elementor-element.elementor-element-6425091:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6425091:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-6425091 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #A89B56;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6425091, .elementor-3493 .elementor-element.elementor-element-6425091::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d0f7f99 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-cc66eef .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c {
+    --display: flex;
+    --justify-content: space-between;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 30px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-fd2af7c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-4.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c:hover::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-fd2af7c > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #A89B56;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fd2af7c, .elementor-3493 .elementor-element.elementor-element-fd2af7c::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8a0b9f7 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-fb7dd11 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf {
+    --display: flex;
+    --justify-content: space-between;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-0e0baaf > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-3.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf:hover::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-0e0baaf > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #A89B56;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0e0baaf, .elementor-3493 .elementor-element.elementor-element-0e0baaf::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-28c77db .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-a88b011 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-56234fa {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924 {
+    --display: flex;
+    --justify-content: space-between;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 00px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-dd88924 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924:hover::before, .elementor-3493 .elementor-element.elementor-element-dd88924:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-dd88924:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-dd88924 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #A89B56;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dd88924, .elementor-3493 .elementor-element.elementor-element-dd88924::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f5a0d8f .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2da5c20 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6 {
+    --display: flex;
+    --min-height: 616px;
+    --justify-content: space-between;
+    --background-transition: 0s;
+    --overlay-opacity: 0.8;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 80px;
+    --padding-left: 30px;
+    --padding-right: 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6:hover {
+    background-color: #C8A800;
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6:hover::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-6a3bad6 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+    background-color: #C8A800;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6a3bad6, .elementor-3493 .elementor-element.elementor-element-6a3bad6::before {
+    --overlay-transition: 1s;
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-142d50a .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7f6adc0 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 43px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-16b45d7 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 115px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8acee34 {
+    --display: grid;
+    --e-con-grid-template-columns: 5fr 7fr;
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-314e375 {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(1, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-69d17da {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-35bdd0d .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-35bdd0d > .elementor-widget-container {
+    margin: 0px 0px -20px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-4928aa2 .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Inter", Sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 85px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-018364f .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 64px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-018364f > .elementor-widget-container {
+    margin: -20px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7d046e6 {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-17d3aed {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(5, 1fr);
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --align-items: center;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 20px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6bf16a0 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ba49658 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f117944 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c391dd1 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-aa85993 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b {
+    --display: flex;
+    --justify-content: flex-end;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --border-radius: 16px 16px 16px 16px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-b49923b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-13.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b:hover::before, .elementor-3493 .elementor-element.elementor-element-b49923b:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-b49923b:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-b49923b > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b49923b, .elementor-3493 .elementor-element.elementor-element-b49923b::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e920e1e .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e920e1e > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-e920e1e.elementor-element {
+    --align-self: flex-start;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-df3c1b0 {
+    left: 20px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-df3c1b0 {
+    right: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-df3c1b0 {
+    top: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ced875f {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(2, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ced875f, .elementor-3493 .elementor-element.elementor-element-ced875f::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065 {
+    --display: flex;
+    --justify-content: flex-end;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --border-radius: 16px 16px 16px 16px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-3e4e065 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-11.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065:hover::before, .elementor-3493 .elementor-element.elementor-element-3e4e065:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-3e4e065:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-3e4e065 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3e4e065, .elementor-3493 .elementor-element.elementor-element-3e4e065::before {
+    --border-transition: 0.3s;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-0dbe45f {
+    left: 20px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-0dbe45f {
+    right: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0dbe45f {
+    top: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b68e6b0 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b68e6b0 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b68e6b0.elementor-element {
+    --align-self: flex-start;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02 {
+    --display: flex;
+    --justify-content: flex-end;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --border-radius: 16px 16px 16px 16px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-12.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02:hover::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-ad8cd02 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-ad8cd02, .elementor-3493 .elementor-element.elementor-element-ad8cd02::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f6dbddd .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f6dbddd > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f6dbddd.elementor-element {
+    --align-self: flex-start;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-b4104bd {
+    left: 20px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-b4104bd {
+    right: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b4104bd {
+    top: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da {
+    --display: flex;
+    --justify-content: flex-end;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --border-radius: 16px 16px 16px 16px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-91922da > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-14.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da::before, .elementor-3493 .elementor-element.elementor-element-91922da > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-91922da > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-91922da > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-91922da > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-91922da > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da:hover::before, .elementor-3493 .elementor-element.elementor-element-91922da:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-91922da:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-91922da > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-91922da > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-91922da, .elementor-3493 .elementor-element.elementor-element-91922da::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b7a5a72 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b7a5a72 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b7a5a72.elementor-element {
+    --align-self: flex-start;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-bc05c93 {
+    left: 20px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-bc05c93 {
+    right: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-bc05c93 {
+    top: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3 {
+    --display: flex;
+    --justify-content: flex-end;
+    --background-transition: 0.3s;
+    --overlay-opacity: 0.8;
+    --border-radius: 16px 16px 16px 16px;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 50px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-10512a3 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-15.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .e-con-inner > .elementor-background-slideshow::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+    --background-overlay: '';
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3:hover::before, .elementor-3493 .elementor-element.elementor-element-10512a3:hover > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-10512a3:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .elementor-background-slideshow:hover::before, .elementor-3493 .elementor-element.elementor-element-10512a3 > .e-con-inner > .elementor-background-slideshow:hover::before {
+    --background-overlay: '';
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3:hover {
+    --overlay-opacity: 1;
+}
+
+.elementor-3493 .elementor-element.elementor-element-10512a3, .elementor-3493 .elementor-element.elementor-element-10512a3::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8cf14a4 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8cf14a4 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-8cf14a4.elementor-element {
+    --align-self: flex-start;
+}
+
+body:not(.rtl) .elementor-3493 .elementor-element.elementor-element-d00f389 {
+    left: 20px;
+}
+
+body.rtl .elementor-3493 .elementor-element.elementor-element-d00f389 {
+    right: 20px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-d00f389 {
+    top: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6ad06a8 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 115px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-6ad06a8.e-con {
+    --flex-grow: 0;
+    --flex-shrink: 0;
+}
+
+.elementor-3493 .elementor-element.elementor-element-4157957 .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Roboto", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-4157957 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c5f5f9d .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Roboto", Sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c5f5f9d > .elementor-widget-container {
+    margin: 0px 0px 40px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-b806ea7 {
+    --e-image-carousel-slides-to-show: 8;
+}
+
+.elementor-3493 .elementor-element.elementor-element-82a57bf {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: flex-end;
+    --background-transition: 0.3s;
+    --margin-top: 100px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-37780c1 {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0dfffb7 .elementor-heading-title {
+    color: #B5AE81;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.9em;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0dfffb7 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-baa2890 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+}
+
+.elementor-3493 .elementor-element.elementor-element-77b4318 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    line-height: 1.7em;
+}
+
+.elementor-3493 .elementor-element.elementor-element-90b166b .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elementor-3493 .elementor-element.elementor-element-90b166b > .elementor-widget-container {
+    margin: -31px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2810cf9 {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-dae5a0c {
+    --e-image-carousel-slides-to-show: 3;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3b25fe5 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 130px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 30px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3b25fe5:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-3b25fe5 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("https://www.admissions2024.gandhinagaruni.ac.in/wp-content/uploads/2024/03/image-50.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3b25fe5, .elementor-3493 .elementor-element.elementor-element-3b25fe5::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c62a799 {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c62a799 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c62a799 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-193bd1c {
+    --display: grid;
+    --e-con-grid-template-columns: repeat(4, 1fr);
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 10px;
+    --margin-bottom: 20px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-aafb56e .elementor-counter-title {
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-aafb56e .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-4081f7e .elementor-counter-title {
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-4081f7e .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9bbbdae .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9bbbdae .elementor-counter-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1581339 .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1581339 .elementor-counter-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-67dd33dc {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1f6ee780 {
+    --display: grid;
+    --e-con-grid-template-columns: 5fr 7fr;
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-161e0e6b {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7135b80f .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-7135b80f > .elementor-widget-container {
+    margin: -20px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2d5768a .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 97px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-2d5768a > .elementor-widget-container {
+    margin: -20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-419fe7c9 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-419fe7c9 > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-339dc906 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0%;
+    --margin-bottom: 0%;
+    --margin-left: 0%;
+    --margin-right: 0%;
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .slider-container-background .block-shadow {
+    height: 500px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .slide-coverflow-button-wrapper {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .slide-coverflow-button-wrapper .slide-coverflow-button {
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .swiper-wrapper .slide-title {
+    color: #9FC4FF;
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 23px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .slide-title {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .swiper-wrapper .slide-description {
+    color: #9FC4FF;
+    font-family: "Courier Prime", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e .slide-description {
+    text-align: left;
+}
+
+.elementor-3493 .elementor-element.elementor-element-1be92b0e > .elementor-widget-container {
+    margin: -50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-727ac85 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --background-transition: 0.3s;
+    --padding-top: 80px;
+    --padding-bottom: 80px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-727ac85:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-727ac85 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-3493 .elementor-element.elementor-element-727ac85, .elementor-3493 .elementor-element.elementor-element-727ac85::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-a123b3d {
+    text-align: center;
+}
+
+.elementor-3493 .elementor-element.elementor-element-a123b3d .elementor-heading-title {
+    color: #1D3458;
+}
+
+.elementor-3493 .elementor-element.elementor-element-09023fb {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --gap: 0px 0px;
+    --flex-wrap: wrap;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-3d74b32 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-51ff081 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-46a3fd6 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0a2a654 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-33c78b2 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-557ce18 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9c42959 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-336da62 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-c3a1754 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-212cb53 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-0c299d9 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-336e32c {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-top: 5px;
+    --padding-bottom: 5px;
+    --padding-left: 5px;
+    --padding-right: 5px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9bae32f {
+    --display: flex;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 100px;
+    --padding-bottom: 40px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9bae32f, .elementor-3493 .elementor-element.elementor-element-9bae32f::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9f631e1 {
+    --display: grid;
+    --e-con-grid-template-columns: 5fr 7fr;
+    --e-con-grid-template-rows: repeat(1, 1fr);
+    --grid-auto-flow: row;
+    --background-transition: 0.3s;
+    --margin-top: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 40px;
+    --padding-bottom: 40px;
+    --padding-left: 40px;
+    --padding-right: 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9f631e1:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-9f631e1 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #D9D4B8;
+}
+
+.elementor-3493 .elementor-element.elementor-element-9f631e1, .elementor-3493 .elementor-element.elementor-element-9f631e1::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-f56ab3e {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+.elementor-3493 .elementor-element.elementor-element-bd813da .elementor-heading-title {
+    color: #1D3459;
+    font-family: "Inter", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 34px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-579cb03 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 85px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-76bf6ee img {
+    width: 100%;
+}
+
+.elementor-3493 .elementor-element.elementor-element-76bf6ee > .elementor-widget-container {
+    margin: 0px 0px -95px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-3493 .elementor-element.elementor-element-76bf6ee.elementor-element {
+    --align-self: flex-end;
+}
+
+@media(min-width: 768px) {
+    .elementor-3493 .elementor-element.elementor-element-31bc80d {
+        --content-width:1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e92b870 {
+        --content-width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2bdc59b {
+        --content-width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-71e61c6 {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b18ba3a {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-54ff818 {
+        --content-width: 1000px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-18c46b5 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-6425091 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fd2af7c {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0e0baaf {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-dd88924 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-16b45d7 {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-314e375 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-69d17da {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-ced875f {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-6ad06a8 {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-82a57bf {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-37780c1 {
+        --width: 40%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2810cf9 {
+        --width: 60%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-193bd1c {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-67dd33dc {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-161e0e6b {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-339dc906 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3d74b32 {
+        --width: 40%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-51ff081 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-46a3fd6 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0a2a654 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-33c78b2 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-557ce18 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9c42959 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-336da62 {
+        --width: 40%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c3a1754 {
+        --width: 40%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-212cb53 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0c299d9 {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-336e32c {
+        --width: 20%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9bae32f {
+        --content-width: 1340px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9f631e1 {
+        --content-width: 1340px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .elementor-3493 .elementor-element.elementor-element-00f1102 {
+        --margin-top:0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 50px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-31bc80d {
+        --e-con-grid-template-columns: 6fr 6fr;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e92b870 {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fca57c4 .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d915c99 .elementor-heading-title {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2bdc59b {
+        --padding-top: 60px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-722d2c1 > .elementor-widget-container {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-71e61c6 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-65ca9aa .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9ca3c31 .elementor-heading-title {
+        font-size: 79px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-49adef1 {
+        --grid-auto-flow: row;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-51d2582 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-56d2058 {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-f8b1abc {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d1e9d67 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-abf7f37 {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b18ba3a {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c20876f .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-920698e {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476 > .elementor-widget-container {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866 > .elementor-widget-container {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7 > .elementor-widget-container {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e > .elementor-widget-container {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d29ef57 {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-60467cd .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-32fd391 {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b373a9e .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-92ca4fb .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-cc66eef .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fb7dd11 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-a88b011 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2da5c20 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-7f6adc0 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-16b45d7 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-8acee34 {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --e-con-grid-template-rows: repeat(1, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-314e375 {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --e-con-grid-template-rows: repeat(1, 1fr);
+        --grid-auto-flow: row;
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-69d17da {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-4928aa2 .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-018364f .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-17d3aed {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-ced875f {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3e4e065 {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-6ad06a8 {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c5f5f9d .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-193bd1c {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-67dd33dc {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-1f6ee780 {
+        --e-con-grid-template-columns: 1;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-161e0e6b {
+        --margin-top: 0px;
+        --margin-bottom: 30px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2d5768a .elementor-heading-title {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9f631e1 {
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-f56ab3e {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-bd813da .elementor-heading-title {
+        font-size: 26px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-579cb03 .elementor-heading-title {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-3493 .elementor-element.elementor-element-00f1102 {
+        --margin-top:60px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-31bc80d {
+        --e-con-grid-template-columns: 1;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e92b870 {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fca57c4 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fca57c4 .elementor-heading-title {
+        font-size: 2.5em;
+        line-height: 60px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fca57c4 > .elementor-widget-container {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d915c99 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d915c99 .elementor-heading-title {
+        font-size: 2.5em;
+        line-height: 25px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d915c99 > .elementor-widget-container {
+        margin: -1em 0em 0em 0em;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-29863e1 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2bdc59b:not(.elementor-motion-effects-element-type-background), .elementor-3493 .elementor-element.elementor-element-2bdc59b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-size: contain;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2bdc59b {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-722d2c1 > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-71e61c6 {
+        --padding-top: 60px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-65ca9aa .elementor-heading-title {
+        font-size: 32px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-65ca9aa > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9ca3c31 .elementor-heading-title {
+        font-size: 2.5em;
+        line-height: 1em;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-49adef1 {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --grid-auto-flow: row;
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-51d2582 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-56d2058 {
+        --e-con-grid-template-columns: 6fr 6fr;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-f8b1abc {
+        --padding-top: 50px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d1e9d67 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-abf7f37 {
+        --e-con-grid-template-columns: repeat(2, 1fr);
+        --grid-auto-flow: row;
+        --margin-top: 20px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-wrapper {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-1d11c4e .elementor-image-box-img {
+        margin-bottom: 40px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-wrapper {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fc87c09 .elementor-image-box-img {
+        margin-bottom: 40px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-wrapper {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-fd42623 .elementor-image-box-img {
+        margin-bottom: 40px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-wrapper {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-65b9c8c .elementor-image-box-img {
+        margin-bottom: 40px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-wrapper {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e54a06f .elementor-image-box-img {
+        margin-bottom: 40px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-dc4958b > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b18ba3a {
+        --margin-top: 60px;
+        --margin-bottom: 60px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 60px;
+        --padding-bottom: 60px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c20876f .elementor-heading-title {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-920698e {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476 .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-right .elementor-image-box-img {
+        margin-left: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-left .elementor-image-box-img {
+        margin-right: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476.elementor-position-top .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476 > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        background-size: contain;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-96cb476 {
+        --container-widget-width: 45%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width, 45% );
+        max-width: 45%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866 .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-right .elementor-image-box-img {
+        margin-left: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-left .elementor-image-box-img {
+        margin-right: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866.elementor-position-top .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866 > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        background-size: contain;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-353e866 {
+        --container-widget-width: 45%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width, 45% );
+        max-width: 45%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7 .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-right .elementor-image-box-img {
+        margin-left: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-left .elementor-image-box-img {
+        margin-right: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7.elementor-position-top .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7 > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        background-size: contain;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9dcd7e7 {
+        --container-widget-width: 45%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width, 45% );
+        max-width: 45%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-right .elementor-image-box-img {
+        margin-left: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-left .elementor-image-box-img {
+        margin-right: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e.elementor-position-top .elementor-image-box-img {
+        margin-bottom: 10px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+        background-size: contain;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d871a6e {
+        --container-widget-width: 45%;
+        --container-widget-flex-grow: 0;
+        width: var( --container-widget-width, 45% );
+        max-width: 45%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-d29ef57 {
+        --e-con-grid-template-columns: repeat(3, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-7aa9afe {
+        bottom: 0%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3825839 {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-60467cd .elementor-heading-title {
+        font-size: 56px;
+        line-height: 65px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-32fd391 {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-16b45d7 {
+        --margin-top: 60px;
+        --margin-bottom: 60px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-8acee34 {
+        --e-con-grid-template-columns: 1;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-314e375 {
+        --e-con-grid-template-columns: repeat(1, 1fr);
+        --gap: 0px 0px;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-35bdd0d {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-35bdd0d .elementor-heading-title {
+        font-size: 2em;
+        line-height: 1em;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-35bdd0d > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-4928aa2 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-4928aa2 .elementor-heading-title {
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-4928aa2 > .elementor-widget-container {
+        margin: -26px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-018364f {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-018364f .elementor-heading-title {
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-018364f > .elementor-widget-container {
+        margin: -44px 0px 0px 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-7d046e6 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-17d3aed {
+        --e-con-grid-template-columns: repeat(5, 1fr);
+        --grid-auto-flow: row;
+        --justify-items: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-17d3aed.e-con {
+        --align-self: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b49923b {
+        --padding-top: 0px;
+        --padding-bottom: 50px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-ced875f {
+        --e-con-grid-template-columns: repeat(2, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3e4e065 {
+        --width: 100%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-6ad06a8 {
+        --margin-top: 60px;
+        --margin-bottom: 60px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 20px;
+        --padding-bottom: 20px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-4157957 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c5f5f9d {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c5f5f9d .elementor-heading-title {
+        font-size: 50px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b806ea7 {
+        --e-image-carousel-slides-to-show: 3;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0dfffb7 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-baa2890 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-77b4318 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-90b166b {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3b25fe5 {
+        --padding-top: 40px;
+        --padding-bottom: 40px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c62a799 .elementor-heading-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-193bd1c {
+        --e-con-grid-template-columns: repeat(2, 1fr);
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-67dd33dc {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-1f6ee780 {
+        --e-con-grid-template-columns: 1;
+        --grid-auto-flow: row;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-7135b80f {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-7135b80f .elementor-heading-title {
+        font-size: 26px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2d5768a {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2d5768a .elementor-heading-title {
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-419fe7c9 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-339dc906 {
+        --margin-top: 20%;
+        --margin-bottom: 0%;
+        --margin-left: 0%;
+        --margin-right: 0%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-3d74b32 {
+        --width: 50%;
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-632e2ca img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-51ff081 {
+        --width: 50%;
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-a3f06d2 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-46a3fd6 {
+        --width: 50%;
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-e806501 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0a2a654 {
+        --width: 50%;
+        --flex-direction: row;
+        --container-widget-width: initial;
+        --container-widget-height: 100%;
+        --container-widget-flex-grow: 1;
+        --container-widget-align-self: stretch;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-ab53b49 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-33c78b2 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-a5ae447 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-557ce18 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-02b633e img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9c42959 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-bd3fb24 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-336da62 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-81b57c1 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-c3a1754 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-bdb7448 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-212cb53 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-ab41171 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-0c299d9 {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-2c9258b img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-336e32c {
+        --width: 50%;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-b861676 img {
+        height: 126px;
+        object-fit: cover;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9bae32f {
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-9f631e1 {
+        --e-con-grid-template-columns: 1;
+        --grid-auto-flow: row;
+        --padding-top: 0px;
+        --padding-bottom: 0px;
+        --padding-left: 0px;
+        --padding-right: 0px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-f56ab3e {
+        --margin-top: 0px;
+        --margin-bottom: 0px;
+        --margin-left: 0px;
+        --margin-right: 0px;
+        --padding-top: 60px;
+        --padding-bottom: 20px;
+        --padding-left: 20px;
+        --padding-right: 20px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-bd813da {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-bd813da .elementor-heading-title {
+        font-size: 26px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-579cb03 {
+        text-align: center;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-579cb03 .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-3493 .elementor-element.elementor-element-76bf6ee > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
