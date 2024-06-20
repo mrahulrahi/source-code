@@ -14,7 +14,7 @@ const iic = () => {
             <div className="col-lg-10 mx-auto">
               <div className="iqac-head text-center">
                 <div>
-                  <h4>National innovation and start-up policy (NISP)</h4>
+                  <h4>Institution’s Innovation Council (IIC)</h4>
                   <p>Ministry of Human Resource Development (MHRD), Govt. of India has established ‘MHRD’s Innovation Cell (MIC)’ to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes.</p>
                   <p>MIC has envisioned encouraging creation of ‘Institution’s Innovation Council (IIC)’ across selected HEIs. Gandhinagar University is one such selected HEI since 2019. A network of these IICs is established to promote innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campuses.</p>
                 </div>

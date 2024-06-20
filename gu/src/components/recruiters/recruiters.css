@@ -4,9 +4,11 @@
 .recruiters-heading h5 span {color: var(--gold);}
 .recruiters-heading h5 {font-size: 48px;font-weight: 800;line-height: 1.2;margin: 0;}
 .recruiters-heading {margin-bottom: 80px;}
-.recruiters-list-wrapper .swiper-wrapper{align-items:center;}
+.recruiters-list-wrapper .swiper-wrapper{align-items:center; transition-timing-function: linear;}
 .recruiters-list-wrapper {overflow: hidden;}
 .recruiters-item {display: flex;justify-content: center;align-items: center;}
+.recruiters-box{width: 100%;height: 100%;}
+.recruiters-box img{width: 100%;height: 100%;object-fit: contain;}
 .recruiters-swiper .swiper-slide {display: flex;justify-content: center;align-items: center;width: auto !important;}
 
 @media (max-width: 767.98px) {

@@ -16,7 +16,7 @@ const CardSlider = ({ slides, additionalClassName, additionalClassNametwo }) => 
               modules={[Navigation]}
               className="Cardslider"
               loop={true}
-              spaceBetween={10}
+              spaceBetween={16}
               breakpoints={{
                 320: {   
                   slidesPerView: 1,

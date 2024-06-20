@@ -44,10 +44,10 @@ const Recruiters = () => {
             </div>
             <div className="recruiters-list-wrapper">
               <Swiper
-                spaceBetween={50}
+                spaceBetween={70}
                 loop={true}
-                autoplay={{ delay: 0, disableOnInteraction: false }}
-                speed={3000}
+                autoplay={{enabled: true, delay: 1, disableOnInteraction: false }}
+                speed={5000}
                 modules={[Autoplay]}
                 breakpoints={{
                   320: { slidesPerView: 2 },
@@ -59,7 +59,7 @@ const Recruiters = () => {
               >
                 {recruiters.map((recruiter) => (
                   <SwiperSlide key={recruiter.id} className="recruiters-item">
-                    <img src={recruiter.img} alt={recruiter.name} />
+                    <div className="recruiters-box"><img src={recruiter.img} alt={recruiter.name} /></div>
                   </SwiperSlide>
                 ))}
               </Swiper>

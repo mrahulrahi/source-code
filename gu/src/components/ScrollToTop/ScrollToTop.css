@@ -1,0 +1,3 @@
+.scroll-to-top-wrapper{position: fixed;top: 50%;right: 6%;transform: translateY(-50%);width: 52px;height: 52px;padding: 5px;background: rgba(119, 150, 255, 0.16);z-index: 99;}
+.stt-icon{width: 100%;height: 100%;}
+.stt-icon img{width: 100%;height: 100%;object-fit: contain;}

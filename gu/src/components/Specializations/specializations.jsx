@@ -5,7 +5,6 @@ import arll from '../../assets/images/arll-cl-icon.svg';
 import ieee from '../../assets/images/ieee-cl-icon.svg';
 import gsirf from '../../assets/images/gsirf-cl-icon.svg';
 import iic from '../../assets/images/iic-icon.png';
-import spborder from '../../assets/images/sp-border.svg';
 
 const data = [
   { id: 1, img: nirfcl, name: "All India TOP", para: "200 University Ranking" },
@@ -29,7 +28,7 @@ const Specializations = () => {
               <ul className='sp-list'>
                 {data.map((item) => (
                   <li className='sp-item' key={item.id}>
-                    <div className="sp-box" style={{ backgroundImage: `url(${spborder})` }}>
+                    <div className="sp-box">
                       <div className="sp-img">
                         <img src={item.img} alt={item.name} />
                       </div>
