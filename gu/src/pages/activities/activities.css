@@ -1,26 +1,23 @@
-.activities-hero {
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 515px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding-top:90px;
+.activities-hero {width: 100%;background-repeat: no-repeat;height: 515px;background-size: cover;background-position: center;position: relative;padding-top:90px;}
+.activities-hero-img {width: 770px;left: 45.5%;transform: translateX(-50%);position: absolute;bottom: 0;}
+.activities-hero h1 {font-size: 96px;text-align: center;text-transform: uppercase;font-weight: 900;margin-top: 59px;color: #5476ad;}
+.ac-text {text-align: center;}
+.ac-text h4 {font-size: 49px;font-weight: 800;line-height: 1.1;color:#A69E87;}
+.ac-text p {max-width: 413px;text-align: center;margin: 0 auto;font-size: 18px;font-family: Courier Prime;color: #1D3459;line-height: 1.2;}
+
+
+@media(max-width:991.98px){
+   .activities-hero{ height:440px;}
 }
 
-.activities-hero-img {
-    width: 770px;
-    left: 45.5%;
-    transform: translateX(-50%);
-    position: absolute;
-    bottom: 0;
+@media(max-width:767.98px){  
+   .activities-hero{ height:380px;} 
 }
 
-.activities-hero h1 {
-    font-size: 96px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    margin-top: 59px;
-    color: #5476ad;
+
+@media(max-width:767.98px){
+    .activities-hero {height: 340px;}
 }
+    
+
+
