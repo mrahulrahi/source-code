@@ -1,21 +1,16 @@
 .ActivitiesCardBg {width: 100%;background-repeat: no-repeat;background-size: cover;background-position: center;height: 900px;display: flex;align-items: flex-end;padding-bottom: 114px;}
-.acard-box {    width: 100%;height: 100%; background-repeat: no-repeat;background-position: bottom;padding: 19px 21px;position: relative;overflow: hidden;min-height: 215px;border-radius: 18.24px;border: 1.52px solid #FFF;background-color: rgba(29, 52, 89, 0.46);backdrop-filter: blur(6.004000186920166px);background-size: contain;}
+.acard-box {width: 100%;height: 100%; background-repeat: no-repeat;background-position: bottom;padding: 19px 21px;position: relative;overflow: hidden;min-height: 215px;border-radius: 18.24px;border: 1.52px solid #FFF;background-color: rgba(29, 52, 89, 0.46);backdrop-filter: blur(6.004000186920166px);background-size: contain;}
 .acard-item h4 {color: #fff;}
 .acard-box h5 {font-size: 15px;color: #fff;margin-bottom: 12px;}
 .acard-box p {font-size: 12px;line-height: 1.2;max-width: 239px;color: #fff;margin-bottom: 32px;}
 .ac-btn {background: #fff;font-size: 9px;padding: 5px 17px;border-radius: 20px;color: #000;}
 .ab-icon {width: 27px;height: 27px;position: absolute;top: 10px;right: 11px;}
-.ActivitiesCard {padding: 0 168px;}
-.ActivitiesCard .swiper-button-prev {left: 65px;}
-.ActivitiesCard .swiper-button-next {right: 64px;}
+.ActivitiesCard {width: calc(100% - 160px);}
 .acard-item{width:100%; height:100%;}
-.ActivitiesCard .swiper-button-next {background-image: url('../../assets/images/yellow-right-arrow.png');right: 10px; }
-.ActivitiesCard .swiper-button-prev {background-image: url('../../assets/images/yellow-left-arrow.png'); left: 10px; }
+.activities-card-wrapper .custom-arrow-next {background-image: url('../../assets/images/yellow-right-arrow.png');}
+.activities-card-wrapper .custom-arrow-prev {background-image: url('../../assets/images/yellow-left-arrow.png');}
 
 @media(max-width:1199.98px){
-    .ActivitiesCard {padding: 0 120px; }
-    .ActivitiesCard .swiper-button-prev {left: 40px;}
-    .ActivitiesCard .swiper-button-next {right: 40px;}
     .acard-box h4 {font-size: 28px;}
     .acard-box h5 {font-size: 14px;}
     .ac-text h4 {font-size: 40px;}     
@@ -23,9 +18,6 @@
 }
 
 @media(max-width:991.98px){
-    .ActivitiesCard {padding: 0 90px; }
-    .ActivitiesCard .swiper-button-prev {left: 20px;}
-    .ActivitiesCard .swiper-button-next {right: 20px;}
     .ActivitiesCardBg{ height:700px;}
     .ac-text h4 {font-size: 34px;} 
     .activities-hero-img {width: 600px;}
@@ -33,9 +25,6 @@
 }
 
 @media(max-width:767.98px){
-    .ActivitiesCard {padding: 0 70px; }
-    .ActivitiesCard .swiper-button-prev {left: 10px;} 
-    .ActivitiesCard .swiper-button-next {right: 10px;}
     .ActivitiesCardBg{ height:500px;}
     .ac-text h4 {font-size: 28px;}  
     .ac-text p{ font-size:16px;}
@@ -45,10 +34,6 @@
 
 
 @media(max-width:575.98px){
-  
-    .ActivitiesCard {padding: 0 20px; }
-    .ActivitiesCard .swiper-button-prev {left: 0;} 
-    .ActivitiesCard .swiper-button-next {right: 0;}
     .ac-text h4 {font-size: 24px;}
     .ac-text p{ font-size:14px;}
     .activities-hero-img {width: 400px;}

@@ -1,14 +1,14 @@
 import React from 'react'
 import './ScrollToTop.css'
-import scrollToTop from '../../assets/images/scroll-to-top-icon.svg'
+import sttBorder from '../../assets/images/stt-border-icon.svg'
+import sttArrow from '../../assets/images/stt-arrow-icon.svg'
 
 const ScrollToTop = () => {
   return (
-    <div className="scroll-to-top-wrapper">
-        <div className="stt-icon">
-            <img src={scrollToTop} alt="" />
-        </div>
-    </div>
+    <a href="#" className="scroll-to-top-btn d-flex align-items-center justify-content-center">
+        <div className="stt-border-icon"><img src={sttBorder} alt="" /></div>
+        <div className="stt-arrow-icon"><img src={sttArrow} alt="" /></div>
+    </a>
   )
 }
 
