@@ -1,0 +1,62 @@
+.innerherotwo2.admission-inner-hero{font-size: 18px;color: var(--white);}
+.innerherotwo2.admission-inner-hero h1{font-weight: 700;text-transform: none;}
+.innerherotwo2.admission-inner-hero p{max-width: 430px;margin: 0 auto;font-family: var(--font-courier-prime);}
+.innerherotwo2.admission-inner-hero .btn{font-size: 18px;border-radius: 0;margin-top: 10px;}
+
+.innerherotwo2.admission-inner-hero + .content-container{margin-top: -70px;}
+
+.dn-nav-list.type-2 .dn-nav-item{width: 8.33%;min-width: 90px;}
+.dn-nav-list.type-2 .dn-nav-link{padding: 18px 20px;background: var(--blue);}
+.dn-nav-list.type-2 .dn-nav-item.active .dn-nav-link{background: var(--white);color: var(--blue);}
+.dn-nav-list.type-2 .dn-nav-link:hover{background: var(--white);color: var(--blue);}
+
+.admission-list-wrapper{position: relative;padding: 60px 26px 36px;height: 100%;background: linear-gradient(305.36deg, #6A634C 0%, #FFFDF9 100%);border-radius: 44px;overflow: hidden;backdrop-filter: blur(2px);}
+.admission-list-wrapper::before{content: '';position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: 1px;z-index: 1;background: linear-gradient(299.84deg, rgba(172, 165, 143, 0.26) 0%, rgba(232, 225, 205, 0.26) 100%);border-radius: 43px;}
+.admission-list-wrapper.blue{background: linear-gradient(105.12deg, #F0F6FF 0%, #2A4165 100%);}
+.admission-list-wrapper.blue::before{background: linear-gradient(299.84deg, rgba(63, 84, 119, 0.26) 0%, rgba(231, 240, 255, 0.26) 100%);}
+
+.admission-list-head{position: relative;z-index: 9;}
+.al-head-left h3{font-family: var(--font-roboto);font-size: 36px;font-weight: 800;line-height: 1.35;text-transform: uppercase;color: #CCC8AC;}
+.al-head-left h3 span{color: var(--white);display: block;}
+
+.al-head-right{width: 40%;font-family: var(--font-courier-prime);color: var(--white);font-size: 12px;}
+.fee-list{width: calc(100% + 32px);margin-left: -16px;margin-bottom: -16px;}
+.fee-item{width: 50%;padding: 0 16px;margin-bottom: 16px;}
+.fee-box{position: relative;padding: 12px 8px;height: 100%;background: linear-gradient(96.08deg, #FFF9E9 0%, #A69E87 100%);border-radius: 8px;overflow: hidden;}
+.fee-box::before{content: '';position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: 1px;z-index: 1;background: transparent;border-radius: 7px;}
+.fee-content{position: relative;z-index: 9;line-height: 1;}
+.fee-content h6{font-size: 12px;line-height: 1;margin-bottom: 2px;}
+.fee-content h5{font-size: 18px;line-height: 1;margin-bottom: 2px;}
+
+.admission-row{position: relative;z-index: 9;margin-top: 60px;}
+.admission-row h4{font-size: 24px;font-weight: 800;text-transform: uppercase;color: var(--white);margin-bottom: 22px;}
+.admission-list{width: calc(100% + 16px);margin-left: -16px;margin-bottom: -15px;}
+.admission-item{width: 20%;padding: 0 16px;margin-bottom: 15px;}
+
+.admission-apply-box{max-width: 207px;padding: 21px 0 0 28px;font-family: var(--font-courier-prime);position: absolute;bottom: 68px;right: 45px;color: var(--white);}
+.admission-apply-box h5{font-size: 18px;}
+.admission-apply-img{position: absolute;top: 0;left: 0;}
+.admission-apply-box .btn{border-radius: 8px;font-size: 18px;width: 100%;}
+
+@media (max-width:1199.98px){
+    .admission-item{width: 25%;}
+}
+
+
+@media (max-width:991.98px){
+    .al-head-left{width: 100%;}
+    .al-head-right{width: 100%;}
+
+    .admission-item{width: 33.33%;}
+}
+
+@media (max-width: 767.98px){
+    .admission-item{width: 50%;}
+}
+
+@media (max-width: 575.98px){
+    .admission-item{width: 100%;}
+    .fee-item{width: 100%;}
+
+    .admission-apply-box{position: static;margin-left: auto;margin-top: 50px;}
+}

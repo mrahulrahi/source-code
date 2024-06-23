@@ -13,14 +13,14 @@ const CardSlider = ({ slides, additionalClassName, additionalClassNametwo }) => 
           <div className="col-lg-12">
             <div className="card-slider-wrapper position-relative">
               <div className="custom-arrow-container d-flex align-items-center justify-content-between">
-                <a href="#!" className="custom-arrow custom-arrow-prev"></a>
-                <a href="#!" className="custom-arrow custom-arrow-next"></a>
+                <a href="#!" className="custom-arrow custom-arrow-prev card-slider-prev"></a>
+                <a href="#!" className="custom-arrow custom-arrow-next card-slider-next"></a>
               </div>
 
               <Swiper
                 navigation={{
-                  nextEl: ".custom-arrow-next",
-                  prevEl: ".custom-arrow-prev",
+                  nextEl: ".card-slider-next",
+                  prevEl: ".card-slider-prev",
                   disabledClass: "swiper-button-disabled"
                 }}
                 modules={[Navigation]}

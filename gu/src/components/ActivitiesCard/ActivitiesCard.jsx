@@ -14,16 +14,16 @@ const ActivitiesCard = ({ backgroundImage, slides, height }) => {
             <div className="col-lg-12">
               <div className="activities-card-wrapper position-relative">
                 <div className="custom-arrow-container d-flex align-items-center justify-content-between">
-                  <a href="#!" className="custom-arrow custom-arrow-prev"></a>
-                  <a href="#!" className="custom-arrow custom-arrow-next"></a>
+                  <a href="#!" className="custom-arrow custom-arrow-prev activities-card-prev"></a>
+                  <a href="#!" className="custom-arrow custom-arrow-next activities-card-next"></a>
                 </div>
 
                 <Swiper
                   slidesPerView={1}
                   spaceBetween={50}
                   navigation={{
-                    nextEl: ".custom-arrow-next",
-                    prevEl: ".custom-arrow-prev",
+                    nextEl: ".activities-card-next",
+                    prevEl: ".activities-card-prev",
                     disabledClass: "swiper-button-disabled"
                   }}
                   loop={true}
