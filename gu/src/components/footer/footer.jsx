@@ -12,6 +12,7 @@ import address from '../../assets/images/address-icon.svg';
 import phone from '../../assets/images/call-icon.svg';
 import mail from '../../assets/images/global-icon.svg';
 import footerbg from '../../assets/images/footer-bg-icon.svg';
+import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -112,6 +113,7 @@ const Footer = () => {
         </div>
         <div className="footer-bg" style={{ backgroundImage: `url(${footerbg})` }}> </div>
       </div>
+      <ScrollToTop />
     </React.Fragment>
   );
 }

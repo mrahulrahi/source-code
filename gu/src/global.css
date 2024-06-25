@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 ul,li{ padding:0; list-style-type: style none; margin:0;}
 
 
@@ -14,7 +15,9 @@ ul,li{ padding:0; list-style-type: style none; margin:0;}
 --font-inter: "Inter", sans-serif; 
 --font-courier-prime: "Courier Prime", monospace;
 --font-roboto: "Roboto", sans-serif; 
---font-Karantina: "Karantina", system-ui;}
+--font-Karantina: "Karantina", system-ui;
+--Alfa: "Alfa Slab One", serif;}
+
 
 /* =================reset css starts here=================  */
 *{margin:0;padding:0;}
@@ -83,7 +86,7 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 .gold-bg{background-color: #BAB699;}
 .blue-bg{background-color:#1D3459;}
 .blue-bg ul:not([class])>li:before{background: var(--white);}
-
+.blue-linear{background: linear-gradient(104deg, #1B3155 2.96%, #030A15 100%);}
 
 ::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);border-radius: 10px;background-color: #F5F5F5;}
 ::-webkit-scrollbar{width: 7px;background-color: #F5F5F5;}
@@ -103,7 +106,7 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 
 
 @media (max-width:1199.98px){
-.container{width: calc(100% - 16px); max-width: 1140px !important;} 
+ .container{width: calc(100% - 16px);max-width: 1140px!important;} 
 
 }
 
@@ -128,6 +131,8 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
     .heading h3{font-size: 30px;}
     .heading h4{font-size: 26px;}
     .heading br{display: none;}
+
+    .content-container{padding:40px 0;}
 }
 
 

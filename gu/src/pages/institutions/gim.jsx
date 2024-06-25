@@ -14,7 +14,6 @@ import gimPgdm from '../../data/gimPgdm.json';
 import InstitutionsAbout from '../../components/InstitutionsAbout/InstitutionsAbout';
 import Specializations from '../../components/Specializations/specializations';
 import ManBill from '../../assets/images/gimGif.gif';
-import { Height } from '@mui/icons-material';
 
 
 const gim = () => {

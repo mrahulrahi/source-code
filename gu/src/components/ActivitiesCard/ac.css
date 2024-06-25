@@ -38,6 +38,8 @@
     .ac-text p{ font-size:14px;}
     .activities-hero-img {width: 400px;}
     .activities-hero h1 {font-size: 44px;}
+    .ActivitiesCard {width: calc(100% - 56px);}
+    .custom-arrow {z-index: 11;}
         
 }
 
