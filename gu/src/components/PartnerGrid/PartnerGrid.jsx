@@ -34,37 +34,37 @@ const PartnerGrid = () => {
                             </div>
 
                             <div className="international-partners-item">
-                                <div className="international-partners-box w-100 h-100">
+                                <div className="international-partners-box w-100 h-100 d-flex">
                                     <div className="ip-image"><img src={ipImg1} alt="" /></div>
-                                    <div className="ip-content">South Ural State University</div>
+                                    <div className="ip-content align-self-end">South Ural State University</div>
                                 </div>
                             </div>
 
                             <div className="international-partners-item">
-                                <div className="international-partners-box w-100 h-100">
+                                <div className="international-partners-box w-100 h-100 d-flex">
                                     <div className="ip-image"><img src={ipImg2} alt="" /></div>
-                                    <div className="ip-content">ICEPD – Thailand</div>
+                                    <div className="ip-content align-self-end">ICEPD – Thailand</div>
                                 </div>
                             </div>
 
                             <div className="international-partners-item">
-                                <div className="international-partners-box w-100 h-100">
+                                <div className="international-partners-box w-100 h-100 d-flex">
                                     <div className="ip-image"><img src={ipImg3} alt="" /></div>
-                                    <div className="ip-content">BSUIR – Belarus</div>
+                                    <div className="ip-content align-self-end">BSUIR – Belarus</div>
                                 </div>
                             </div>
 
                             <div className="international-partners-item">
-                                <div className="international-partners-box w-100 h-100">
+                                <div className="international-partners-box w-100 h-100 d-flex">
                                     <div className="ip-image"><img src={ipImg4} alt="" /></div>
-                                    <div className="ip-content">ANU – Ukraine</div>
+                                    <div className="ip-content align-self-end">ANU – Ukraine</div>
                                 </div>
                             </div>
 
                             <div className="international-partners-item">
-                                <div className="international-partners-box w-100 h-100">
+                                <div className="international-partners-box w-100 h-100 d-flex">
                                     <div className="ip-image"><img src={ipImg5} alt="" /></div>
-                                    <div className="ip-content">Vali-e-Asr University</div>
+                                    <div className="ip-content align-self-end">Vali-e-Asr University</div>
                                 </div>
                             </div>
                         </div>

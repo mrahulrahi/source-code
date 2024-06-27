@@ -6,11 +6,13 @@
 .international-partners-head h3 small{font-size: 30px;}
 .international-partners-head h3 span{color: #CCC8AC;}
 .iph-logo-list{gap: 40px;}
-.international-partners-box{position: relative;border-radius: 20px;overflow: hidden;}
-.international-partners-box::before{content: '';width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: linear-gradient(180deg, rgba(151, 139, 129, 0) 48%, #000000 100%);}
-.ip-image{width: 100%;height: 100%;}
+.iph-logo-list li{width: 100%;height: 58px;}
+.iph-logo-list li img{width: 100%;height: 100%;object-fit: contain;}
+.international-partners-box{position: relative;min-height: 328px;border-radius: 20px;overflow: hidden;z-index: 1;}
+.international-partners-box::before{content: '';width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: linear-gradient(180deg, rgba(151, 139, 129, 0) 48%, #000000 100%);z-index: 3;}
+.ip-image{width: 100%;height: 100%;position: absolute;top: 0;left: 0;}
 .ip-image img{width: 100%;height: 100%;object-fit: cover;} 
-.ip-content{width: 100%;min-height: 118px;position: absolute;bottom: 0;left: 0;padding: 32px 24px;padding-right: 50%;z-index: 9;font-size: 18px;font-weight: 900;color: #DAD0B7;}
+.ip-content{width: 100%;min-height: 118px;position: relative;padding: 32px 24px;padding-right: 50%;font-size: 18px;font-weight: 900;color: #DAD0B7;z-index: 9;}
 
 @media (max-width:1199.98px){
     .international-partners-head h3{font-size: 42px;}
