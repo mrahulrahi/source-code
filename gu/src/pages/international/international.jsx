@@ -1,11 +1,12 @@
 import React from 'react';
 import './international.css';
+import PartnerGrid from '../../components/PartnerGrid/PartnerGrid';
 
 const international = () => {
   return (
     <React.Fragment>
 
-            <h1> international </h1>
+      <PartnerGrid />
 
     </React.Fragment>
   )

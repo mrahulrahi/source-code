@@ -106,7 +106,7 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 
 
 @media (max-width:1199.98px){
- .container{width: calc(100% - 16px);max-width: 1140px!important;} 
+ .container{width: calc(100% - 16px); max-width: 1140px !important;} 
 
 }
 
