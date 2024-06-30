@@ -1,19 +1,56 @@
 import React from 'react';
 import './international.css';
-import PartnerGrid from '../../components/PartnerGrid/PartnerGrid';
 import { Link } from 'react-router-dom';
+import InnerHeroBg from '../../assets/images/inner-img-17.jpg';
+import iihCardImg from '../../assets/images/iih-card-img.png'
+import iihBottomImg from '../../assets/images/iih-bottom-img.png'
+import PartnerGrid from '../../components/PartnerGrid/PartnerGrid';
 import InstituteCard from '../../components/InstituteCard/InstituteCard';
 import iopBgImg from '../../assets/images/iop-bg-img.svg'
 import iopCardIcon1 from '../../assets/images/iop-card-icon-1.svg'
 import iopCardIcon2 from '../../assets/images/iop-card-icon-2.svg'
 import iopCardIcon3 from '../../assets/images/iop-card-icon-3.svg'
 
+
 const international = () => {
 
-  const card1 = { "shortName": "Git" }
+  const card1 = { "shortName": "Git", "name": "Technology" }
+  const card2 = { "shortName": "Gim", "name": "Management" }
 
   return (
     <React.Fragment>
+
+      <div className="innerherotwo2 international-inner-hero" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 mx-auto">
+              <div className="iih-card-box d-flex flex-column flex-md-row justify-content-between">
+                <div className="iih-card-content">
+                  <h1>‘A school with mind, <br /> heart, and a constant fizz!’</h1>
+                  <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                  <Link className="btn btn-default">Contact Now</Link>
+                </div>
+
+                <div className="iih-card-img ms-auto ms-md-0"><img src={iihCardImg} alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="content-container iih-bottom-container">
+        <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
+        <div className="container add-index">
+          <div className="row">
+            <div className="col-lg-10 mx-auto">
+              <div className="iih-bottom-content-box text-center">
+                <h2>‘A school with mind, <br /> heart, and a constant fizz!’</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <PartnerGrid />
       <div className="content-container institute-card-container bg-blue">
@@ -65,7 +102,7 @@ const international = () => {
             </div>
 
             <div className="col-lg-11 mx-auto">
-              <InstituteCard card={card1} />
+              <InstituteCard card={card2} />
             </div>
           </div>
         </div>
@@ -85,7 +122,7 @@ const international = () => {
                     During this time orientation programs play a vital role to help international students to settle down into an entirely new routine. Such orientation provides general information about the locality, academic practices within the university, and introduction to the academic and administrative process, and library system, it also encourages the students to know each other and lay a foundation of friendships.</p>
                 </div>
 
-                <div className="iop-card-list d-flex flex-wrap">
+                <div className="iop-card-list d-flex">
                   <div className="iop-card-item">
                     <div className="iop-card-box d-flex flex-column">
                       <div className='iop-card-icon'><img src={iopCardIcon1} alt="" /></div>

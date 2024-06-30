@@ -5,35 +5,40 @@ const InstituteCard = ({ card }) => {
     return (
         <div className="institute-card-box">
             <h4>{card.shortName}</h4>
-            <h6><span>Gandhinagar Institute of</span> Technology</h6>
+            <h6><span>Gandhinagar Institute of</span> {card.name}</h6>
             <div className="ic-program-row">
                 <h5>B.Tech</h5>
-                <ul className="ic-program-list d-flex">
+                <ul className="icp-list d-flex flex-wrap">
                     <li>Civil Engineering</li>
                     <li>Computer Engineering</li>
                     <li>Electrical Engineering</li>
                     <li>Electronics & Communication Engineering</li>
+                    <li>Information Technology</li>
+                    <li>Mechanical Engineering</li>
+                    <li>Computer Science & Engineering</li>
+                    <li>Information & Communication Technology</li>
+                    <li>Cyber Security</li>
+                    <li>Artificial Intelligence.</li>
                 </ul>
             </div>
             
             <div className="ic-program-row">
-                <h5>B.Tech</h5>
-                <ul className="ic-program-list d-flex">
-                    <li>Civil Engineering</li>
-                    <li>Computer Engineering</li>
-                    <li>Electrical Engineering</li>
-                    <li>Electronics & Communication Engineering</li>
+                <h5>Masters</h5>
+                <ul className="icp-list d-flex flex-wrap">
+                    <li>Mechanical Engineering (Thermal Engineering)</li>
+                    <li>Mechanical Engineering (CAD/CAM)</li>
+                    <li>Computer Engineering (Software Engineering).</li>
                 </ul>
             </div>
 
             <div className="ic-bottom-row d-flex flex-column align-items-end">
                 <p>Admissions at Gandhinagar University is done through The
                     Admission Committee for Professional Courses (ACPC)</p>
-                <div className="ic-program-list d-flex">
+                <div className="ic-program-list d-flex flex-wrap justify-content-end">
                     <div className="ic-program-item">
-                        <div className="ic-program-box">
+                        <div className="ic-program-box w-100 h-100">
                             <h5>Bachelor’s</h5>
-                            <div className="icp-details-wrapper d-flex">
+                            <div className="icp-details-wrapper d-flex justify-content-between">
                                 <div className="icp-details-list">
                                     <div className="icp-details-item">
                                         <h6>Tuition Fees:</h6>
@@ -50,9 +55,9 @@ const InstituteCard = ({ card }) => {
                     </div>
 
                     <div className="ic-program-item">
-                        <div className="ic-program-box">
+                        <div className="ic-program-box w-100 h-100">
                             <h5>Master’s</h5>
-                            <div className="icp-details-wrapper d-flex">
+                            <div className="icp-details-wrapper d-flex justify-content-between">
                                 <div className="icp-details-list">
                                     <div className="icp-details-item">
                                         <h6>Tuition Fees:</h6>
