@@ -1,5 +1,8 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './international.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import InnerHeroBg from '../../assets/images/inner-img-17.jpg';
 import iihCardImg from '../../assets/images/iih-card-img.png'
@@ -10,9 +13,18 @@ import iopBgImg from '../../assets/images/iop-bg-img.svg'
 import iopCardIcon1 from '../../assets/images/iop-card-icon-1.svg'
 import iopCardIcon2 from '../../assets/images/iop-card-icon-2.svg'
 import iopCardIcon3 from '../../assets/images/iop-card-icon-3.svg'
-
+import iihGraphic1 from '../../assets/images/graduation-cap-img-1.png'
+import iihGraphic2 from '../../assets/images/graduation-cap-img-2.png'
 
 const international = () => {
+
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
 
   const card1 = { "shortName": "Git", "name": "Technology" }
   const card2 = { "shortName": "Gim", "name": "Management" }
@@ -20,37 +32,42 @@ const international = () => {
   return (
     <React.Fragment>
 
-      <div className="innerherotwo2 international-inner-hero" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 mx-auto">
-              <div className="iih-card-box d-flex flex-column flex-md-row justify-content-between">
-                <div className="iih-card-content">
-                  <h1>‘A school with mind, <br /> heart, and a constant fizz!’</h1>
-                  <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
-                  <Link className="btn btn-default">Contact Now</Link>
+      <div className="overflow-hidden">
+        <div className="innerherotwo2 international-inner-hero" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 mx-auto">
+                <div className="iih-card-box d-flex flex-column flex-md-row justify-content-between">
+                  <div className="iih-card-content">
+                    <h1>‘A school with mind, <br /> heart, and a constant fizz!’</h1>
+                    <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                    <Link className="btn btn-default">Contact Now</Link>
+                  </div>
+
+                  <div className="iih-card-img ms-auto ms-md-0"><img src={iihCardImg} alt="" /></div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <div className="iih-card-img ms-auto ms-md-0"><img src={iihCardImg} alt="" /></div>
+
+        <div className="content-container iih-bottom-container" data-aos="fade-up">
+          <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
+          <div className="iih-bottom-graphic-1"><img src={iihGraphic1} alt="" /></div>
+          <div className="iih-bottom-graphic-2"><img src={iihGraphic2} alt="" /></div>
+          <div className="container add-index">
+            <div className="row">
+              <div className="col-lg-10 mx-auto">
+                <div className="iih-bottom-content-box text-center">
+                  <h2>‘A school with mind, <br /> heart, and a constant fizz!’</h2>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-
-      <div className="content-container iih-bottom-container">
-        <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
-        <div className="container add-index">
-          <div className="row">
-            <div className="col-lg-10 mx-auto">
-              <div className="iih-bottom-content-box text-center">
-                <h2>‘A school with mind, <br /> heart, and a constant fizz!’</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <PartnerGrid />
       <div className="content-container institute-card-container bg-blue">

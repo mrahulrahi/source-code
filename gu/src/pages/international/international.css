@@ -1,4 +1,4 @@
-.innerherotwo2.international-inner-hero{padding: 50px 0;}
+.innerherotwo2.international-inner-hero{padding: 50px 0;position: relative;}
 .iih-card-box{position: relative;min-height: 378px;border-radius: 24px;border: 1px solid rgba(255, 255, 255, 0.7);background: linear-gradient(129.71deg, rgba(208, 201, 179, 0.31) 0%, rgba(143, 134, 104, 0.31) 100%);backdrop-filter: blur(6px);}
 .iih-card-box .iih-card-content{padding: 50px 37px;font-size: 18px;color: var(--white);}
 .iih-card-box .iih-card-content h1{font-family:  var(--font-inter);font-size: 50px;font-weight: 700;line-height: 1.1;text-transform: initial;text-align: left;}
@@ -6,12 +6,20 @@
 .iih-card-box .iih-card-img{width: 280px;margin-top: -35px;flex-shrink: 0;margin-right: 18px;}
 .iih-card-box .iih-card-img img{width: 100%;height: 100%;object-fit: contain;object-position: bottom;}
 .iih-card-box .iih-card-content .btn{font-size: 18px;border-radius: 0;margin-top: 10px;}
+.innerherotwo2.international-inner-hero::after{content: '';width: 100%;height: 108px;position: absolute;left: 0;bottom: -40px;background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.092) 100%);backdrop-filter: blur(12px);z-index: 9;}
 
 .iih-bottom-container{position: relative;height: 1100px;padding-top: 100px;}
 .iih-bottom-container::after{top: 0;left: 0;width: 100%;height: 100%;content: '';position: absolute;background-image: url(../../assets/images/iih-bottom-graphic.png);background-repeat: no-repeat;background-position: bottom center;background-size: contain;}
 .iih-bottom-img{width: 100%;height: 100%;background: var(--white);position: absolute;top: 0;left: 0;}
 .iih-bottom-img img{width: 100%;height: 100%;object-fit: contain;object-position: bottom;}
 .iih-bottom-content-box h2{font-size: 50px;font-weight: 700;line-height: 1.1;color: #A69E87;margin-bottom: 0;}
+.iih-bottom-graphic-1{width: 795px;position: absolute;top: -250px;left: -45%;transform: rotate(20deg);z-index: 99;transition: all .2s ease-in;}
+.iih-bottom-graphic-1 img{width: 100%;height: 100%;object-fit: contain;}
+.iih-bottom-graphic-2{width: 970px;position: absolute;top: -250px;right: -45%;transform: rotate(-20deg);z-index: 99;transition: all .2s ease-in;}
+.iih-bottom-graphic-2 img{width: 100%;height: 100%;object-fit: contain;}
+
+.aos-animate .iih-bottom-graphic-1{left: -20%;transform: none;}
+.aos-animate .iih-bottom-graphic-2{right: -20%;transform: none;}
 
 .dn-nav-list.type-3 .dn-nav-item{width: 8.33%;min-width: 90px;}
 .dn-nav-list.type-3 .dn-nav-link{padding: 18px 20px;background: rgba(255, 255, 255, 0.23);}

@@ -428,6 +428,7 @@ const admissions = () => {
           </div>
         </div>
       </div>
+
     </React.Fragment>
   )
 }

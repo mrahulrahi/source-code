@@ -1,7 +1,7 @@
-.innerherotwo2.admission-inner-hero{font-size: 18px;color: var(--white); flex-direction: column; background-attachment: fixed;padding-bottom: 50px;}
+.innerherotwo2.admission-inner-hero{font-size: 18px;color: var(--white); flex-direction: column; background-attachment: fixed;}
 .innerherotwo2.admission-inner-hero .container.hero-container{padding-bottom:10%;}
 .innerherotwo2.admission-inner-hero h1{font-weight: 700;text-transform: none;}
-.innerherotwo2.admission-inner-hero .hero-container p{max-width: 430px;margin: 0 auto;font-family: var(--font-courier-prime);}
+.innerherotwo2.admission-inner-hero p{max-width: 430px;margin: 0 auto;font-family: var(--font-courier-prime);}
 .innerherotwo2.admission-inner-hero .btn{font-size: 18px;border-radius: 0;margin-top: 10px;}
 
 .background-image.admissions{filter: blur(0); top: 69px;}
@@ -12,7 +12,7 @@
 .dn-nav-list.type-2 .dn-nav-link:hover{background: var(--white);color: var(--blue);}
 
 .admission-list-wrapper{position: relative; padding: 60px 26px 36px; height: 100%; border-radius: 44px; overflow: hidden; border: 1px solid #6A634C; background: linear-gradient(300deg, rgba(172, 165, 143, 0.26) 0%, rgba(232, 225, 205, 0.26) 100%); backdrop-filter: blur(12px);}
-.admission-list-wrapper.blue{border: 1px solid #F0F6FF;background: linear-gradient(300deg, rgba(63, 84, 119, 0.26) 0%, rgba(231, 240, 255, 0.26) 100%);}
+.admission-list-wrapper.blue{    border: 1px solid #F0F6FF;background: linear-gradient(300deg, rgba(63, 84, 119, 0.26) 0%, rgba(231, 240, 255, 0.26) 100%);}
 .admission-list-head{position: relative;z-index: 9;}
 .al-head-left h3{font-family: var(--font-roboto);font-size: 36px;font-weight: 800;line-height: 1.35;text-transform: uppercase;color: #CCC8AC;}
 .al-head-left h3 span{color: var(--white);display: block;}
@@ -20,7 +20,8 @@
 .al-head-right{width: 40%;font-family: var(--font-courier-prime);color: var(--white);font-size: 12px;}
 .fee-list{width: calc(100% + 32px);margin-left: -16px;margin-bottom: -16px;}
 .fee-item{width: 50%;padding: 0 16px;margin-bottom: 16px;}
-.fee-box{position: relative;padding: 12px 8px;height: 100%;background: transparent;box-sizing: border-box;border-width: 1px;border-style: solid;border-image: linear-gradient(96.08deg, #FFF8E3 0%, #A69E87 100%), round;border-image-slice: 1;border-radius: 8px;overflow: hidden;}
+.fee-box{position: relative;padding: 12px 8px;height: 100%;background: linear-gradient(96.08deg, #FFF9E9 0%, #A69E87 100%);border-radius: 8px;overflow: hidden;}
+.fee-box::before{content: '';position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: 1px;z-index: 1;background: transparent;border-radius: 7px;}
 .fee-content{position: relative;z-index: 9;line-height: 1;}
 .fee-content h6{font-size: 12px;line-height: 1;margin-bottom: 2px;}
 .fee-content h5{font-size: 18px;line-height: 1;margin-bottom: 2px;}
