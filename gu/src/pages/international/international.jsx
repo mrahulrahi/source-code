@@ -26,7 +26,7 @@ const international = () => {
     });
   }, []);
 
-  const card1 = { "shortName": "Git", "name": "Technology" }
+  const card1 = { "shortName": "Git", "name": "Technology", "programs": [{ "title": "B.Tech", "list": ["Civil Engineering", "Computer Engineering", "Electrical Engineering", "Electronics & Communication Engineering", "Information Technology", "Mechanical Engineering", "Computer Science & Engineering", "Information & Communication Technology", "Cyber Security", "Artificial Intelligence."]}, { "title": "Masters", "list": ["Mechanical Engineering (Thermal Engineering)", "Mechanical Engineering (CAD/CAM)", "Computer Engineering (Software Engineering)."]}], "cards": [{"degree": "Bachelor’s", "tuitionFees": "3,200", "totalPackage:": "12,800", "years": "02"},{"degree": "Master’s", "tuitionFees": "4,000", "totalPackage:": "8,800", "years": "02"}] }
   const card2 = { "shortName": "Gim", "name": "Management" }
 
   return (
@@ -118,9 +118,9 @@ const international = () => {
               <InstituteCard card={card1} />
             </div>
 
-            <div className="col-lg-11 mx-auto">
+            {/* <div className="col-lg-11 mx-auto">
               <InstituteCard card={card2} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

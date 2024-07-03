@@ -13,13 +13,13 @@
 .iih-bottom-img{width: 100%;height: 100%;background: var(--white);position: absolute;top: 0;left: 0;}
 .iih-bottom-img img{width: 100%;height: 100%;object-fit: contain;object-position: bottom;}
 .iih-bottom-content-box h2{font-size: 50px;font-weight: 700;line-height: 1.1;color: #A69E87;margin-bottom: 0;}
-.iih-bottom-graphic-1{width: 795px;position: absolute;top: -250px;left: -45%;transform: rotate(20deg);z-index: 99;transition: all .2s ease-in;}
+.iih-bottom-graphic-1{width: 530px;position: absolute;top: -200px;left: -20%;transform: rotate(20deg);z-index: 99;transition: all .2s ease-in;}
 .iih-bottom-graphic-1 img{width: 100%;height: 100%;object-fit: contain;}
-.iih-bottom-graphic-2{width: 970px;position: absolute;top: -250px;right: -45%;transform: rotate(-20deg);z-index: 99;transition: all .2s ease-in;}
+.iih-bottom-graphic-2{width: 728px;position: absolute;top: -200px;right: -20%;transform: rotate(-20deg);z-index: 99;transition: all .2s ease-in;}
 .iih-bottom-graphic-2 img{width: 100%;height: 100%;object-fit: contain;}
 
 .aos-animate .iih-bottom-graphic-1{left: -20%;transform: none;}
-.aos-animate .iih-bottom-graphic-2{right: -20%;transform: none;}
+.aos-animate .iih-bottom-graphic-2{right: -25%;transform: none;}
 
 .dn-nav-list.type-3 .dn-nav-item{width: 8.33%;min-width: 90px;}
 .dn-nav-list.type-3 .dn-nav-link{padding: 18px 20px;background: rgba(255, 255, 255, 0.23);}
