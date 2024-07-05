@@ -1,0 +1,33 @@
+.home-facility-container .heading{color: var(--white);}
+.home-facility-container .heading h2{color: var(--white);}
+.home-recruiters-container .recruiters-heading{color: var(--white);}
+.home-recruiters-container .recruiters-box img{mix-blend-mode: Luminosity;}
+
+.placement-overview-container{padding: 24px 0;background: rgba(243, 243, 243, 0.11);}
+.placement-overview-container h5{font-size: 18px;font-weight: 800;line-height: 1;margin-bottom: 25px;}
+.po-box{max-width: 102px;font-size: 9px;font-weight: 700;line-height: 2;}
+.po-box span{display: block;font-size: 29px;font-weight: 800;line-height: 1.1;}
+
+.bg-transparent{background: transparent;}
+
+@media (max-width:1199.98px){
+
+   
+}
+
+
+@media(max-width:991.98px){
+
+}
+
+
+@media (max-width: 767.98px) {
+
+}
+
+
+@media(max-width:575.98px){
+
+}
+   
+   

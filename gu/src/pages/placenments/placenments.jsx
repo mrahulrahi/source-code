@@ -79,7 +79,7 @@ const Placements = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h1>ANNOUNCEMENTS</h1>
+              <h1>PLACEMENTS</h1>
             </div>
           </div>
         </div>

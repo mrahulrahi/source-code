@@ -27,13 +27,11 @@ const international = () => {
   }, []);
 
   const card1 = { "shortName": "Git", "name": "Technology", "programs": [{ "title": "B.Tech", "list": ["Civil Engineering", "Computer Engineering", "Electrical Engineering", "Electronics & Communication Engineering", "Information Technology", "Mechanical Engineering", "Computer Science & Engineering", "Information & Communication Technology", "Cyber Security", "Artificial Intelligence."]}, { "title": "Masters", "list": ["Mechanical Engineering (Thermal Engineering)", "Mechanical Engineering (CAD/CAM)", "Computer Engineering (Software Engineering)."]}], "cards": [{"degree": "Bachelor’s", "tuitionFees": "3,200", "totalPackage:": "12,800", "years": "02"},{"degree": "Master’s", "tuitionFees": "4,000", "totalPackage:": "8,800", "years": "02"}] }
-  const card2 = { "shortName": "Gim", "name": "Management" }
-
   return (
     <React.Fragment>
 
       <div className="overflow-hidden">
-        <div className="innerherotwo2 international-inner-hero" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
+        <div className="innerherotwo2 international-inner-hero type3" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-10 mx-auto">
@@ -43,7 +41,6 @@ const international = () => {
                     <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
                     <Link className="btn btn-default">Contact Now</Link>
                   </div>
-
                   <div className="iih-card-img ms-auto ms-md-0"><img src={iihCardImg} alt="" /></div>
                 </div>
               </div>
@@ -52,24 +49,28 @@ const international = () => {
         </div>
 
 
-        <div className="content-container iih-bottom-container" data-aos="fade-up">
-          <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
-          <div className="iih-bottom-graphic-1"><img src={iihGraphic1} alt="" /></div>
-          <div className="iih-bottom-graphic-2"><img src={iihGraphic2} alt="" /></div>
-          <div className="container add-index">
-            <div className="row">
-              <div className="col-lg-10 mx-auto">
-                <div className="iih-bottom-content-box text-center">
-                  <h2>‘A school with mind, <br /> heart, and a constant fizz!’</h2>
+       <div className="">
+          <div className="shadow-box"></div>
+          <div className="content-container iih-bottom-container" data-aos="fade-up">
+            <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
+            <div className="iih-bottom-graphic-1"><img src={iihGraphic1} alt="" /></div>
+            <div className="iih-bottom-graphic-2"><img src={iihGraphic2} alt="" /></div>
+            <div className="container add-index">
+              <div className="row">
+                <div className="col-lg-10 mx-auto">
+                  <div className="iih-bottom-content-box text-center">
+                    <h2>‘A school with mind, <br /> heart, and a constant fizz!’</h2>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+       </div>
+        
       </div>
 
 
-      <PartnerGrid />
+      <PartnerGrid className="bg-blue" />
       <div className="content-container institute-card-container bg-blue">
         <div className="container">
           <div className="row g-3">
@@ -113,14 +114,9 @@ const international = () => {
                 </li>
               </ul>
             </div>
-
             <div className="col-lg-11 mx-auto">
               <InstituteCard card={card1} />
             </div>
-
-            {/* <div className="col-lg-11 mx-auto">
-              <InstituteCard card={card2} />
-            </div> */}
           </div>
         </div>
       </div>

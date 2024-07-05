@@ -18,7 +18,7 @@ const admissions = () => {
             </div>
           </div>
         </div>
-        <div className="container add-index">
+        <div className="container add-index pb-5">
           <div className="row g-1">
             <div className="col-lg-11 mx-auto">
               <ul className="dn-nav-list type-2 d-flex justify-content-between">

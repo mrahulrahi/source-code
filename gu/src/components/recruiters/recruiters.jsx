@@ -32,9 +32,9 @@ const recruiters = [
   { id: 16, name: 'Cipla', img: cipla },
 ];
 
-const Recruiters = () => {
+const Recruiters = ({className}) => {
   return (
-    <div className="content-container">
+    <div className={`content-container ${className}`}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

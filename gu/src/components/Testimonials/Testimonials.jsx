@@ -1,5 +1,5 @@
 import React from 'react';
-import './Ic.css';
+import './Testimonials.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -23,7 +23,7 @@ import amazonIcon from '../../assets/images/amazon-icon.svg';
 
 
 
-const InfoCompany = () => {
+const Testimonials = () => {
   return (
     <React.Fragment>
 
@@ -33,13 +33,12 @@ const InfoCompany = () => {
              <div className="row">
 
                  <div className="col-lg-5">
-                     <div className="placementslider-text">
-                         <h4> <span> Our Top </span> Placements </h4>
-                         <p> To provide affordable quality education, while equipping students with knowledge and skills in their chosen stream, inculcate values, identify hidden talents, provide opportunities for students to realize their full potential and thus shape them into future leaders, entrepreneurs and above all good human beings. </p>
+                     <div className="testimonials-slider-text">
                          <div className="pt-flag">
-                             <h5> Over </h5>
-                             <h3> 300+ </h3>
-                             <h2> Students Got Hired In <br />Top Companies </h2>
+                             <h5> Student </h5>
+                             <h3> T e s t i m -
+                             o n i a l s </h3>
+                             <p>The campus provides a refreshing environment with different facilities which makes our students feel at home. </p>
                          </div>
                      </div>
                  </div>
@@ -57,12 +56,12 @@ const InfoCompany = () => {
                           768: { slidesPerView: 2 },
                           1199: { slidesPerView: 3 }
                         }}
-                        className="placementSlider"
+                        className="testimonialsSlider"
                     >
 
                             <SwiperSlide>
-                                <div className="placement-item">
-                                    <div className="placement-box">
+                                <div className="testimonials-item">
+                                    <div className="testimonials-box">
                                        <div className="pi-img"> <img src={tcsImg1} alt="" /> </div>
                                         <div className="pi-text">
                                              <h4> Tanya B. </h4>
@@ -75,8 +74,8 @@ const InfoCompany = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="placement-item">
-                                    <div className="placement-box">
+                                <div className="testimonials-item">
+                                    <div className="testimonials-box">
                                        <div className="pi-img"> <img src={tcsImg2} alt="" /> </div>
                                         <div className="pi-text">
                                              <h4> Tanmay J. </h4>
@@ -89,8 +88,8 @@ const InfoCompany = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="placement-item">
-                                    <div className="placement-box">
+                                <div className="testimonials-item">
+                                    <div className="testimonials-box">
                                        <div className="pi-img"> <img src={tcsImg3} alt="" /> </div>
                                         <div className="pi-text">
                                              <h4> rita N. </h4>
@@ -103,8 +102,8 @@ const InfoCompany = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="placement-item">
-                                    <div className="placement-box">
+                                <div className="testimonials-item">
+                                    <div className="testimonials-box">
                                        <div className="pi-img"> <img src={tcsImg4} alt="" /> </div>
                                         <div className="pi-text">
                                              <h4> ben t. </h4>
@@ -128,4 +127,4 @@ const InfoCompany = () => {
   );
 }
 
-export default InfoCompany;
+export default Testimonials;

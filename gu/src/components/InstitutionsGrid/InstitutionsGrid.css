@@ -21,23 +21,21 @@
 .institutions-box:hover .institutions-hover-box .institutions-hover-letter{transform: translateX(0);}
 
 @media (max-width:1199.98px){
-    .institutions-content{padding: 30px;}
+    .institutions-grid{grid-template-columns: repeat(auto-fill, 20%);}  
 }
     
     
 @media(max-width:991.98px){
-    .institutions-grid{grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));}          
-    .institutions-item:last-child{grid-column: span 2;}
+    .institutions-grid{grid-template-columns: repeat(auto-fill, 25%);}          
 }
     
     
 @media (max-width: 767.98px) {
-
+    .institutions-grid{grid-template-columns: repeat(auto-fill, 33.33%);}   
 }
 
 
 @media(max-width:575.98px){
-    .institutions-grid{grid-template-columns: 100%;}  
-    .institutions-item:last-child{grid-column: 1;}   
-    .institutions-item:nth-child(5){order: 7;}
+    .institutions-grid{grid-template-columns: repeat(auto-fill, 50%);}   
+    .institutions-grid .institutions-item.col-span-3{grid-column: span 2;}
 }

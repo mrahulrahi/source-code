@@ -42,37 +42,37 @@ const Footer = () => {
                          <div className="fubi-heading"> <h4> About Us </h4> </div>
                          <div className="fcb-list">
                             <div className="fub-item"> 
-                                <div className="fi-link"> <Link to='/'> Campus Facilities </Link>  </div>
-                                <div className="fi-link"> <Link to='/'> Admissions </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Internationals </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Exams </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Placements </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Activity </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Gallery </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Announcements </Link> </div>
-                                <div className="fi-link"> <Link to='/'> Contact Us </Link> </div>
+                                <div className="fi-link"> <Link to='campus-facilities'> Campus Facilities </Link>  </div>
+                                <div className="fi-link"> <Link to='admissions'> Admissions </Link> </div>
+                                <div className="fi-link"> <Link to='international'> Internationals </Link> </div>
+                                <div className="fi-link"> <Link to='exam'> Exams </Link> </div>
+                                <div className="fi-link"> <Link to='placements'> Placements </Link> </div>
+                                <div className="fi-link"> <Link to='activity'> Activity </Link> </div>
+                                <div className="fi-link"> <Link to='gallery'> Gallery </Link> </div>
+                                <div className="fi-link"> <Link to='announcements'> Announcements </Link> </div>
+                                <div className="fi-link"> <Link to='contact'> Contact Us </Link> </div>
                             </div>
                             <div className="fub-item"> 
                                  <div className="fubi-box-list">
                                      <div className="fubi-box-item">
-                                         <div className="fi-link"> <Link to='/'> Alumni </Link>  </div>
+                                         <div className="fi-link"> <Link to='alumni'> Alumni </Link>  </div>
                                          <div className="fi-link"> <Link to='/'> GIT Helpline for COVID-19 </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> Publications </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> MOU </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> Achievements </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> UIC </Link> </div>
+                                         <div className="fi-link"> <Link to='publications'> Publications </Link> </div>
+                                         <div className="fi-link"> <Link to='mou'> MOU </Link> </div>
+                                         <div className="fi-link"> <Link to='achievements'> Achievements </Link> </div>
+                                         <div className="fi-link"> <Link to='uic'> UIC </Link> </div>
                                      </div>
                                      <div className="fubi-box-item">
-                                         <div className="fi-link"> <Link to='/'> IIC </Link>  </div>
-                                         <div className="fi-link"> <Link to='/'> NISP </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> IQAC </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> Approvals </Link> </div>
-                                         <div className="fi-link"> <Link to='/'> Career </Link> </div>
+                                         <div className="fi-link"> <Link to='iic'> IIC </Link>  </div>
+                                         <div className="fi-link"> <Link to='nisp'> NISP </Link> </div>
+                                         <div className="fi-link"> <Link to='iqac'> IQAC </Link> </div>
+                                         <div className="fi-link"> <Link to='approvals'> Approvals </Link> </div>
+                                         <div className="fi-link"> <Link to='career'> Career </Link> </div>
                                      </div>
                                  </div>
                             </div>
                             <div className="fub-item"> 
-                                <div className="fi-link"> <Link to='/'> Admissions </Link>  </div>
+                                <div className="fi-link"> <Link to='admissions'> Admissions </Link>  </div>
                                 <div className="fi-link"> <Link to='/'> Scholarships and Grants </Link> </div>
                                 <div className="fi-link"> <Link to='/'> Student Finance </Link> </div>
                                 <div className="fi-link"> <Link to='/'> Experience MDX Dubai </Link> </div>

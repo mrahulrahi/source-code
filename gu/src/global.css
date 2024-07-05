@@ -28,7 +28,7 @@ a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================reset css ends here================= */
 /* =================core css starts here================= */
 body{font-family: var(--font-inter);font-size:15px;font-weight:400;font-style: normal;line-height:1.5;color: inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background: var(--white);}
-.container{width:100%;max-width:1366px !important; margin:0 auto;}
+.container{width:100%;max-width:1366px!important;margin:0 auto;}
 .container.container-2{max-width: 1286px!important;}
 .container-fluid{max-width: 1440px;}
 .content-container{padding: 60px 0;}

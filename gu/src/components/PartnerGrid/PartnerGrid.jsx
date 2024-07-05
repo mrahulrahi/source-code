@@ -12,9 +12,9 @@ import iphLogo4 from '../../assets/images/iph-logo-img-4.png'
 import iphLogo5 from '../../assets/images/iph-logo-img-5.png'
 
 
-const PartnerGrid = () => {
+const PartnerGrid = ({className}) => {
     return (
-        <div className="content-container bg-blue">
+        <div className={`content-container ${className}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
