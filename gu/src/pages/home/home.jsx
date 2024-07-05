@@ -10,11 +10,11 @@ import Specializations from '../../components/Specializations/specializations';
 import Heading from '../../components/heading/heading';
 import InfoCompany from '../../components/InfoCompany/InfoCompany';
 
-import Inco1 from '../../assets/images/Inco1.svg';
-import Inco2 from '../../assets/images/Inco2.svg';
-import Inco3 from '../../assets/images/Inco3.svg';
-import Inco4 from '../../assets/images/Inco4.svg';
-import Inco5 from '../../assets/images/Inco5.svg';
+import ifIcon1 from '../../assets/images/institute-feature-icon-1.svg';
+import ifIcon2 from '../../assets/images/institute-feature-icon-2.svg';
+import ifIcon3 from '../../assets/images/institute-feature-icon-3.svg';
+import ifIcon4 from '../../assets/images/institute-feature-icon-4.svg';
+import ifIcon5 from '../../assets/images/institute-feature-icon-5.svg';
 import Testimonials from '../../components/Testimonials/Testimonials';
 
 
@@ -23,41 +23,40 @@ const home = () => {
     <React.Fragment>
       <div className="blue-linear">
         <Innerhero backgroundImage={inner1} title="Institution’s Innovation Council" />
-        <h1> Home </h1>
 
         <InstitutionsGrid />
-        <div className="content-container blue-linear">
+        <div className="institute-feature-container">
           <div className="container">
             <div className="row">
               <div className="col-lg-10 mx-auto">
-                <div className="inco-list">
-                  <div className="inco-item">
-                    <div className="inco-img">  <img src={Inco1} alt="" />  </div>
-                    <div className="inco-text">
+                <div className="institute-feature-list">
+                  <div className="institute-feature-item">
+                    <div className="institute-feature-img">  <img src={ifIcon1} alt="" />  </div>
+                    <div className="institute-feature-text">
                       <h4> Best Quality Infrastructure & Digital Resources </h4>
                     </div>
                   </div>
-                  <div className="inco-item">
-                    <div className="inco-img">  <img src={Inco2} alt="" />  </div>
-                    <div className="inco-text">
+                  <div className="institute-feature-item">
+                    <div className="institute-feature-img">  <img src={ifIcon2} alt="" />  </div>
+                    <div className="institute-feature-text">
                       <h4> Quality in Teaching & Student Development </h4>
                     </div>
                   </div>
-                  <div className="inco-item">
-                    <div className="inco-img">  <img src={Inco3} alt="" />  </div>
-                    <div className="inco-text">
+                  <div className="institute-feature-item">
+                    <div className="institute-feature-img">  <img src={ifIcon3} alt="" />  </div>
+                    <div className="institute-feature-text">
                       <h4> Relevant Curriculum on a Local, National & Global Levels </h4>
                     </div>
                   </div>
-                  <div className="inco-item">
-                    <div className="inco-img">  <img src={Inco4} alt="" />  </div>
-                    <div className="inco-text">
+                  <div className="institute-feature-item">
+                    <div className="institute-feature-img">  <img src={ifIcon4} alt="" />  </div>
+                    <div className="institute-feature-text">
                       <h4> Highest academic degree value upon Graduation </h4>
                     </div>
                   </div>
-                  <div className="inco-item">
-                    <div className="inco-img">  <img src={Inco5} alt="" />  </div>
-                    <div className="inco-text">
+                  <div className="institute-feature-item">
+                    <div className="institute-feature-img">  <img src={ifIcon5} alt="" />  </div>
+                    <div className="institute-feature-text">
                       <h4> Top quality research and innovation Initiatives </h4>
                     </div>
                   </div>

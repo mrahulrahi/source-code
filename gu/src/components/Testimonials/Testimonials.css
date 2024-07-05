@@ -24,12 +24,11 @@
 .pi-logo {width: 76px;}
 .pi-logo-text {color: #CCC8AC;font-size: 12px;font-weight: 900;line-height: 1;}
 .testimonialsSlider .swiper-slide.swiper-slide-active {width: 379px !important;height: 440px !important;}
-.testimonialsSlider .swiper-wrapper {align-items: end; } 
+.testimonialsSlider .swiper-wrapper {align-items: center; } 
 .testimonialsSlider .swiper-button-prev:after, .swiper-button-next:after {display:none;}
 .testimonialsSlider .swiper-button-prev{background-image: url(../../assets//images/yellow-left-arrow.png);width: 45px !important;height: 45px !important;background-position: center;background-repeat: no-repeat;background-size: contain;left: 360px !important;bottom: 96px;top: auto !important;     fill: rgba(255, 255, 255, 0.83);filter: drop-shadow(0px 5px 9.1px rgba(0, 0, 0, 0.54)); backdrop-filter: blur(4.800000190734863px); border-radius: 100%; overflow: hidden;}
 .testimonialsSlider .swiper-button-next{background-image: url(../../assets//images/yellow-right-arrow.png);width: 45px !important;height: 45px !important;background-position: center;background-repeat: no-repeat;background-size: contain;     fill: rgba(255, 255, 255, 0.83);filter: drop-shadow(0px 5px 9.1px rgba(0, 0, 0, 0.54));backdrop-filter: blur(4.800000190734863px); border-radius: 100%; overflow: hidden;}
 .testimonialsSlider .swiper-button-next, .swiper-rtl .swiper-button-prev {right: 30px;left: auto;bottom: 98px;top: auto;}
-.testimonialsSlider{overflow:visible !important;}
 
 
 @media (max-width:1199.98px){

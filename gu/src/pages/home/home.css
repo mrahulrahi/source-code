@@ -1,3 +1,12 @@
+.institute-feature-container{padding: 21px;background: #0D1D38;}
+.institute-feature-list {display: flex;flex-wrap: wrap;width: calc(100% + 20px);margin-left: -10px;justify-content: center;}
+.institute-feature-item {width: 20%;position: relative;padding:0 10px;}
+.institute-feature-img {width: auto;height: 35px;margin: 0 auto;}
+.institute-feature-img img {width: 100%;height: 100%;object-fit: contain;}
+.institute-feature-text h4 {font-size: 9px;text-align: center;margin-top: 18px !important;color: #fff;font-weight: 200;width: 160px;margin: 0 auto;}
+.institute-feature-item:after {content: '';position: absolute;width: 3px;height: 70px;background: rgba(255, 255, 255, 0.16);top: 50%;right: 0;transform: translateY(-50%);}
+.institute-feature-item:last-child:after{display:none;}
+
 .home-facility-container .heading{color: var(--white);}
 .home-facility-container .heading h2{color: var(--white);}
 .home-recruiters-container .recruiters-heading{color: var(--white);}

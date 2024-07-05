@@ -5,10 +5,6 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import { Autoplay } from 'swiper/modules';
-import { Navigation } from 'swiper/modules';
-
-
-
 
 
 import tcsImg1 from '../../assets/images/Placements-img-1.jpg';
@@ -42,15 +38,14 @@ const Testimonials = () => {
                          </div>
                      </div>
                  </div>
-                 <div className="col-lg-6">
+                 <div className="col-lg-7">
                  <Swiper
                         spaceBetween={7}
                         loop={true}
                         slidesPerView={3}
+                        centeredSlides={true}
                         speed={1000}
-                        modules={[Autoplay, Navigation]}
-                        navigation
-                        pagination={{ clickable: true }}
+                        modules={[Autoplay]}W
                         breakpoints={{
                           480: { slidesPerView: 1 },
                           768: { slidesPerView: 2 },

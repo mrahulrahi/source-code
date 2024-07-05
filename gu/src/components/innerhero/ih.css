@@ -3,7 +3,7 @@
 
 
 @media (max-width:1199.98px){
-    
+    .innerhero{background-attachment: scroll;}
     .innerhero h1 {font-size: 64px;}
     
 }
