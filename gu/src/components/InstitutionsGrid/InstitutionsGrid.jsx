@@ -1,7 +1,10 @@
 import React from 'react'
 import './InstitutionsGrid.css'
+import { Link } from 'react-router-dom'
 import institutionsImg from '../../assets/images/institutions-grid-img.jpg'
 import institutionsIcon from '../../assets/images/institutions-grid-icon.svg'
+import arrowIcon from '../../assets/images/institutions-arrow-icon.svg'
+
 
 
 const InstitutionsGrid = () => {
@@ -11,7 +14,6 @@ const InstitutionsGrid = () => {
                 <div className="institutions-box w-full h-full relative">
                     <div className="institutions-img relative"><img src={institutionsImg} alt="" /></div>
                     <div className="institutions-title">OUR INSTITUTIONS</div>
-
                 </div>
             </div>
             <div className="institutions-item">
@@ -21,6 +23,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Technology</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -32,6 +35,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Skill Development</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -43,6 +47,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Liberal Studies</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -54,6 +59,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Management</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -65,6 +71,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Science</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -76,6 +83,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Commerce</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -87,6 +95,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Computer Scie....</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -98,6 +107,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>LAW</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -109,6 +119,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Valuation Studies</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -120,6 +131,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Research & Devel....</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -131,6 +143,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Pharmacy</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>
@@ -142,6 +155,7 @@ const InstitutionsGrid = () => {
                         <div className="institutions-content mt-auto">
                             <h6>Design</h6>
                             <p>Lorem ipsum dolor sit amet consectetur. Nibh dignissim sagittis ornare et duis blandit mattis.....</p>
+                            <Link className="institutions-link d-flex align-items-center" to="#!">Explore Now <span><img src={arrowIcon} alt="" /></span></Link>
                         </div>
                     </div>
                 </div>

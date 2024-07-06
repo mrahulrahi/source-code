@@ -1,21 +1,27 @@
 import React from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
 import Innerhero from '../../components/innerhero/innerhero';
 import inner1 from '../../assets/images/inner-img-1.jpg';
+import Heading from '../../components/heading/heading';
 import InstitutionsGrid from '../../components/InstitutionsGrid/InstitutionsGrid';
 import FacilityGrid from '../../components/FacilityGrid/FacilityGrid';
 import PartnerGrid from '../../components/PartnerGrid/PartnerGrid';
 import Recruiters from '../../components/recruiters/recruiters';
 import Specializations from '../../components/Specializations/specializations';
-import Heading from '../../components/heading/heading';
 import InfoCompany from '../../components/InfoCompany/InfoCompany';
+import Testimonials from '../../components/Testimonials/Testimonials';
 
 import ifIcon1 from '../../assets/images/institute-feature-icon-1.svg';
 import ifIcon2 from '../../assets/images/institute-feature-icon-2.svg';
 import ifIcon3 from '../../assets/images/institute-feature-icon-3.svg';
 import ifIcon4 from '../../assets/images/institute-feature-icon-4.svg';
 import ifIcon5 from '../../assets/images/institute-feature-icon-5.svg';
-import Testimonials from '../../components/Testimonials/Testimonials';
+import homeAboutImg from '../../assets/images/flying-drone-img.png';
+import homeAboutBg from '../../assets/images/home-about-bg.svg';
+import homeEventBg from '../../assets/images/home-event-bg.jpg';
+
+
 
 
 const home = () => {
@@ -28,7 +34,7 @@ const home = () => {
         <div className="institute-feature-container">
           <div className="container">
             <div className="row">
-              <div className="col-lg-10 mx-auto">
+              <div className="col-xl-11 mx-auto">
                 <div className="institute-feature-list">
                   <div className="institute-feature-item">
                     <div className="institute-feature-img">  <img src={ifIcon1} alt="" />  </div>
@@ -59,6 +65,46 @@ const home = () => {
                     <div className="institute-feature-text">
                       <h4> Top quality research and innovation Initiatives </h4>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="home-about-container relative overflow-hidden">
+          <div className="home-about-bg"><img src={homeAboutBg} alt="" /></div>
+          <div className="container add-index">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="d-flex flex-wrap">
+                  <div className="home-about-content">
+                    <h2><span>GANDHINAGAR</span> UNIVERSITY</h2>
+                    <p>The responsibility and power of a university is to create an enabling environment of active learning and become a centre of excellence that develops visionary leaders and passionate professionals who contribute to the community and the country. It is a endeavour that demands the courage and commitment to pursue the dream with energy and effort. Gandhinagar University is an institution of the future, holistic in its approach and determined on the use of technology to provide the best inputs for the students to achieve their potential and beyond.</p>
+                    <Link to="#!" className="btn btn-outline">Learn More</Link>
+                  </div>
+                  <div className="home-about-img d-flex align-items-center justify-content-center">
+                    <img src={homeAboutImg} alt="About" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="home-event-container relative overflow-hidden">
+          <div className="home-event-bg"><img src={homeEventBg} alt="" /></div>
+          <div className="container add-index">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="d-flex flex-wrap">
+                  <div className="home-event-content">
+                    <h2><span>GANDHINAGAR</span> UNIVERSITY</h2>
+                    <p>The responsibility and power of a university is to create an enabling environment of active learning and become a centre of excellence that develops visionary leaders and passionate professionals who contribute to the community and the country. It is a endeavour that demands the courage and commitment to pursue the dream with energy and effort. Gandhinagar University is an institution of the future, holistic in its approach and determined on the use of technology to provide the best inputs for the students to achieve their potential and beyond.</p>
+                    <Link to="#!" className="btn btn-outline">Learn More</Link>
+                  </div>
+                  <div className="home-event-img d-flex align-items-center justify-content-center">
+          
                   </div>
                 </div>
               </div>

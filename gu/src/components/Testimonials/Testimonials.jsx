@@ -6,120 +6,101 @@ import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import { Autoplay } from 'swiper/modules';
 
-
-import tcsImg1 from '../../assets/images/Placements-img-1.jpg';
-import tcsImg2 from '../../assets/images/Placements-img-2.jpg';
-import tcsImg3 from '../../assets/images/Placements-img-3.jpg';
-import tcsImg4 from '../../assets/images/Placements-img-4.jpg';
-import tcsIcon from '../../assets/images/tcs-icon.svg';
-import byjusIcon from '../../assets/images/byjus-icon.svg';
-import flipkartIcon from '../../assets/images/flipkart-icon.svg';
-import amazonIcon from '../../assets/images/amazon-icon.svg';
-
-
+import testimonialBGIcon from '../../assets/images/testimonials-bg-icon.svg';
+import testimonialImg1 from '../../assets/images/testimonials-img-1.png';
+import testimonialImg2 from '../../assets/images/testimonials-img-2.png';
 
 
 const Testimonials = () => {
-  return (
-    <React.Fragment>
-
-
-      <div className="content-container overflow-hidden">
-         <div className="container">
-             <div className="row">
-
-                 <div className="col-lg-5">
-                     <div className="testimonials-slider-text">
-                         <div className="pt-flag">
-                             <h5> Student </h5>
-                             <h3> T e s t i m -
-                             o n i a l s </h3>
-                             <p>The campus provides a refreshing environment with different facilities which makes our students feel at home. </p>
-                         </div>
-                     </div>
-                 </div>
-                 <div className="col-lg-7">
-                 <Swiper
-                        spaceBetween={7}
-                        loop={true}
-                        slidesPerView={3}
-                        centeredSlides={true}
-                        speed={1000}
-                        modules={[Autoplay]}W
-                        breakpoints={{
-                          480: { slidesPerView: 1 },
-                          768: { slidesPerView: 2 },
-                          1199: { slidesPerView: 3 }
-                        }}
-                        className="testimonialsSlider"
-                    >
-
-                            <SwiperSlide>
-                                <div className="testimonials-item">
-                                    <div className="testimonials-box">
-                                       <div className="pi-img"> <img src={tcsImg1} alt="" /> </div>
-                                        <div className="pi-text">
-                                             <h4> Tanya B. </h4>
-                                             <div className="pi-box">
-                                                 <div className="pi-logo"> <img src={tcsIcon} alt="" /> </div>
-                                                 <div className="pi-logo-text"> LPA: 09  </div>
-                                             </div>
-                                        </div>
-                                    </div>
+    return (
+        <React.Fragment>
+            <div className="content-container overflow-hidden">
+                <div className="container">
+                    <div className="row g-5">
+                        <div className="col-lg-4">
+                            <div className="testimonials-left position-relative h-100">
+                                <div className="testimonials-left-bg w-100 h-100 position-absolute top-0 start-0">
+                                    <img className="w-100 h-100 object-fit-contain" src={testimonialBGIcon} alt="" />
                                 </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="testimonials-item">
-                                    <div className="testimonials-box">
-                                       <div className="pi-img"> <img src={tcsImg2} alt="" /> </div>
-                                        <div className="pi-text">
-                                             <h4> Tanmay J. </h4>
-                                             <div className="pi-box">
-                                                 <div className="pi-logo"> <img src={byjusIcon} alt="" /> </div>
-                                                 <div className="pi-logo-text"> LPA: 09  </div>
-                                             </div>
-                                        </div>
-                                    </div>
+                                <div className="position-relative z-3">
+                                    <h5> Student </h5>
+                                    <h3> T e s t i m - o n i a l s </h3>
+                                    <p>The campus provides a refreshing environment with different facilities which makes our students feel at home. </p>
                                 </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="testimonials-item">
-                                    <div className="testimonials-box">
-                                       <div className="pi-img"> <img src={tcsImg3} alt="" /> </div>
-                                        <div className="pi-text">
-                                             <h4> rita N. </h4>
-                                             <div className="pi-box">
-                                                 <div className="pi-logo"> <img src={flipkartIcon} alt="" /> </div>
-                                                 <div className="pi-logo-text"> LPA: 09  </div>
-                                             </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-8 pt-5 pt-lg-0">
+                            <div className="testimonials-right">
+                                <Swiper
+                                    spaceBetween={0}
+                                    loop={true}
+                                    slidesPerView={'auto'}
+                                    centeredSlides={true}
+                                    speed={1000}
+                                    modules={[ Autoplay ]}
+                                    className="testimonialsSlider"
+                                >
+                                    <SwiperSlide className="testimonials-item">
+                                        <div className="testimonials-box">
+                                            <div className="testimonials-box-inner">
+                                                <div className="testimonials-img"> <img src={testimonialImg1} alt="" /> </div>
+                                                <div className="testimonials-content">
+                                                    <div className="testimonials-name-box">
+                                                        <h5>Nikhita B.</h5>
+                                                    </div>
+                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="testimonials-item">
-                                    <div className="testimonials-box">
-                                       <div className="pi-img"> <img src={tcsImg4} alt="" /> </div>
-                                        <div className="pi-text">
-                                             <h4> ben t. </h4>
-                                             <div className="pi-box">
-                                                 <div className="pi-logo"> <img src={amazonIcon} alt="" /> </div>
-                                                 <div className="pi-logo-text"> LPA: 09  </div>
-                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
-                 </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="testimonials-item">
+                                        <div className="testimonials-box">
+                                            <div className="testimonials-box-inner">
+                                                <div className="testimonials-img"> <img src={testimonialImg2} alt="" /> </div>
+                                                <div className="testimonials-content">
+                                                    <div className="testimonials-name-box">
+                                                        <h5>Nikhil B.</h5>
+                                                    </div>
 
-             </div>
-         </div>
-      </div>
-
-    
-    </React.Fragment>
-  );
+                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="testimonials-item">
+                                        <div className="testimonials-box">
+                                            <div className="testimonials-box-inner">
+                                                <div className="testimonials-img"> <img src={testimonialImg1} alt="" /> </div>
+                                                <div className="testimonials-content">
+                                                    <div className="testimonials-name-box">
+                                                        <h5>Nikhita B.</h5>
+                                                    </div>
+                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="testimonials-item">
+                                        <div className="testimonials-box">
+                                            <div className="testimonials-box-inner">
+                                                <div className="testimonials-img"> <img src={testimonialImg2} alt="" /> </div>
+                                                <div className="testimonials-content">
+                                                    <div className="testimonials-name-box">
+                                                        <h5>Nikhil B.</h5>
+                                                    </div>
+                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </React.Fragment>
+    );
 }
 
 export default Testimonials;
