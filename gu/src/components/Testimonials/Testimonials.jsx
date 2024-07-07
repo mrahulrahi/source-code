@@ -32,12 +32,15 @@ const Testimonials = () => {
                         <div className="col-lg-8 pt-5 pt-lg-0">
                             <div className="testimonials-right">
                                 <Swiper
+                                    slidesPerView={'auto'}
                                     spaceBetween={0}
                                     loop={true}
-                                    slidesPerView={'auto'}
                                     centeredSlides={true}
-                                    speed={1000}
-                                    modules={[ Autoplay ]}
+                                    autoplay={{
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    }}
+                                    modules={[Autoplay]}
                                     className="testimonialsSlider"
                                 >
                                     <SwiperSlide className="testimonials-item">

@@ -31,7 +31,7 @@ const about = () => {
           </div>
        </div>
        
-       <div className="content-container about-container">
+       <div className="content-container about-container text-blue">
            <div className="container">
                <div className="row">
                    <div className="col-lg-8 mx-auto">
@@ -89,7 +89,7 @@ const about = () => {
            </div>
        </div>
 
-       <div className="content-container school-lable">
+       <div className="content-container school-lable text-blue">
           <div className="container">
              <div className="row">
 
@@ -109,7 +109,7 @@ const about = () => {
           </div>
        </div>
 
-       <div className="content-container school-notics">
+       <div className="content-container school-notics text-white">
            <div className="container">
                <div className="row">
                    <div className="col-lg-11 offset-lg-1">
@@ -123,19 +123,18 @@ const about = () => {
                                <p> A school with mind, heart, and a constant fizz!’</p>
                            </div>
                        </div>
-
                    </div>
                </div>
            </div>
        </div>
 
-       <div className="content-container">
+       <div className="content-container text-blue">
            <div className="container">
                <div className="row">
                    <div className="col-lg-11 mx-auto">
 
                        <div className="facilities-heading">
-                           <h4> OUR <span> FACILITIES </span>  </h4>
+                           <h4><span>OUR</span> FACILITIES</h4>
                            <p> The campus provides a refreshing environment with <br/> different facilities which makes our students feel at home.  </p>
                        </div>
 

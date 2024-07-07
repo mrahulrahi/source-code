@@ -18,12 +18,11 @@
 .school-text {padding-left: 12px;}
 .content-container.school-lable{ padding-top:165px;padding-bottom:0;}
 .content-container.school-notics{background: #EAC76D;padding-top: 182px;padding-bottom: 200px;overflow: hidden;}
-.school-notics-text h4 {font-size: 37px;line-height: 1.2;margin-bottom: 62px;}
+.school-notics-text h4 {font-size: 36px;line-height: 1.2;margin-bottom: 62px;}
 .school-notics-text {padding-left: 18px;}
-.school-notics-text span {font-size: 30px;}
-.school-box {width: 100vw;height: 236px;border-radius: 157.5px 0px 157.5px 157.5px;background: #FFF;padding: 56px 30px 40px 102px;font-size: 26px;position: relative;}
-.school-box h5 {font-size: 49px;line-height: 0.99;margin-bottom: 0;}
-.school-box h5 {font-size: 49px;line-height: 0.93;margin-bottom: 0;}
+.school-notics-text span {font-size: 30px;font-weight: 400;}
+.school-box {width: 100vw;height: 236px;border-radius: 157.5px 0px 157.5px 157.5px;background: var(--white);padding: 56px 30px 40px 102px;font-size: 24px;position: relative;color: #D0AE57;}
+.school-box h5 {font-size: 48px;line-height: 1;margin-bottom: 0;}
 .school-icon1 {position: absolute;width: 167px;bottom: -137px;left: 116px;}
 .school-icon2 {position: absolute;width: 210px;top: -98px;right: 26%;}
 .facilities-item {width: 100%;height: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
@@ -35,7 +34,7 @@
 .fb-lable p {font-size: 17px;color: #fff;}
 .fb-lable h5 {font-size: 18px;margin-bottom: 2px;color: #fff;}
 .facilities-heading h4 {font-size: 54px;text-align: center;font-weight: 800;line-height: 1;margin-bottom: 5px;}
-.facilities-heading h4 span{ color: #ccc8ac;}
+.facilities-heading h4 span{ color: #B5AE81;}
 .facilities-heading {text-align: center;margin: 0 auto;line-height: 1.2;margin-bottom: 96px;}
 .facilities-item+.facilities-item {margin-top: 122px;}
 

@@ -79,7 +79,7 @@ const Alumni = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="alumni-data">
+              <div className="alumni-data text-blue">
                 <h4>GIT ALUMNI ASSOCIATION</h4>
                 <h5>JOINING PROCEDURE</h5>
                 <ul className="al-list">

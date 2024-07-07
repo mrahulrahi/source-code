@@ -26,6 +26,7 @@ import hecIcon2 from '../../assets/images/Inco2.svg';
 import hecIcon3 from '../../assets/images/Inco3.svg';
 import hecIcon4 from '../../assets/images/Inco4.svg';
 import hecIcon5 from '../../assets/images/Inco5.svg';
+import FloatingButton from '../../components/FloatingButton/FloatingButton';
 
 
 
@@ -33,7 +34,8 @@ import hecIcon5 from '../../assets/images/Inco5.svg';
 const home = () => {
   return (
     <React.Fragment>
-      <div className="blue-linear">
+      <div className="blue-linear overflow-hidden">
+        <FloatingButton />
         <Innerhero backgroundImage={inner1} title="Institution’s Innovation Council" />
 
         <InstitutionsGrid />
@@ -98,11 +100,11 @@ const home = () => {
           </div>
         </div>
 
-        <div className="home-event-container relative overflow-hidden">
+        <div className="home-event-container relative">
           <div className="home-event-bg"><img src={homeEventBg} alt="" /></div>
           <div className="container add-index">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-md-12">
                 <div className="d-flex flex-column">
                   <div className="home-event-head text-center mx-auto">
                     <h2>WHAT MAKES US <span>BETTER?</span></h2>
@@ -110,7 +112,7 @@ const home = () => {
                   </div>
                   <div className="home-event-content">
                     <div className="row g-5">
-                      <div className="col-lg-6">
+                      <div className="col-md-6">
                         <div className="home-event-left">
                           <div className="he-head">
                             <h4>GU TeCHNO EVENT</h4>
@@ -131,22 +133,22 @@ const home = () => {
                             </div>
                           </div>
                           <div className="he-row d-flex flex-wrap">
-                              <div className="he-item">
-                                <div className="he-box d-flex flex-column w-100 h-100">
-                                  <h5>Top 5</h5>
-                                  <p>Among the top 5 Universities of Gujarat To Receive the Highest NAAC Grade</p>
-                                </div>
+                            <div className="he-item">
+                              <div className="he-box d-flex flex-column w-100 h-100">
+                                <h5>Top 5</h5>
+                                <p>Among the top 5 Universities of Gujarat To Receive the Highest NAAC Grade</p>
                               </div>
                             </div>
+                          </div>
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6">
                         <div className="home-event-right">
                           <div className="he-head">
                             <h4>GU TeCHNO EVENT</h4>
                             <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
                           </div>
-                          <div className="he-card-list d-flex flex-wrap">
+                          <div className="he-card-list d-flex flex-wrap justify-content-center">
                             <div className="he-card-item">
                               <div className="he-card-box d-flex flex-column w-100 h-100">
                                 <div className="he-card-icon"><img src={hecIcon1} alt="" /></div>
@@ -196,13 +198,13 @@ const home = () => {
           <Specializations />
         </div>
 
-        <div className="content-container home-facility-container blue-transparent">
+        <div className="content-container home-facility-container">
           <Heading sheading="OUR" shheading="FACILITIES" spara=" The campus provides a refreshing environment with <br /> different facilities which makes our students feel at home." />
           <FacilityGrid />
         </div>
-        <PartnerGrid className="blue-transparent" />
-        <Recruiters className="home-recruiters-container blue-transparent" />
-        <div className="content-container bg-transparent">
+        <PartnerGrid className="home-partners-container" />
+        <Recruiters className="home-recruiters-container" />
+        <div className="home-placement-container content-container ">
           <InfoCompany />
         </div>
         <div className="placement-overview-container">
@@ -241,7 +243,6 @@ const home = () => {
           </div>
         </div>
         <Testimonials />
-
       </div>
     </React.Fragment>
   )

@@ -26,7 +26,7 @@ const international = () => {
     });
   }, []);
 
-  const card1 = { "shortName": "Git", "name": "Technology", "programs": [{ "title": "B.Tech", "list": ["Civil Engineering", "Computer Engineering", "Electrical Engineering", "Electronics & Communication Engineering", "Information Technology", "Mechanical Engineering", "Computer Science & Engineering", "Information & Communication Technology", "Cyber Security", "Artificial Intelligence."]}, { "title": "Masters", "list": ["Mechanical Engineering (Thermal Engineering)", "Mechanical Engineering (CAD/CAM)", "Computer Engineering (Software Engineering)."]}], "cards": [{"degree": "Bachelor’s", "tuitionFees": "3,200", "totalPackage:": "12,800", "years": "02"},{"degree": "Master’s", "tuitionFees": "4,000", "totalPackage:": "8,800", "years": "02"}] }
+  const card1 = { "shortName": "Git", "name": "Technology", "programs": [{ "title": "B.Tech", "list": ["Civil Engineering", "Computer Engineering", "Electrical Engineering", "Electronics & Communication Engineering", "Information Technology", "Mechanical Engineering", "Computer Science & Engineering", "Information & Communication Technology", "Cyber Security", "Artificial Intelligence."] }, { "title": "Masters", "list": ["Mechanical Engineering (Thermal Engineering)", "Mechanical Engineering (CAD/CAM)", "Computer Engineering (Software Engineering)."] }], "cards": [{ "degree": "Bachelor’s", "tuitionFees": "3,200", "totalPackage:": "12,800", "years": "02" }, { "degree": "Master’s", "tuitionFees": "4,000", "totalPackage:": "8,800", "years": "02" }] }
   return (
     <React.Fragment>
 
@@ -48,8 +48,7 @@ const international = () => {
           </div>
         </div>
 
-
-       <div className="">
+        <div>
           <div className="shadow-box"></div>
           <div className="content-container iih-bottom-container" data-aos="fade-up">
             <div className="iih-bottom-img"><img src={iihBottomImg} alt="" /></div>
@@ -65,10 +64,8 @@ const international = () => {
               </div>
             </div>
           </div>
-       </div>
-        
+        </div>
       </div>
-
 
       <PartnerGrid className="bg-blue" />
       <div className="content-container institute-card-container bg-blue">
