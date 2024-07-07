@@ -21,6 +21,12 @@ import homeAboutImg from '../../assets/images/flying-drone-img.png';
 import homeAboutBg from '../../assets/images/home-about-bg.svg';
 import homeEventBg from '../../assets/images/home-event-bg.jpg';
 
+import hecIcon1 from '../../assets/images/Inco1.svg';
+import hecIcon2 from '../../assets/images/Inco2.svg';
+import hecIcon3 from '../../assets/images/Inco3.svg';
+import hecIcon4 from '../../assets/images/Inco4.svg';
+import hecIcon5 from '../../assets/images/Inco5.svg';
+
 
 
 
@@ -97,14 +103,88 @@ const home = () => {
           <div className="container add-index">
             <div className="row">
               <div className="col-lg-12">
-                <div className="d-flex flex-wrap">
-                  <div className="home-event-content">
-                    <h2><span>GANDHINAGAR</span> UNIVERSITY</h2>
-                    <p>The responsibility and power of a university is to create an enabling environment of active learning and become a centre of excellence that develops visionary leaders and passionate professionals who contribute to the community and the country. It is a endeavour that demands the courage and commitment to pursue the dream with energy and effort. Gandhinagar University is an institution of the future, holistic in its approach and determined on the use of technology to provide the best inputs for the students to achieve their potential and beyond.</p>
-                    <Link to="#!" className="btn btn-outline">Learn More</Link>
+                <div className="d-flex flex-column">
+                  <div className="home-event-head text-center mx-auto">
+                    <h2>WHAT MAKES US <span>BETTER?</span></h2>
+                    <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
                   </div>
-                  <div className="home-event-img d-flex align-items-center justify-content-center">
-          
+                  <div className="home-event-content">
+                    <div className="row g-5">
+                      <div className="col-lg-6">
+                        <div className="home-event-left">
+                          <div className="he-head">
+                            <h4>GU TeCHNO EVENT</h4>
+                            <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                          </div>
+                          <div className="he-row d-flex flex-wrap">
+                            <div className="he-item">
+                              <div className="he-box d-flex flex-column w-100 h-100">
+                                <h5>1st</h5>
+                                <p>Youngest University To receive NAAC A++ In first cycle</p>
+                              </div>
+                            </div>
+                            <div className="he-item">
+                              <div className="he-box d-flex flex-column w-100 h-100">
+                                <h5>2%</h5>
+                                <p>Among the top 2% Universities in the Nation To Have NAAC A++ Grade</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="he-row d-flex flex-wrap">
+                              <div className="he-item">
+                                <div className="he-box d-flex flex-column w-100 h-100">
+                                  <h5>Top 5</h5>
+                                  <p>Among the top 5 Universities of Gujarat To Receive the Highest NAAC Grade</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="home-event-right">
+                          <div className="he-head">
+                            <h4>GU TeCHNO EVENT</h4>
+                            <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                          </div>
+                          <div className="he-card-list d-flex flex-wrap">
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                                <div className="he-card-icon"><img src={hecIcon1} alt="" /></div>
+                                <p className="mt-auto">Best Quality Infrastructure & Digital Resources</p>
+                              </div>
+                            </div>
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                                <div className="he-card-icon"><img src={hecIcon2} alt="" /></div>
+                                <p className="mt-auto">Relevant Curriculum on a Local, National & Global Levels</p>
+                              </div>
+                            </div>
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                                <div className="he-card-icon"><img src={hecIcon3} alt="" /></div>
+                                <p className="mt-auto">Highest academic degree value upon Graduation</p>
+                              </div>
+                            </div>
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                                <div className="he-card-icon"><img src={hecIcon4} alt="" /></div>
+                                <p className="mt-auto">Top quality research and innovation Initiatives</p>
+                              </div>
+                            </div>
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                                <div className="he-card-icon"><img src={hecIcon5} alt="" /></div>
+                                <p className="mt-auto">Best Quality Infrastructure & Digital Resources</p>
+                              </div>
+                            </div>
+                            <div className="he-card-item">
+                              <div className="he-card-box d-flex flex-column w-100 h-100">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
