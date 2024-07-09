@@ -101,7 +101,7 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
 .bg-graphic{position: relative;}
 .bg-graphic::before{content: '';position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%;max-width: 99px;height: 113px;background-image: url(/src/assets/images/bg-graphic-icon.svg);background-repeat: no-repeat;background-size: contain;background-position: center;}
 .bg-graphic::after{content: '';position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);width: 100%;max-width: 172px;height: 27px;background-image: url(/src/assets/images/click-me-img.svg);background-repeat: no-repeat;background-size: contain;background-position: center;}
-
+.gray{background-color:#D9D4B8;}
 
 @media (max-width:1199.98px){
  .container{width: calc(100% - 16px); max-width: 1140px !important;} 

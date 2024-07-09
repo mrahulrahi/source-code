@@ -1,7 +1,7 @@
 .innerherotwo2.admission-inner-hero{font-size: 18px;color: var(--white); flex-direction: column; background-attachment: fixed;}
 .innerherotwo2.admission-inner-hero .container.hero-container{padding-bottom:10%;}
 .innerherotwo2.admission-inner-hero h1{font-weight: 700;text-transform: none;}
-.innerherotwo2.admission-inner-hero p{max-width: 430px;margin: 0 auto;font-family: var(--font-courier-prime);}
+.innerherotwo2.admission-inner-hero > p{max-width: 430px;margin: 0 auto;font-family: var(--font-courier-prime);}
 .innerherotwo2.admission-inner-hero .btn{font-size: 18px;border-radius: 0;margin-top: 10px;}
 
 .background-image.admissions{filter: blur(0); top: 69px;}
@@ -53,6 +53,7 @@
 }
 
 @media (max-width: 575.98px){
+    .al-head-left h3{font-size: 30px;}
     .admission-item{width: 100%;}
     .fee-item{width: 100%;}
 

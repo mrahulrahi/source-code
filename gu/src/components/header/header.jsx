@@ -38,7 +38,7 @@ const Header = () => {
                 <Drawer anchor="top" open={open} onClose={toggleDrawer(false)}>
                   <div className="menu-content-box">
                     <div className="menu-inner-head">
-                      <div className="mcb-logo"> <img src={logo} alt="logo" /> </div>
+                      <div className="mcb-logo"> <Link to='/' onClick={toggleDrawer(false)}>  <img src={logo} alt="logo" /> </Link> </div>
                       <Link className='mcb-close' onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}> <img src={CloseMenu} alt="" /> </Link>
                     </div>
                     <div className="mih-menu-box">
@@ -58,7 +58,6 @@ const Header = () => {
                                 <li className='mli-item'> <Link to='/gallery' onClick={toggleDrawer(false)}> Gallery </Link> </li>
                                 <li className='mli-item'> <Link to='/announcements' onClick={toggleDrawer(false)}> Announcements </Link> </li>
                                 <li className='mli-item'> <Link to='/contact' onClick={toggleDrawer(false)}> Contact Us </Link> </li>
-
                                 <li className='mli-item'> <Link to='/git' onClick={toggleDrawer(false)}> Git </Link> </li>
                                 <li className='mli-item'> <Link to='/gim' onClick={toggleDrawer(false)}> Gim </Link> </li>
                               </ul>
@@ -76,7 +75,6 @@ const Header = () => {
                                 <li className='mli-item'> <Link to='/iqac' onClick={toggleDrawer(false)}> IQAC </Link> </li>
                                 <li className='mli-item'> <Link to='/approvals' onClick={toggleDrawer(false)}> Approvals </Link> </li>
                                 <li className='mli-item'> <Link to='/career' onClick={toggleDrawer(false)}> Career </Link> </li>
-
                                 <li className='mli-item'> <Link to='/gis' onClick={toggleDrawer(false)}> Gis </Link> </li>
                                 <li className='mli-item'> <Link to='/gia' onClick={toggleDrawer(false)}> Gia </Link> </li>
                                 <li className='mli-item'> <Link to='/gic' onClick={toggleDrawer(false)}>Gic </Link> </li>

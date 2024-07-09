@@ -1,8 +1,6 @@
 import React from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
-import Innerhero from '../../components/innerhero/innerhero';
-import inner1 from '../../assets/images/inner-img-1.jpg';
 import Heading from '../../components/heading/heading';
 import InstitutionsGrid from '../../components/InstitutionsGrid/InstitutionsGrid';
 import FacilityGrid from '../../components/FacilityGrid/FacilityGrid';
@@ -20,6 +18,7 @@ import ifIcon5 from '../../assets/images/institute-feature-icon-5.svg';
 import homeAboutImg from '../../assets/images/flying-drone-img.png';
 import homeAboutBg from '../../assets/images/home-about-bg.svg';
 import homeEventBg from '../../assets/images/home-event-bg.jpg';
+import homeEventBgMob from '../../assets/images/home-event-bg-mob.jpg';
 
 import hecIcon1 from '../../assets/images/Inco1.svg';
 import hecIcon2 from '../../assets/images/Inco2.svg';
@@ -28,7 +27,17 @@ import hecIcon4 from '../../assets/images/Inco4.svg';
 import hecIcon5 from '../../assets/images/Inco5.svg';
 import FloatingButton from '../../components/FloatingButton/FloatingButton';
 
+import ev1 from '../../assets/images/event-img-1.png';
+import ev2 from '../../assets/images/event-img-2.png';
+import ev3 from '../../assets/images/event-img-3.png';
+import evVideo from '../../assets/video/add-video.mp4';
+import heroVideo from '../../assets/video/hero-video.mp4';
 
+import heroicon1 from '../../assets/images/hero-svg1.svg';
+import heroicon2 from '../../assets/images/hero-svg2.svg';
+import captchaImg from '../../assets/images/captcha-img.png';
+import frombg from '../../assets/images/frombg.png';
+import urimg from '../../assets/images/uer-img.jpg';
 
 
 const home = () => {
@@ -36,7 +45,49 @@ const home = () => {
     <React.Fragment>
       <div className="blue-linear overflow-hidden">
         <FloatingButton />
-        <Innerhero backgroundImage={inner1} title="Institution’s Innovation Council" />
+
+        <div className="main-hero">
+          <div className="hero-video"> <video src={heroVideo} autoPlay loop muted playsInline></video> </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-11 mx-auto">
+                <div className="main-hero-text">
+                  <h1> Asia’s first <br /> <span> AI Enabled </span>  <br /> Campus</h1>
+                  <p> creating an enabling environment of active learning and become a centre of excellence. </p>
+                </div>
+                <div className="main-hero-icon">
+                  <img src={heroicon2} alt="" />
+                </div>
+                <div className="main-hero-left">
+                  <img src={heroicon1} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="event-lable">
+          <div className="event-hero-video"> <video src={evVideo} autoPlay loop muted playsInline></video> </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+
+                <ul className="event-lable-list">
+                  <li className="event-lable-item">
+                    <img src={ev1} alt="" />
+                  </li>
+                  <li className="event-lable-item">
+                    <img src={ev2} alt="" />
+                  </li>
+                  <li className="event-lable-item">
+                    <img src={ev3} alt="" />
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
 
         <InstitutionsGrid />
         <div className="institute-feature-container">
@@ -101,7 +152,7 @@ const home = () => {
         </div>
 
         <div className="home-event-container relative">
-          <div className="home-event-bg"><img src={homeEventBg} alt="" /></div>
+          <div className="home-event-bg"><img className="d-none d-xl-block" src={homeEventBg} alt="" /><img className="d-xl-none" src={homeEventBgMob} alt="" /></div>
           <div className="container add-index">
             <div className="row">
               <div className="col-md-12">
@@ -202,11 +253,14 @@ const home = () => {
           <Heading sheading="OUR" shheading="FACILITIES" spara=" The campus provides a refreshing environment with <br /> different facilities which makes our students feel at home." />
           <FacilityGrid />
         </div>
+
         <PartnerGrid className="home-partners-container" />
         <Recruiters className="home-recruiters-container" />
+
         <div className="home-placement-container content-container ">
           <InfoCompany />
         </div>
+
         <div className="placement-overview-container">
           <div className="container">
             <div className="row">
@@ -242,7 +296,127 @@ const home = () => {
             </div>
           </div>
         </div>
+
         <Testimonials />
+
+        <div className="content-container gray text-blue p-0">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="upcoming-event">
+                  <div className="ue-left">
+                    <div className="ue-text">
+                      <h4> EVENTS </h4>
+                      <h5> UPCOMING </h5>
+                      <div className="ue-box">
+                        <div className="uel">
+                          07
+                        </div>
+                        <div className="uer">
+                          <h3> Mar </h3>
+                          <h2> 10:20 AM</h2>
+                        </div>
+                      </div>
+                      <div className="uerb">
+                        <h4> GU TeCHNO EVENT </h4>
+                        <p> The campus provides a refreshing environment with different facilities which makes our students feel at home. </p>
+                        <div className="uerb-btn">
+                          <Link to='/'> Explore More </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="ue-right">
+                    <div className="uer-box">
+                      <div className="uer-img"> <img src={urimg} alt="" /> </div>
+                      <div className="uer-text">
+                        <div className="ut-box">
+                          <h4> 21 </h4>
+                          <p>sep</p>
+                        </div>
+                        <h5> JAZBA </h5>
+                        <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                      </div>
+                    </div>
+                    <div className="uer-box">
+                      <div className="uer-img"> <img src={urimg} alt="" /> </div>
+                      <div className="uer-text">
+                        <div className="ut-box">
+                          <h4> 21 </h4>
+                          <p>sep</p>
+                        </div>
+                        <h5> JAZBA </h5>
+                        <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="content-container text-blue">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-11 mx-auto">
+                <div className="form-box">
+                  <div className="form-left">
+                    <div className="from-heading">
+                      <h5> A Step Towards Your </h5>
+                      <h3> FUTURE </h3>
+                    </div>
+                    <div className="row">
+                      <div className="col-sm-12">
+                        <div className="form-group">
+                          <input type="text" className="form-control type2" placeholder="Full Name" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12 mt-2">
+                        <div className="form-group">
+                          <input type="email" className="form-control type2" placeholder="Email" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12 mt-2">
+                        <div className="form-group type2">
+                          <input type="tel" className="form-control type2" placeholder="Phone Number" />
+                        </div>
+                      </div>
+                      <div className="col-sm-12 mt-2">
+                        <div className="form-group">
+                          <textarea className="form-control type2" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div className="col-sm-12 mt-2">
+                        <div className="form-group captcha-box d-flex align-items-center justify-content-between type2 mt-0">
+                          <div className="form-check">
+                            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                            <label className="form-check-label" htmlFor="flexCheckDefault">
+                              I'm not a robot
+                            </label>
+                          </div>
+                          <div className="captcha-img ms-auto">
+                            <img src={captchaImg} alt="captcha" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <div className="form-group ">
+                          <input type="submit" className="btn-form" value="Submit" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="form-right">
+                    <div className="from-img">
+                      <img src={frombg} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   )

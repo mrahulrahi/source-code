@@ -113,7 +113,7 @@ const Announcements = () => {
                      </div>
                   </div>
                   <div className="col-lg-7 ms-lg-4">
-                     <div className="row g-lg-4">
+                     <div className="row g-4">
                         <div className="col-sm-4">
                            <div className="daily-notice-col">
                               <h6>A Report On “Webinar On Computer Applications And Technologies.</h6>

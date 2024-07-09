@@ -1,6 +1,7 @@
-.testimonials-left{line-height: 1.2;padding-top: 14px;}
+.testimonials-left{line-height: 1.2;padding-top: 14px;color:#fff;}
 .testimonials-left h5 {font-size: 30px;font-weight: 800;line-height: 1;text-transform: uppercase;margin-bottom: 1px;}
 .testimonials-left h3 {font-size: 72px;font-weight: 800;line-height: 1;text-transform: uppercase;margin-bottom: 26px;}
+.testimonials-content p{color:#9FC4FF;}
 
 .testimonials-item {width: 100%;height: 100%;max-width: 366px;}
 .testimonials-box {width: 100%;height: 100%;position: relative;background: linear-gradient(333.27deg, #05090F 0%, #5976A5 100%);border-radius: 13px;position: relative;overflow: hidden;cursor: pointer;}
@@ -17,7 +18,7 @@
 
 .testimonialsSlider .swiper-wrapper {align-items: center;} 
 .testimonialsSlider .swiper-slide{transition: all .4s ease-in-out;}
-.testimonialsSlider .swiper-slide:not(.swiper-slide-active) {transform: scale(0.65);}
+.testimonialsSlider .swiper-slide:not(.swiper-slide-active) {transform: scale(0.95, 0.75);opacity: 0.5;}
 
 
 @media (max-width:1199.98px){

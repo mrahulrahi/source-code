@@ -1,7 +1,7 @@
 .international-partners-list{width: calc(100% + 12px);margin-left: -6px;margin-bottom: -18px;}
 .international-partners-item{width: 30%;padding: 0 6px;margin-bottom: 18px;}
 .international-partners-item:nth-child(3n+1){width: 40%;}
-.international-partners-head{padding-right: 15%;}
+.international-partners-head{padding-right: 15%; color:#fff;}
 .international-partners-head h3{font-size: 48px;font-weight: 800;line-height: 1;}
 .international-partners-head h3 small{font-size: 30px;}
 .international-partners-head h3 span{color: #CCC8AC;}

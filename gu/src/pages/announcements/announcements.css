@@ -38,6 +38,7 @@
 
 
 @media (max-width:991.98px){
+    .daily-notice-col h6{margin-bottom: 8px;}
     .ia-list{gap: 25px;}
     .ia-list li{width: calc(50% - 25px);}
     .all-notice-item{width: 50%;}
