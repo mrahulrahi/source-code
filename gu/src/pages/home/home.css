@@ -188,6 +188,7 @@ textarea.form-control.type2:focus{min-height:80px !important;}
     .po-list{gap: 24px;}
     .ue-left {padding: 50px 0;}
     .po-item{width: calc(50% - 12px);}
+    .hero-video video{object-fit: cover;}
 }
 
 
