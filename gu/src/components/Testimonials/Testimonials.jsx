@@ -37,8 +37,9 @@ const Testimonials = () => {
                                     loop={true}
                                     centeredSlides={true}
                                     autoplay={{
-                                        delay: 2500,
+                                        delay: 1000,
                                         disableOnInteraction: false,
+                                        pauseOnMouseEnter: true,
                                     }}
                                     modules={[Autoplay]}
                                     className="testimonialsSlider"

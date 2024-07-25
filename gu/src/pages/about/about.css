@@ -8,7 +8,7 @@
 .inco-item {width: 20%;position: relative;padding:0 10px;}
 .inco-img {width: 50px;height: 50px;margin: 0 auto;}
 .inco-img img {width: 100%;height: 100%;object-fit: contain;}
-.inco-text h4 {font-size: 11px;text-align: center;margin-top: 18px !important;color: #fff;font-weight: 200;width: 160px;margin: 0 auto;}
+.inco-text h4 {font-family: var(--font-roboto);font-size: 12px;text-align: center;margin-top: 18px !important;color: #fff;font-weight: 200;width: 160px;margin: 0 auto;}
 .inco-item:after {content: '';position: absolute;width: 2px;height: 70px;background: #fff;top: 50%;right: 0;transform: translateY(-50%);}
 .inco-item:last-child:after{display:none;}
 .school-text h4 {font-size: 49px;font-weight: 600;line-height: 1;margin-bottom: 8px;}
@@ -23,8 +23,9 @@
 .school-notics-text span {font-size: 30px;font-weight: 400;}
 .school-box {width: 100vw;height: 236px;border-radius: 157.5px 0px 157.5px 157.5px;background: var(--white);padding: 56px 30px 40px 102px;font-size: 24px;position: relative;color: #D0AE57;}
 .school-box h5 {font-size: 48px;line-height: 1;margin-bottom: 0;}
-.school-icon1 {position: absolute;width: 167px;bottom: -137px;left: 116px;}
-.school-icon2 {position: absolute;width: 210px;top: -98px;right: 26%;}
+.school-icon1 {position: absolute;width: 167px;bottom: -137px;left: 116px;transition: all .1s ease-in;transform-origin: top right;}
+.school-icon2 {position: absolute;width: 210px;top: -98px;right: 26%;transition: all .1s ease-in;transform-origin: top right;}
+.school-icon1:hover, .school-icon2:hover{transform: rotate(16.75deg);}
 .facilities-item {width: 100%;height: 100%;background-position: center;background-size: cover;background-repeat: no-repeat;}
 .facilities-box {width: 100%; height: 100%; display: flex; flex-wrap: wrap;}
 .fb-img { width: 280px;margin-top: -30px;}

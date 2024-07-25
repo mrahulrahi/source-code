@@ -4,7 +4,7 @@
 .institute-feature-img {width: auto;height: 35px;margin: 0 auto;}
 .institute-feature-img img {width: 100%;height: 100%;object-fit: contain;}
 .institute-feature-text{max-width: 120px;margin: 0 auto;margin-top: 18px;}
-.institute-feature-text h4 {font-family: var(--font-roboto);font-size: 9px;text-align: center;color: var(--white);font-weight: 200;}
+.institute-feature-text h4 {font-family: var(--font-roboto);font-size: 10px;text-align: center;color: var(--white);font-weight: 200;margin-bottom: 0;}
 .institute-feature-item::after {content: '';position: absolute;width: 3px;height: 70px;background: rgba(255, 255, 255, 0.16);top: 50%;right: 0;transform: translateY(-50%);}
 .institute-feature-item:last-child::after{display:none;}
 

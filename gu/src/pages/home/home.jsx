@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
 import Heading from '../../components/heading/heading';
@@ -39,8 +39,16 @@ import captchaImg from '../../assets/images/captcha-img.png';
 import frombg from '../../assets/images/frombg.png';
 import urimg from '../../assets/images/uer-img.jpg';
 
+import VisibilitySensor from 'react-visibility-sensor';
+import CountUp from 'react-countup';
 
 const home = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const onVisibilityChange = (isVisible) => {
+    setIsVisible(isVisible);
+  };
+
   return (
     <React.Fragment>
       <div className="blue-linear overflow-hidden">
@@ -260,42 +268,59 @@ const home = () => {
         <div className="home-placement-container content-container ">
           <InfoCompany />
         </div>
-
-        <div className="placement-overview-container">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-10 text-center mx-auto">
-                <h5>PLACEMENT OVERVIEW - 2022</h5>
-                <div className="po-list d-flex flex-wrap align-items-center justify-content-between">
-                  <div className="po-item">
-                    <div className="po-box w-100 h-100">
-                      <span>92%</span>
-                      OF STUDENTS PLACED IN LAST 3 YEARS
+        <VisibilitySensor onChange={onVisibilityChange}>
+          <div className="placement-overview-container">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-10 text-center mx-auto">
+                  <h5>PLACEMENT OVERVIEW - 2022</h5>
+                  <div className="po-list d-flex flex-wrap align-items-center justify-content-between">
+                    <div className="po-item">
+                      <div className="po-box w-100 h-100">
+                        <CountUp start={0} end={92} duration={2} decimals={0} suffix="%">
+                          {({ countUpRef }) => (
+                            <span ref={countUpRef} />
+                          )}
+                        </CountUp>
+                        OF STUDENTS PLACED IN LAST 3 YEARS
+                      </div>
                     </div>
-                  </div>
-                  <div className="po-item">
-                    <div className="po-box w-100 h-100">
-                      <span>15</span>
-                      ACTIVE MOUS WITH COMPANIES
+                    <div className="po-item">
+                      <div className="po-box w-100 h-100">
+                        <CountUp start={0} end={92} duration={2} decimals={0}>
+                          {({ countUpRef }) => (
+                            <span ref={countUpRef} />
+                          )}
+                        </CountUp>
+                        ACTIVE MOUS WITH COMPANIES
+                      </div>
                     </div>
-                  </div>
-                  <div className="po-item">
-                    <div className="po-box w-100 h-100">
-                      <span>10 LAC</span>
-                      HIGHEST PACKAGE PER ANNUM
+                    <div className="po-item">
+                      <div className="po-box w-100 h-100">
+                        <CountUp start={0} end={92} duration={2} decimals={0} separator=" " suffix="LAC">
+                          {({ countUpRef }) => (
+                            <span ref={countUpRef} />
+                          )}
+                        </CountUp>
+                        HIGHEST PACKAGE PER ANNUM
+                      </div>
                     </div>
-                  </div>
-                  <div className="po-item">
-                    <div className="po-box w-100 h-100">
-                      <span>125+</span>
-                      COMPANIES VISITED
+                    <div className="po-item">
+                      <div className="po-box w-100 h-100">
+                        <CountUp start={0} end={92} duration={2} decimals={0} suffix="+">
+                          {({ countUpRef }) => (
+                            <span ref={countUpRef} />
+                          )}
+                        </CountUp>
+                        COMPANIES VISITED
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </VisibilitySensor>
 
         <Testimonials />
 
@@ -321,7 +346,7 @@ const home = () => {
                         <h4> GU TeCHNO EVENT </h4>
                         <p> The campus provides a refreshing environment with different facilities which makes our students feel at home. </p>
                         <div className="uerb-btn">
-                          <Link to='/'> Explore More </Link>
+                          <Link to='/activities'> Explore More </Link>
                         </div>
                       </div>
                     </div>
