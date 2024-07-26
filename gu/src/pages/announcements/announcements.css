@@ -29,7 +29,7 @@
 .dn-nav-list::-webkit-scrollbar-track {background-color: #fff;}
 .dn-nav-list::-webkit-scrollbar {width: 5px; background:#08080645;border-radius: 20px; height:5px;}
 
-.innerherotwo2 {width: 100%;min-height: 745px;background-position: center;background-repeat: no-repeat;background-size: cover;padding-top: 130px !important;display: flex;align-items: center;padding: 0 10px;}
+.innerherotwo2 {width: 100%;min-height: 745px;background-position: center left;background-repeat: no-repeat;background-size: cover;padding-top: 110px !important;display: flex;align-items: center;padding: 0 10px;}
 .innerherotwo2 h1 {font-size: 72px;color: var(--white);text-align: center;line-height: 1.2;text-transform: uppercase;font-weight: 900;}
 
 @media (max-width:1199.98px){

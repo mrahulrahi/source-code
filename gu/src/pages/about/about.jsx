@@ -151,7 +151,7 @@ const about = () => {
                                     </div>
                                       <div className="fb-lable">
                                           <h5> Shri Hareshbhai Rohera </h5>
-                                          <p>5President, Gandhinagar University</p>
+                                          <p>President, Gandhinagar University</p>
                                       </div>
                                   </div>
                               </div>
@@ -167,8 +167,8 @@ const about = () => {
                                       <p> To strengthen multi-disciplinary, technology-enabled education; promote research for innovation and excellence; train students as responsible future citizens who will strive towards creating a sustainable society.</p>
                                     </div>
                                       <div className="fb-lable">
-                                          <h5> Shri Hareshbhai Rohera </h5>
-                                          <p>5President, Gandhinagar University</p>
+                                          <h5>Ms. Vinita Rohera</h5>
+                                          <p>Vice President, Gandhinagar University</p>
                                       </div>
                                   </div>
                               </div>
@@ -184,8 +184,8 @@ const about = () => {
                                       <p> To strengthen multi-disciplinary, technology-enabled education; promote research for innovation and excellence; train students as responsible future citizens who will strive towards creating a sustainable society.</p>
                                     </div>
                                       <div className="fb-lable">
-                                          <h5> Shri Hareshbhai Rohera </h5>
-                                          <p>5President, Gandhinagar University</p>
+                                          <h5>Prof. Dr. K. N. Sheth</h5>
+                                          <p>Vice Chancellor, Gandhinagar University</p>
                                       </div>
                                   </div>
                               </div>

@@ -43,15 +43,20 @@ const InfoCompany = () => {
 
                                 <Swiper
                                     spaceBetween={8}
-                                    slidesPerView={'auto'}
-                                    centeredSlides={true}
+                                    slidesPerView={1}
                                     loop={true}
+                                    autoHeight={true}
                                     // autoplay={{
                                     //     delay: 2500,
                                     //     disableOnInteraction: false,
                                     // }}
                                     breakpoints={{
-                                        576: { centeredSlides: false }
+                                        375: {
+                                            slidesPerView: 2
+                                        },
+                                        576: {
+                                            slidesPerView: 3
+                                        }
                                     }}
                                     modules={[Autoplay, Navigation]}
                                     navigation={{

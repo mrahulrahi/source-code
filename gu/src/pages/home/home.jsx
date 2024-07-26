@@ -277,7 +277,7 @@ const home = () => {
                   <div className="po-list d-flex flex-wrap align-items-center justify-content-between">
                     <div className="po-item">
                       <div className="po-box w-100 h-100">
-                        <CountUp start={0} end={92} duration={2} decimals={0} suffix="%">
+                        <CountUp start={0} end={92} duration={5} decimals={0} suffix="%">
                           {({ countUpRef }) => (
                             <span ref={countUpRef} />
                           )}
@@ -287,7 +287,7 @@ const home = () => {
                     </div>
                     <div className="po-item">
                       <div className="po-box w-100 h-100">
-                        <CountUp start={0} end={92} duration={2} decimals={0}>
+                        <CountUp start={0} end={15} duration={5} decimals={0}>
                           {({ countUpRef }) => (
                             <span ref={countUpRef} />
                           )}
@@ -297,7 +297,7 @@ const home = () => {
                     </div>
                     <div className="po-item">
                       <div className="po-box w-100 h-100">
-                        <CountUp start={0} end={92} duration={2} decimals={0} separator=" " suffix="LAC">
+                        <CountUp start={0} end={10} duration={5} decimals={0} suffix=" LAC">
                           {({ countUpRef }) => (
                             <span ref={countUpRef} />
                           )}
@@ -307,7 +307,7 @@ const home = () => {
                     </div>
                     <div className="po-item">
                       <div className="po-box w-100 h-100">
-                        <CountUp start={0} end={92} duration={2} decimals={0} suffix="+">
+                        <CountUp start={0} end={125} duration={5} decimals={0} suffix="+">
                           {({ countUpRef }) => (
                             <span ref={countUpRef} />
                           )}

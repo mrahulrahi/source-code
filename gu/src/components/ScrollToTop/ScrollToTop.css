@@ -1,4 +1,4 @@
-.scroll-to-top-btn{position: fixed;top: 80%;right: 6%;width: 52px;height: 52px;padding: 5px;background: rgba(119, 150, 255, 0.16);z-index: 99; opacity: 0;visibility: hidden;transition: opacity 0.3s, visibility 0.3s;cursor: pointer;}
+.scroll-to-top-btn{position: fixed;top: 90%;right: 2%;width: 52px;height: 52px;padding: 5px;background: rgba(119, 150, 255, 0.16);z-index: 99; opacity: 0;visibility: hidden;transition: opacity 0.3s, visibility 0.3s;cursor: pointer;}
 .stt-border-icon{width: 100%;height: 100%;position: absolute;top: 0;left: 0;padding: 5px;transition: all .2s ease-in;}
 .stt-border-icon img{width: 100%;height: 100%;object-fit: contain;transition: all .2s ease-in;}
 .stt-arrow-icon{width: 15px;height: 15px;}

@@ -3,3 +3,7 @@
 .authority-card-post{margin-bottom: 14px;}
 .authority-card-email{font-size: 12px;margin-bottom: 8px;}
 .authority-card-phone{font-weight: 700;}
+
+@media(max-width:767.98px){   
+    .authority-card-box{min-height: 180px;}
+}

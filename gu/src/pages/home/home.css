@@ -43,8 +43,8 @@
 .he-item{width: calc(50% - 20px);min-width: 152px;}
 .he-row:not(:last-child){padding-bottom: 9px;margin-bottom: 9px;border-bottom: 1px dashed #CCCCCC;}
 .he-item:nth-child(odd) .he-box{border-right: 1px dashed #CCCCCC;}
-.he-box{padding: 10px 0;padding-right: 30px;font-family: var(--font-roboto);font-size: 10px;font-weight: 600;line-height: 1.5;color: rgba(253, 253, 253, 0.88);}
-.he-box h5{font-family: var(--font-roboto);font-size: 20px;font-weight: 600;line-height: 1.2;color: #A69E87;margin-bottom: 6px;}
+.he-box{padding: 10px 0;padding-right: 30px;font-family: var(--font-roboto);font-size: 10px;font-weight: 500;line-height: 1.5;color: rgba(253, 253, 253, 0.88);}
+.he-box h5{font-family: var(--font-roboto);font-size: 24px;font-weight: 600;line-height: 1.2;color: #A69E87;margin-bottom: 6px;}
 
 .he-head + .he-card-list{margin-top: 33px;}
 .he-card-list{gap: 15px 8px;max-width: 388px;}

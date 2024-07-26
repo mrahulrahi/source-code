@@ -20,8 +20,7 @@
 .al-head-right{width: 40%;font-family: var(--font-courier-prime);color: var(--white);font-size: 12px;}
 .fee-list{width: calc(100% + 32px);margin-left: -16px;margin-bottom: -16px;}
 .fee-item{width: 50%;padding: 0 16px;margin-bottom: 16px;}
-.fee-box{position: relative;padding: 12px 8px;height: 100%;background: linear-gradient(96.08deg, #FFF9E9 0%, #A69E87 100%);border-radius: 8px;overflow: hidden;}
-.fee-box::before{content: '';position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: 1px;z-index: 1;background: transparent;border-radius: 7px;}
+.fee-box{position: relative;padding: 12px 8px;height: 100%;background: transparent;border-radius: 8px;overflow: hidden;border: 1px solid var(--white);}
 .fee-content{position: relative;z-index: 9;line-height: 1;}
 .fee-content h6{font-size: 12px;line-height: 1;margin-bottom: 2px;}
 .fee-content h5{font-size: 18px;line-height: 1;margin-bottom: 2px;}

@@ -21,7 +21,7 @@ const PartnerGrid = ({className}) => {
                         <div className="international-partners-list d-flex flex-wrap">
                             <div className="international-partners-item">
                                 <div className="international-partners-head w-100 h-100">
-                                    <h3><small>OUR</small> <span>INTERNATIONAL</span> PARTNERS</h3>
+                                    <h3><small>OUR</small> <br /> <span>INTERNATIONAL</span> PARTNERS</h3>
                                     <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
                                     <ul className="iph-logo-list d-flex align-items-center">
                                         <li><img src={iphLogo1} alt="" /></li>

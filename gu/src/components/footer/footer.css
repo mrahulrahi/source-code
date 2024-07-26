@@ -25,7 +25,7 @@
 .fub-item {width: 22%;}
 .fuc-left {width: 400px;}
 .fuc-right {width: calc(100% - 400px);}
-.fubi-heading h4 {font-size: 15px;font-family: inter;font-weight: 700;color: #fff;}
+.fubi-heading{font-size: 15px;font-family: inter;font-weight: 700;color: #fff;}
 .fubi-heading {margin-bottom: 25px;}
 .fubi-box-list {display: flex;flex-wrap: wrap;justify-content: space-between;}
 .fub-item:nth-child(2) {width: 34%;padding: 0 30px;}

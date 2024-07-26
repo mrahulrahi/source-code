@@ -39,7 +39,7 @@ const international = () => {
                   <div className="iih-card-content">
                     <h1>‘A school with mind, <br /> heart, and a constant fizz!’</h1>
                     <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
-                    <Link className="btn btn-default">Contact Now</Link>
+                    <Link className="btn btn-default" to="/contact">Contact Now</Link>
                   </div>
                   <div className="iih-card-img ms-auto ms-md-0"><img src={iihCardImg} alt="" /></div>
                 </div>
@@ -124,7 +124,7 @@ const international = () => {
             <div className="col-xl-7 col-lg-9 mx-auto">
               <div className="international-orientation-program-wrapper position-relative">
                 <div className="iop-bg-img"><img src={iopBgImg} alt="" /></div>
-                <div className="text-center">
+                <div className="text-center add-index">
                   <div className="heading mb-3">
                     <h4><span>Orientation</span> Program:</h4>
                   </div>
@@ -132,7 +132,7 @@ const international = () => {
                     During this time orientation programs play a vital role to help international students to settle down into an entirely new routine. Such orientation provides general information about the locality, academic practices within the university, and introduction to the academic and administrative process, and library system, it also encourages the students to know each other and lay a foundation of friendships.</p>
                 </div>
 
-                <div className="iop-card-list d-flex">
+                <div className="iop-card-list d-flex add-index">
                   <div className="iop-card-item">
                     <div className="iop-card-box d-flex flex-column">
                       <div className='iop-card-icon'><img src={iopCardIcon1} alt="" /></div>
