@@ -1,13 +1,13 @@
 import React from 'react';
 import './InstitutionsHero.css';
 import guIcon from '../../assets/images/gu-logo-icon.svg';
-import captchaImg from '../../assets/images/captcha-img.png';
+import InstitutionsHeroForm from '../InstitutionsHeroForm/InstitutionsHeroForm';
 
-const InstitutionsHero = ({ additionalClassName, video, ih_Heading, ih_para  }) => {
+const InstitutionsHero = ({ additionalClassName, video, ih_Heading, ih_para }) => {
   return (
     <div className="institutions-hero-container relative add-index">
       <div className={`institutions-hero-bg ${additionalClassName}`}>
-          <video src={video} autoPlay loop muted playsInline></video>
+        <video src={video} autoPlay loop muted playsInline></video>
       </div>
       <div className="container add-index">
         <div className="row">
@@ -16,58 +16,7 @@ const InstitutionsHero = ({ additionalClassName, video, ih_Heading, ih_para  }) 
               <h1>{ih_Heading}</h1>
               <p>{ih_para}</p>
             </div>
-            <div className="institutions-hero-form ms-xl-auto">
-              <div className="row flex-column g-2">
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Full Name" />
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <input type="email" className="form-control" placeholder="Email" />
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <input type="tel" className="form-control" placeholder="Phone Number" />
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <select className="form-select">
-                      <option value="">Course</option>
-                      <option value="1">Option 1</option>
-                      <option value="2">Option 2</option>
-                      <option value="3">Option 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <textarea className="form-control" placeholder="Message"></textarea>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group captcha-box d-flex align-items-center justify-content-between">
-                    <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                      <label className="form-check-label" htmlFor="flexCheckDefault">
-                        I'm not a robot
-                      </label>
-                    </div>
-                    <div className="captcha-img ms-auto">
-                      <img src={captchaImg} alt="captcha" />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="form-group">
-                    <input type="submit" className="btn-form" value="Submit & Download" />
-                  </div>
-                </div>
-              </div>
-            </div>
+            <InstitutionsHeroForm />
           </div>
         </div>
       </div>
