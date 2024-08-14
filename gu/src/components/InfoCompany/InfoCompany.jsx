@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Ic.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
-import { Autoplay, Navigation } from 'swiper/modules';
+
 
 const InfoCompany = () => {
     const [placements, setPlacements] = useState([]);
@@ -64,6 +65,11 @@ const InfoCompany = () => {
                                         delay: 2500,
                                         disableOnInteraction: false,
                                     }}
+                                    navigation={{
+                                        nextEl: ".placement-slider-next",
+                                        prevEl: ".placement-slider-prev",
+                                        disabledClass: "swiper-button-disabled"
+                                    }}
                                     breakpoints={{
                                         375: {
                                             slidesPerView: 2
@@ -72,17 +78,11 @@ const InfoCompany = () => {
                                             slidesPerView: 3
                                         }
                                     }}
-                                    modules={[Autoplay, Navigation]}
-                                    navigation={{
-                                        nextEl: ".placement-slider-next",
-                                        prevEl: ".placement-slider-prev",
-                                        disabledClass: "swiper-button-disabled"
-                                    }}
-                                    pagination={{ clickable: true }}
+                                    modules={[Autoplay, Navigation]}  
                                     className="placementSlider"
                                 >
                                     {placements.map((placement, index) => (
-                                        <SwiperSlide className="placement-item " key={index}>
+                                        <SwiperSlide className="placement-item" key={index}>
                                             <div className="placement-box">
                                                 <div className="pi-img"> <img src={`https://ghandhinagaru.shopperbite.com/assets/uploads/${placement.image}`} alt={placement.name} /> </div>
                                                 <div className="pi-text">

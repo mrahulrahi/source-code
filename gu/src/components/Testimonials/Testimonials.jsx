@@ -2,11 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Testimonials.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
-import { Autoplay } from 'swiper/modules';
-
 import testimonialBGIcon from '../../assets/images/testimonials-bg-icon.svg';
 
 const Testimonials = () => {
