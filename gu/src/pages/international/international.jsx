@@ -1,22 +1,25 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './international.css';
+import '../../components/InstituteCard/InstituteCard.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import InnerHeroBg from '../../assets/images/inner-img-17.jpg';
-import iihCardImg from '../../assets/images/iih-card-img.png'
-import iihBottomImg from '../../assets/images/iih-bottom-img.png'
+import iihCardImg from '../../assets/images/iih-card-img.png';
+import iihBottomImg from '../../assets/images/iih-bottom-img.png';
 import PartnerGrid from '../../components/PartnerGrid/PartnerGrid';
-import InstituteCard from '../../components/InstituteCard/InstituteCard';
-import iopBgImg from '../../assets/images/iop-bg-img.svg'
+import iihGraphic1 from '../../assets/images/graduation-cap-img-1.png';
+import iihGraphic2 from '../../assets/images/graduation-cap-img-2.png';
 import iopCardIcon1 from '../../assets/images/iop-card-icon-1.svg'
 import iopCardIcon2 from '../../assets/images/iop-card-icon-2.svg'
 import iopCardIcon3 from '../../assets/images/iop-card-icon-3.svg'
-import iihGraphic1 from '../../assets/images/graduation-cap-img-1.png'
-import iihGraphic2 from '../../assets/images/graduation-cap-img-2.png'
+import iopBgImg from '../../assets/images/iop-bg-img.svg'
 
-const international = () => {
+
+const International = () => {
+  const [institutes, setInstitutes] = useState([]);
+  const [loading, setLoading] = useState(true); 
+  const [error, setError] = useState(null); 
 
   useEffect(() => {
     AOS.init({
@@ -24,12 +27,36 @@ const international = () => {
       duration: 700,
       easing: "ease-out-cubic",
     });
+
+    // Fetching data from the API
+    fetch('https://ghandhinagaru.shopperbite.com/api/getAllInstitutes/cat/international')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setInstitutes(data);
+        setLoading(false); // Stop loading once data is fetched
+      })
+      .catch(error => {
+        console.error('Error fetching institutes:', error);
+        setError(error);
+        setLoading(false); // Stop loading if there’s an error
+      });
   }, []);
 
-  const card1 = { "shortName": "Git", "name": "Technology", "programs": [{ "title": "B.Tech", "list": ["Civil Engineering", "Computer Engineering", "Electrical Engineering", "Electronics & Communication Engineering", "Information Technology", "Mechanical Engineering", "Computer Science & Engineering", "Information & Communication Technology", "Cyber Security", "Artificial Intelligence."] }, { "title": "Masters", "list": ["Mechanical Engineering (Thermal Engineering)", "Mechanical Engineering (CAD/CAM)", "Computer Engineering (Software Engineering)."] }], "cards": [{ "degree": "Bachelor’s", "tuitionFees": "3,200", "totalPackage:": "12,800", "years": "02" }, { "degree": "Master’s", "tuitionFees": "4,000", "totalPackage:": "8,800", "years": "02" }] }
+  if (loading) {
+    return <div>Loading...</div>; // Simple loading state
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>; // Display error message
+  }
+
   return (
     <React.Fragment>
-
       <div className="overflow-hidden">
         <div className="innerherotwo2 international-inner-hero type3" style={{ backgroundImage: `url(${InnerHeroBg})` }}>
           <div className="container">
@@ -68,51 +95,74 @@ const international = () => {
       </div>
 
       <PartnerGrid className="bg-blue" />
+
       <div className="content-container institute-card-container bg-blue">
         <div className="container">
           <div className="row g-3">
             <div className="col-lg-11 mx-auto">
-              <ul className="dn-nav-list type-3 d-flex justify-content-between">
-                <li className="dn-nav-item active">
-                  <Link to='/' className="dn-nav-link"> GIT </Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIM</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIS</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GICSA</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIC</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GILS</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIL</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIVS</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIRD</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link"> GID</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIP</Link>
-                </li>
-                <li className="dn-nav-item">
-                  <Link to='/' className="dn-nav-link">GIN</Link>
-                </li>
+              <ul className="dn-nav-list type-3 d-flex justify-content-start">
+                {institutes.map((institute) => (
+                  <li key={institute.id} className="dn-nav-item">
+                    <Link to='' className="dn-nav-link"> {institute.title} </Link>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="col-lg-11 mx-auto">
-              <InstituteCard card={card1} />
+              <div className='international-course-data'>
+                {institutes.length > 0 && (
+                  <div> 
+                   {institutes.map((institute) => (
+                      <div key={institute.id} className='institute-card-box'>
+                        <h4>{institute.title}</h4>
+                        <h6><span>Gandhinagar Institute of</span> {institute.name}</h6>
+                        
+                        {institute.course_categories.map((category) => (
+                          <div key={category.id} className="ic-program-row">
+                            <h5>{category.name}</h5>
+                            <div className='data'>
+                              <ul className="icp-list d-flex flex-wrap">
+                                {category.course_content_international?.split('\r\n').map((course, index) => (
+                                  <li key={index}>{course}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          </div>
+                        ))}
+                        <div className="ic-bottom-row d-flex flex-column align-items-end">
+                          <p>Admissions at Gandhinagar University are done through The
+                          Admission Committee for Professional Courses (ACPC)</p>
+                        </div>
+                        {/* Separate loop for displaying fees data (Green section) */}
+                        <div className="ic-program-list d-flex flex-wrap justify-content-end">
+                          {institute.course_categories.map((category) => (
+                            <div key={category.id} className="ic-program-item">
+                              <div className="ic-program-box w-100 h-100">
+                                <h5>{category.name}</h5>
+                                <div className="icp-details-wrapper d-flex justify-content-between">
+                                  <div className="icp-details-list">
+                                    <div className="icp-details-item">
+                                      <h6>Tuition Fees:</h6>
+                                      <p>{category.fees ? `$${category.fees}` : 'N/A'}</p>
+                                    </div>
+                                    <div className="icp-details-item">
+                                      <h6>Total Package:</h6>
+                                      <p>{category.fees ? `$${category.fees * 2}` : 'N/A'}</p>
+                                    </div>
+                                  </div>
+                                  <div className="icp-year"><span>{category.duration}</span> Years</div>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+
+                      </div>
+                    ))}
+
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -203,8 +253,9 @@ const international = () => {
         </div>
       </div>
 
+      
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default international
+export default International;

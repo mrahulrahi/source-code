@@ -16,7 +16,7 @@
 .nslb-link-item a img {width: 100%;height: 100%;object-fit: contain;}
 .nslb-link-item+li.nslb-link-item {margin-left: 25px;}
 .mnlb-link-item {width: 40%;padding: 0 20px;}
-.mli-item {color: #fff;font-size: 16px;font-weight:500;}
+.mli-item {color: #fff;font-size: 16px;font-weight:500;display: flex;flex-direction: column; position: relative;transition: all 0.3s ease;}
 .mli-item+.mli-item {margin-top: 10px;}
 .mnlb-link-item+.mnlb-link-item .mli-item {text-transform: uppercase;color: #FFFFFF4F;}
 .mr-content-box {display: flex;border-bottom: 1px solid #0B1F3D;padding-bottom: 25px;}
@@ -37,10 +37,14 @@
 .mlb-logo+.mlb-logo {margin-left: 40px;width: 181px;height: 40px;}
 .mmb-right:after {content: '';position: absolute;border-left: 1px solid #fff;left: 0;height: 60%;width: 1px;top: 50%;transform: translateY(-50%);}
 
+.dropdown {margin-top: 10px;transition: all 0.3s ease;height: 100px;overflow-y: scroll;}
+.dropdown li+li {margin-top: 10px;}
+.mli-item a svg {position: absolute;top: 4px;left: 90px;}
+
+.dropdown::-webkit-scrollbar{width: 2px;background-color: #F5F5F5;}
 
 @media (max-width:1370.98px){
     .menu-content-box { padding: 20px;}
-
 }
 
 @media (max-width:1199.98px){

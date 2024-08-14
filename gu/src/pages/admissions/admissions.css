@@ -30,10 +30,23 @@
 .admission-list{width: calc(100% + 16px);margin-left: -16px;margin-bottom: -15px;}
 .admission-item{width: 20%;padding: 0 16px;margin-bottom: 15px;}
 
-.admission-apply-box{max-width: 207px;padding: 21px 0 0 28px;font-family: var(--font-courier-prime);position: absolute;bottom: 68px;right: 45px;color: var(--white);background-image:url(../../assets/images/left-border.svg); background-repeat: no-repeat;background-size: auto;}
+.admission-apply-box{max-width: 207px;padding: 21px 0 0 28px;font-family: var(--font-courier-prime);color: var(--white);background-image:url(../../assets/images/left-border.svg); background-repeat: no-repeat;background-size: auto;    margin-top: 40px;margin-left: auto;}
 .admission-apply-box h5{font-size: 18px;}
 .admission-apply-img{position: absolute;top: 0;left: 0;}
 .admission-apply-box .btn{border-radius: 8px;font-size: 18px;width: 100%;}
+.al-box {display: flex;align-items: flex-end;flex-wrap: wrap;}
+
+.admission-box{min-height: 136px;padding: 20px;font-family: var(--font-roboto);color: var(--white);background: linear-gradient(289.52deg, #1D3459 0%, #899BB9 100%);border-radius: 22px;}
+.admission-box h5{font-size: 12px;font-weight: 700;padding-right: 30%;}
+.admission-seat{min-width: 80px;padding: 6px 9px;font-size: 18px;font-weight: 500;line-height: 1;border: 1px solid var(--white);border-radius: 6px;}
+.admission-seat-icon{width: 20px;height: 16px;padding-right: 8px;margin-right: 8px;border-right: 1px solid var(--white);}
+.admission-seat-icon img{width: 100%;height: 100%;object-fit: contain;}
+.admission-year{font-size: 11px;font-weight: 50px;line-height: 1;}
+.admission-year span{font-size: 30px;}
+.al-box .fee-box .fee-content p {
+	width: auto !important;
+	margin: 0px !important;
+}
 
 @media (max-width:1199.98px){
     .admission-item{width: 25%;}

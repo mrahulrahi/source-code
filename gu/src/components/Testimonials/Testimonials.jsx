@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './Testimonials.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -7,11 +8,20 @@ import 'swiper/css/navigation';
 import { Autoplay } from 'swiper/modules';
 
 import testimonialBGIcon from '../../assets/images/testimonials-bg-icon.svg';
-import testimonialImg1 from '../../assets/images/testimonials-img-1.png';
-import testimonialImg2 from '../../assets/images/testimonials-img-2.png';
-
 
 const Testimonials = () => {
+    const [testimonials, setTestimonials] = useState([]);
+
+    useEffect(() => {
+        axios.get('https://ghandhinagaru.shopperbite.com/api/getAllTestimonials')
+            .then(response => {
+                setTestimonials(response.data);
+            })
+            .catch(error => {
+                console.error('Error fetching testimonials data:', error);
+            });
+    }, []);
+
     return (
         <React.Fragment>
             <div className="content-container overflow-hidden">
@@ -20,7 +30,7 @@ const Testimonials = () => {
                         <div className="col-lg-4">
                             <div className="testimonials-left position-relative h-100">
                                 <div className="testimonials-left-bg w-100 h-100 position-absolute top-0 start-0">
-                                    <img className="w-100 h-100 object-fit-contain" src={testimonialBGIcon} alt="" />
+                                    <img className="w-100 h-100 object-fit-contain" src={testimonialBGIcon} alt="Testimonials Background Icon" />
                                 </div>
                                 <div className="position-relative z-3">
                                     <h5> Student </h5>
@@ -33,70 +43,44 @@ const Testimonials = () => {
                             <div className="testimonials-right">
                                 <Swiper
                                     slidesPerView={'auto'}
-                                    spaceBetween={0}
+                                    spaceBetween={10} // Adjust space between slides if needed
                                     loop={true}
                                     centeredSlides={true}
                                     autoplay={{
-                                        delay: 1000,
+                                        delay: 3000,
                                         disableOnInteraction: false,
                                         pauseOnMouseEnter: true,
                                     }}
                                     modules={[Autoplay]}
                                     className="testimonialsSlider"
                                 >
-                                    <SwiperSlide className="testimonials-item">
-                                        <div className="testimonials-box">
-                                            <div className="testimonials-box-inner">
-                                                <div className="testimonials-img"> <img src={testimonialImg1} alt="" /> </div>
-                                                <div className="testimonials-content">
-                                                    <div className="testimonials-name-box">
-                                                        <h5>Nikhita B.</h5>
+                                    {testimonials.length > 0 ? (
+                                        testimonials.map((testimonial, index) => (
+                                            <SwiperSlide className="testimonials-item" key={index}>
+                                                <div className="testimonials-box">
+                                                    <div className="testimonials-box-inner">
+                                                        <div className="testimonials-img">
+                                                            <img src={`https://ghandhinagaru.shopperbite.com/assets/uploads/${testimonial.image}`} alt={testimonial.designation} />
+                                                        </div>
+                                                        <div className="testimonials-content">
+                                                            <div className="testimonials-name-box">
+                                                                <h5>{testimonial.designation}</h5>
+                                                            </div>
+                                                            <p>{testimonial.content}</p>
+                                                        </div>
                                                     </div>
-                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
+                                                </div>
+                                            </SwiperSlide>
+                                        ))
+                                    ) : (
+                                        <SwiperSlide>
+                                            <div className="testimonials-box">
+                                                <div className="testimonials-box-inner">
+                                                    <p>No testimonials available</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="testimonials-item">
-                                        <div className="testimonials-box">
-                                            <div className="testimonials-box-inner">
-                                                <div className="testimonials-img"> <img src={testimonialImg2} alt="" /> </div>
-                                                <div className="testimonials-content">
-                                                    <div className="testimonials-name-box">
-                                                        <h5>Nikhil B.</h5>
-                                                    </div>
-
-                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="testimonials-item">
-                                        <div className="testimonials-box">
-                                            <div className="testimonials-box-inner">
-                                                <div className="testimonials-img"> <img src={testimonialImg1} alt="" /> </div>
-                                                <div className="testimonials-content">
-                                                    <div className="testimonials-name-box">
-                                                        <h5>Nikhita B.</h5>
-                                                    </div>
-                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="testimonials-item">
-                                        <div className="testimonials-box">
-                                            <div className="testimonials-box-inner">
-                                                <div className="testimonials-img"> <img src={testimonialImg2} alt="" /> </div>
-                                                <div className="testimonials-content">
-                                                    <div className="testimonials-name-box">
-                                                        <h5>Nikhil B.</h5>
-                                                    </div>
-                                                    <p>I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
+                                        </SwiperSlide>
+                                    )}
                                 </Swiper>
                             </div>
                         </div>

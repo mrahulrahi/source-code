@@ -52,6 +52,12 @@
 .international-hta-wrapper p b{font-weight: 600;}
 .international-hta-wrapper a{display: block;text-decoration: underline;}
 .international-hta-wrapper ul:not([class])>li:before{background: var(--white);}
+.institute-card-box+.institute-card-box{margin-top:20px;}
+.institute-card-box .ic-bottom-row p {
+	font-size: 0.7em;
+}
+
+
 
 
 @media (max-width:1199.98px){
@@ -61,8 +67,8 @@
     .iih-bottom-graphic-1 {width:500px;}
     .iih-bottom-graphic-2 {width:600px;}
 }
-   
-   
+
+
 @media(max-width:991.98px){
     .iih-card-box .iih-card-content h1,.iih-bottom-content-box h2{font-size: 34px;}
     .iih-bottom-container{height: 700px;}
@@ -71,8 +77,8 @@
     .iih-bottom-graphic-1 {width:400px;}
     .iih-bottom-graphic-2 {width:450px;}
 }
-   
-    
+
+
 @media (max-width: 767.98px) {
     .iih-card-box .iih-card-content h1,.iih-bottom-content-box h2{font-size: 30px;}
     .ic-program-item{width: 33.33%;}
@@ -80,8 +86,8 @@
     .iih-bottom-graphic-1 {width:300px;}
     .iih-bottom-graphic-2 {width:350px;}
 }
-   
-   
+
+
 @media(max-width:575.98px){
     .ic-program-item{width: 50%;}
     .iih-bottom-graphic-1 {width:200px;}
@@ -89,5 +95,5 @@
 
     .innerherotwo2.international-inner-hero.type3{height:1200px;}
 
-    .iih-bottom-container{height: 65vh;}
+    .iih-bottom-container{height: 51vh;}
 }

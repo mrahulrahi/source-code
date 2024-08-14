@@ -14,6 +14,7 @@ import schoolIcon2 from '../../assets/images/school-notics-icon-2.svg';
 import faciltiesBg from '../../assets/images/facilities-bg.jpg';
 import faciltiesImg from '../../assets/images/facilities-img.png';
 import faciltiesImg2 from '../../assets/images/facilities-img2.png'
+import faciltiesImg3 from '../../assets/images/facilities-img3.png'
 
 const about = () => {
   return (
@@ -30,12 +31,12 @@ const about = () => {
             </div>
           </div>
        </div>
-       
+
        <div className="content-container about-container text-blue">
            <div className="container">
                <div className="row">
                    <div className="col-lg-8 mx-auto">
-                      
+
                       <div className="about-para">
                           <h4> ‘A school with mind, <br/> heart, and a constant fizz!’</h4>
                           <p> The Gandhinagar University established under the Gujarat Private Universities Act, 2009 is, committed to excellence in education with high quality pedagogy and dedicated to promoting the all-faceted development of the students. </p>
@@ -53,33 +54,33 @@ const about = () => {
                <div className="row">
                   <div className="col-lg-10 mx-auto">
                       <div className="inco-list">
-                          <div className="inco-item"> 
-                             <div className="inco-img">  <img src={Inco1} alt="" />  </div> 
-                             <div className="inco-text">  
+                          <div className="inco-item">
+                             <div className="inco-img">  <img src={Inco1} alt="" />  </div>
+                             <div className="inco-text">
                                  <h4> Best Quality Infrastructure & Digital Resources </h4>
                              </div>
                           </div>
-                          <div className="inco-item"> 
-                             <div className="inco-img">  <img src={Inco2} alt="" />  </div> 
-                             <div className="inco-text">  
+                          <div className="inco-item">
+                             <div className="inco-img">  <img src={Inco2} alt="" />  </div>
+                             <div className="inco-text">
                                  <h4> Quality in Teaching & Student Development </h4>
                              </div>
                           </div>
-                          <div className="inco-item"> 
-                             <div className="inco-img">  <img src={Inco3} alt="" />  </div> 
-                             <div className="inco-text">  
+                          <div className="inco-item">
+                             <div className="inco-img">  <img src={Inco3} alt="" />  </div>
+                             <div className="inco-text">
                                  <h4> Relevant Curriculum on a Local, National & Global Levels </h4>
                              </div>
                           </div>
-                          <div className="inco-item"> 
-                             <div className="inco-img">  <img src={Inco4} alt="" />  </div> 
-                             <div className="inco-text">  
+                          <div className="inco-item">
+                             <div className="inco-img">  <img src={Inco4} alt="" />  </div>
+                             <div className="inco-text">
                                  <h4> Highest academic degree value upon Graduation </h4>
                              </div>
                           </div>
-                          <div className="inco-item"> 
-                             <div className="inco-img">  <img src={Inco5} alt="" />  </div> 
-                             <div className="inco-text">  
+                          <div className="inco-item">
+                             <div className="inco-img">  <img src={Inco5} alt="" />  </div>
+                             <div className="inco-text">
                                  <h4> Top quality research and innovation Initiatives </h4>
                              </div>
                           </div>
@@ -115,7 +116,7 @@ const about = () => {
                    <div className="col-lg-11 offset-lg-1">
 
                        <div className="school-notics-text">
-                           <h4>  Engineering Specializations Aligned <br/> <span>  With The Industry Needs </span>  <br/> Programs Offered Under GIT </h4> 
+                           <h4>  Engineering Specializations Aligned <br/> <span>  With The Industry Needs </span>  <br/> Programs Offered Under GIT </h4>
                            <div className="school-box">
                                <img className='school-icon1' src={schoolIcon1} alt="" />
                                <img className='school-icon2' src={schoolIcon2} alt="" />
@@ -139,12 +140,12 @@ const about = () => {
                        </div>
 
                        <ul className='facilities-list'>
-                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}> 
+                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}>
                               <div className="facilities-box">
                                   <div className="fb-img">
                                       <img src={faciltiesImg} alt="" />
                                   </div>
-                                  <div className="fb-text"> 
+                                  <div className="fb-text">
                                     <div className=''>
                                       <h4> ‘“The basic principle of transforming society is by transforming education.”’ </h4>
                                       <p> To strengthen multi-disciplinary, technology-enabled education; promote research for innovation and excellence; train students as responsible future citizens who will strive towards creating a sustainable society.</p>
@@ -156,12 +157,12 @@ const about = () => {
                                   </div>
                               </div>
                           </li>
-                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}> 
+                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}>
                               <div className="facilities-box">
                                   <div className="fb-img">
                                       <img src={faciltiesImg2} alt="" />
                                   </div>
-                                  <div className="fb-text"> 
+                                  <div className="fb-text">
                                     <div className=''>
                                       <h4> ‘“The basic principle of transforming society is by transforming education.”’</h4>
                                       <p> To strengthen multi-disciplinary, technology-enabled education; promote research for innovation and excellence; train students as responsible future citizens who will strive towards creating a sustainable society.</p>
@@ -173,12 +174,12 @@ const about = () => {
                                   </div>
                               </div>
                           </li>
-                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}> 
+                          <li className='facilities-item' style={{ backgroundImage: `url(${faciltiesBg})` }}>
                               <div className="facilities-box">
                                   <div className="fb-img">
-                                      <img src={faciltiesImg2} alt="" />
+                                      <img src={faciltiesImg3} alt="" />
                                   </div>
-                                  <div className="fb-text"> 
+                                  <div className="fb-text">
                                     <div className=''>
                                       <h4> ‘“The basic principle of transforming society is by transforming education.”’ </h4>
                                       <p> To strengthen multi-disciplinary, technology-enabled education; promote research for innovation and excellence; train students as responsible future citizens who will strive towards creating a sustainable society.</p>
@@ -192,7 +193,7 @@ const about = () => {
                           </li>
                        </ul>
 
-                      
+
                    </div>
                </div>
            </div>

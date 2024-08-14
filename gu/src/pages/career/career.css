@@ -1,5 +1,13 @@
 .career-head{padding: 0 14px;font-size: 12px;line-height: 1.8;color: var(--white);}
 .career-head h4{margin-bottom: 8px;}
+.career-box {
+    background: #bab699;
+    color: var(--white);
+    padding: 29px 17px 10px;
+    border-radius: 10px;
+    font-size: 11px;
+    min-height: 120px;
+}
 
 .career-list{width: calc(100% + 4px);margin-left: -2px;margin-bottom: -10px;margin-top: 17px;}
 .career-item{width: 16.66%;padding: 0 2px;margin-bottom: 10px;}

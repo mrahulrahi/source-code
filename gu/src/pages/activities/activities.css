@@ -4,19 +4,23 @@
 .ac-text {text-align: center;}
 .ac-text h4 {font-size: 49px;font-weight: 800;line-height: 1.1;color:#A69E87;}
 .ac-text p {max-width: 413px;text-align: center;margin: 0 auto;font-size: 18px;font-family: Courier Prime;color: #1D3459;line-height: 1.2;}
-
+.ActivitiesCardBg{position: relative;}
+.ActivitiesCardBg-text {color: #FFF;font-family: Karantina;font-size: 330px;font-style: normal;font-weight: 700;line-height: 217px;position: absolute;text-transform: uppercase;left: 85px;top: 41%;}
 
 @media(max-width:991.98px){
    .activities-hero{ height:440px;}
+   .ActivitiesCardBg-text{font-size:250px;top: 30%;}
 }
 
 @media(max-width:767.98px){  
    .activities-hero{ height:380px;} 
+   .ActivitiesCardBg-text {font-size: 200px;top: 2%;}
 }
 
 
 @media(max-width:767.98px){
     .activities-hero {height: 340px;}
+    .ActivitiesCardBg-text {font-size: 130px;}
 }
     
 

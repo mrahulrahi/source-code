@@ -2,7 +2,7 @@ import React from 'react';
 import './mou.css'
 import Innerherotwo from '../../components/innerherotwo/innerherotwo';
 import inner8 from '../../assets/images/inner-img-8.jpg';
-import MouData from '../../components/MouCard/moudata';
+import MouCard from '../../components/MouCard/MouCard';
 
 const mou = () => {
   return (
@@ -13,7 +13,7 @@ const mou = () => {
          <div className="container">
             <div className="row">
                 <div className="col-lg-12">
-                   <MouData />
+                  <MouCard />
                 </div>
             </div>
          </div>

@@ -29,6 +29,7 @@ import Gim from './pages/institutions/gim';
 import Gis from './pages/institutions/gis';
 import Gia from './pages/institutions/gia';
 import Gic from './pages/institutions/gic';
+import Pages from './pages/institutions/pages';
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
             <Route path="gia" element={<Gia />} />
             <Route path="gis" element={<Gis />} />
             <Route path="gic" element={<Gic />} />
+            <Route path="institute/:slug" element={<Pages />} />
           </Route>
         </Routes>
       </BrowserRouter>

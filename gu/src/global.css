@@ -18,6 +18,7 @@ ul,li{ padding:0; list-style-type: style none; margin:0;}
 --font-Karantina: "Karantina", system-ui;
 --Alfa: "Alfa Slab One", serif;}
 
+.gold{background-color:#bab699;}
 
 /* =================reset css starts here=================  */
 *{margin:0;padding:0;}
@@ -129,7 +130,6 @@ body:has(.innerhero) ul:not([class])>li:before{background: var(--white);}
     .heading h3{font-size: 30px;}
     .heading h4{font-size: 26px;}
     .heading br{display: none;}
-
     .content-container{padding:40px 0;}
 }
 

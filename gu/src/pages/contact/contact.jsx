@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './contact.css';
 import Innerherotwo from '../../components/innerherotwo/innerherotwo';
 import InnerHeroBg from '../../assets/images/inner-img-12.jpg';
@@ -8,6 +9,22 @@ import ContactCards from '../../data/contactCard.json';
 import contactBG from '../../assets/images/contact-form-bg.png';
 
 const contact = () => {
+  const [contacts, setContacts] = useState([]);
+  const [primaryContacts, setPrimaryContacts] = useState([]);
+  const [instituteContacts, setInstituteContacts] = useState([]);
+
+  useEffect(() => {
+    axios.get('https://ghandhinagaru.shopperbite.com/api/getAllContacts')
+      .then(response => {
+        setContacts(response.data);
+        setPrimaryContacts(response.data.filter(contact => contact.category === 'Primary'));
+        setInstituteContacts(response.data.filter(contact => contact.category === 'Institutes Contact'));
+      })
+      .catch(error => {
+        console.error('Error fetching contacts data:', error);
+      });
+  }, []);
+
   return (
     <React.Fragment>
 
@@ -17,32 +34,20 @@ const contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-9 mx-auto">
-              <h4 className="uppercase font-extrabold text-center">List of Key <span className="text-blue font-black">Authorities</span></h4>
+              <h4 className="uppercase font-extrabold text-center">
+                List of Key <span className="text-blue font-black">Authorities</span>
+              </h4>
               <div className="authority-card-list flex flex-wrap">
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
-                <div className="authority-card-item">
-                  <AuthorityCard name="Prof. Nirav Joshi" post="Deputy Registrar (Administrative)" email="dradmin@gandhinagaruni.ac.in" phone="+91 7069088191" />
-                </div>
+                {primaryContacts.map((contact, index) => (
+                  <div className="authority-card-item" key={index}>
+                    <AuthorityCard
+                      name={contact.name}
+                      post={contact.designation || 'N/A'}
+                      email={contact.email}
+                      phone={contact.phone || 'N/A'}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -53,11 +58,15 @@ const contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-11 mx-auto">
-              <h4 className="uppercase font-black text-gold text-center">various Institutes <span className="text-blue">Contact details</span></h4>
+              <h4 className="uppercase font-black text-gold text-center">Various Institutes <span className="text-blue">Contact details</span></h4>
               <div className="contact-card-list flex flex-wrap">
-                {ContactCards.map((card) => (
-                  <div className="contact-card-item">
-                    <ContactCard institute={card.institute} name={card.name} phone={card.phone} />
+                {instituteContacts.map((contact, index) => (
+                  <div className="contact-card-item" key={index}>
+                    <div className="contact-card-box w-full h-full flex flex-col">
+                      <div className="contact-card-institute">{contact.name}</div>
+                      <div className="contact-card-name mt-auto">{contact.institute_name || 'N/A'}</div>
+                      <div className="contact-card-phone">{contact.phone || 'N/A'}</div>
+                    </div>
                   </div>
                 ))}
               </div>

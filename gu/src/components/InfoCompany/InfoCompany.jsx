@@ -1,23 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './Ic.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
-import { Autoplay } from 'swiper/modules';
-import { Navigation } from 'swiper/modules';
-
-import tcsImg1 from '../../assets/images/Placements-img-1.jpg';
-import tcsImg2 from '../../assets/images/Placements-img-2.jpg';
-import tcsImg3 from '../../assets/images/Placements-img-3.jpg';
-import tcsImg4 from '../../assets/images/Placements-img-4.jpg';
-import tcsIcon from '../../assets/images/tcs-icon.svg';
-import byjusIcon from '../../assets/images/byjus-icon.svg';
-import flipkartIcon from '../../assets/images/flipkart-icon.svg';
-import amazonIcon from '../../assets/images/amazon-icon.svg';
-
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const InfoCompany = () => {
+    const [placements, setPlacements] = useState([]);
+
+    useEffect(() => {
+        axios.get('https://ghandhinagaru.shopperbite.com/api/getAllPlacements')
+            .then(response => {
+                setPlacements(response.data);
+            })
+            .catch(error => {
+                console.error('Error fetching placements data:', error);
+            });
+    }, []);
+
+    useEffect(() => {
+        // Reinitialize Swiper on data load
+        const sliderInit = setTimeout(() => {
+            const swiper = document.querySelector('.placementSlider').swiper;
+            if (swiper) {
+                swiper.autoplay.start();  // Ensure autoplay starts
+            }
+        }, 100); // Small timeout for Swiper to initialize properly
+
+        return () => clearTimeout(sliderInit);
+    }, [placements]);
+
     return (
         <React.Fragment>
             <div className="content-container overflow-hidden text-blue">
@@ -46,10 +60,10 @@ const InfoCompany = () => {
                                     slidesPerView={1}
                                     loop={true}
                                     autoHeight={true}
-                                    // autoplay={{
-                                    //     delay: 2500,
-                                    //     disableOnInteraction: false,
-                                    // }}
+                                    autoplay={{
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    }}
                                     breakpoints={{
                                         375: {
                                             slidesPerView: 2
@@ -67,102 +81,20 @@ const InfoCompany = () => {
                                     pagination={{ clickable: true }}
                                     className="placementSlider"
                                 >
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg1} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> Tanya B. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={tcsIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
+                                    {placements.map((placement, index) => (
+                                        <SwiperSlide className="placement-item " key={index}>
+                                            <div className="placement-box">
+                                                <div className="pi-img"> <img src={`https://ghandhinagaru.shopperbite.com/assets/uploads/${placement.image}`} alt={placement.name} /> </div>
+                                                <div className="pi-text">
+                                                    <h4> {placement.name} </h4>
+                                                    <div className="pi-box">
+                                                        <div className="pi-logo"> <img src={`https://ghandhinagaru.shopperbite.com/assets/uploads/${placement.company_logo}`} alt={placement.company} /> </div>
+                                                        <div className="pi-logo-text"> LPA: {placement.description} </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg2} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> Tanmay J. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={byjusIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg3} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> rita N. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={flipkartIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg4} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> ben t. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={amazonIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg1} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> Tanya B. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={tcsIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg2} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> Tanmay J. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={byjusIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg3} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> rita N. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={flipkartIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide className="placement-item">
-                                        <div className="placement-box">
-                                            <div className="pi-img"> <img src={tcsImg4} alt="" /> </div>
-                                            <div className="pi-text">
-                                                <h4> ben t. </h4>
-                                                <div className="pi-box">
-                                                    <div className="pi-logo"> <img src={amazonIcon} alt="" /> </div>
-                                                    <div className="pi-logo-text"> LPA: 09  </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
+                                        </SwiperSlide>
+                                    ))}
                                 </Swiper>
                             </div>
                         </div>

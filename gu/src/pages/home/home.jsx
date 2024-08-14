@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './home.css';
 import { Link } from 'react-router-dom';
 import Heading from '../../components/heading/heading';
@@ -49,25 +50,48 @@ const home = () => {
     setIsVisible(isVisible);
   };
 
+  const [heroData, setHeroData] = useState({
+    heading_1: '',
+    content: ''
+  });
+  const [features, setFeatures] = useState([]);
+
+  useEffect(() => {
+    axios.get('https://ghandhinagaru.shopperbite.com/api/page/home')
+      .then(response => {
+        const data = response.data;
+        setHeroData({
+          heading_1: data.heading_1,
+          content: data.content
+        });
+        setFeatures(data.components.slice(0, 5)); // Get the first 5 items for features
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  }, []);
+
   return (
     <React.Fragment>
       <div className="blue-linear overflow-hidden">
         <FloatingButton />
 
         <div className="main-hero">
-          <div className="hero-video"> <video src={heroVideo} autoPlay loop muted playsInline></video> </div>
+          <div className="hero-video">
+            <video src={heroVideo} autoPlay loop muted playsInline></video>
+          </div>
           <div className="container">
             <div className="row">
               <div className="col-lg-11 mx-auto">
                 <div className="main-hero-text">
-                  <h1> Asia’s first <br /> <span> AI Enabled </span>  <br /> Campus</h1>
-                  <p> creating an enabling environment of active learning and become a centre of excellence. </p>
+                  <h1 dangerouslySetInnerHTML={{ __html: heroData.heading_1.replace(/\n/g, '<br />') }}></h1>
+                  <p>{heroData.content}</p>
                 </div>
                 <div className="main-hero-icon">
-                  <img src={heroicon2} alt="" />
+                  <img src={heroicon2} alt="Main Hero Icon 2" />
                 </div>
                 <div className="main-hero-left">
-                  <img src={heroicon1} alt="" />
+                  <img src={heroicon1} alt="Main Hero Icon 1" />
                 </div>
               </div>
             </div>
@@ -98,7 +122,8 @@ const home = () => {
         </div>
 
         <InstitutionsGrid />
-        <div className="institute-feature-container">
+
+        {/* <div className="institute-feature-container">
           <div className="container">
             <div className="row">
               <div className="col-xl-11 mx-auto">
@@ -137,7 +162,58 @@ const home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+          <div className="institute-feature-container">
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-11 mx-auto">
+                  <div className="institute-feature-list">
+                    <div className="institute-feature-item">
+                      <div className="institute-feature-img">
+                          <img src={ifIcon1} alt="" />
+                      </div>
+                      <div className="institute-feature-text">
+                        <h4>{features[0] ? features[0].content : ''}</h4>
+                      </div>
+                    </div>
+                    <div className="institute-feature-item">
+                      <div className="institute-feature-img">
+                        <img src={ifIcon2} alt="" />
+                      </div>
+                      <div className="institute-feature-text">
+                        <h4>{features[1] ? features[1].content : ''}</h4>
+                      </div>
+                    </div>
+                    <div className="institute-feature-item">
+                      <div className="institute-feature-img">
+                         <img src={ifIcon3} alt="" />
+                      </div>
+                      <div className="institute-feature-text">
+                        <h4>{features[2] ? features[2].content : ''}</h4>
+                      </div>
+                    </div>
+                    <div className="institute-feature-item">
+                      <div className="institute-feature-img">
+                         <img src={ifIcon4} alt="" />
+                      </div>
+                      <div className="institute-feature-text">
+                        <h4>{features[3] ? features[3].content : ''}</h4>
+                      </div>
+                    </div>
+                    <div className="institute-feature-item">
+                      <div className="institute-feature-img">
+                         <img src={ifIcon5} alt="" />
+                      </div>
+                      <div className="institute-feature-text">
+                        <h4>{features[4] ? features[4].content : ''}</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div className="home-about-container relative overflow-hidden">
           <div className="home-about-bg"><img src={homeAboutBg} alt="" /></div>
@@ -151,7 +227,7 @@ const home = () => {
                     <Link to="#!" className="btn btn-outline">Learn More</Link>
                   </div>
                   <div className="home-about-img d-flex align-items-center justify-content-center">
-                    <img src={homeAboutImg} alt="About" />
+                    <img className="drone-img" src={homeAboutImg} alt="About" />
                   </div>
                 </div>
               </div>
@@ -207,7 +283,7 @@ const home = () => {
                             <h4>GU TeCHNO EVENT</h4>
                             <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
                           </div>
-                          <div className="he-card-list d-flex flex-wrap justify-content-center">
+                          <div className="he-card-list d-flex flex-wrap justify-content-left">
                             <div className="he-card-item">
                               <div className="he-card-box d-flex flex-column w-100 h-100">
                                 <div className="he-card-icon"><img src={hecIcon1} alt="" /></div>
@@ -238,10 +314,10 @@ const home = () => {
                                 <p className="mt-auto">Best Quality Infrastructure & Digital Resources</p>
                               </div>
                             </div>
-                            <div className="he-card-item">
+                            {/* <div className="he-card-item">
                               <div className="he-card-box d-flex flex-column w-100 h-100">
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>
@@ -268,6 +344,7 @@ const home = () => {
         <div className="home-placement-container content-container ">
           <InfoCompany />
         </div>
+
         <VisibilitySensor onChange={onVisibilityChange}>
           <div className="placement-overview-container">
             <div className="container">
@@ -442,6 +519,7 @@ const home = () => {
             </div>
           </div>
         </div>
+
       </div>
     </React.Fragment>
   )

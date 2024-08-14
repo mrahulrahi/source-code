@@ -5,7 +5,7 @@
 .ih-ec-content h3{font-size: 48px;line-height: 1.05;color: var(--white);margin-bottom: 32px;}
 
 .exam-schedule-container{background: #CCC8AC;position: relative;overflow: hidden;}
-.exam-schedule-bg{width: 100%;max-width: 615px;position: absolute;top: 50%;right: -307.5px;transform: translateY(-50%);opacity: 0.4;}
+.exam-schedule-bg{width: 100%;max-width: 615px;position: absolute;top: 0;transform: translate(-50%);opacity: 0.4;left: 50%;z-index: 1;}
 .exam-schedule-bg img{width: 100%;height: 100%;object-fit: contain;}
 
 .exam-schedule-container h4{font-size: 28px;font-weight: 800;line-height: 1;margin-bottom: 46px;color: var(--white);text-transform: uppercase;text-align: center;}

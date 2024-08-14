@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import logo from '../../assets/images/logo.svg';
 import menuIcon from '../../assets/images/menu-icon.svg';
 import Drawer from '@mui/material/Drawer';
@@ -14,13 +15,38 @@ import linkedin from '../../assets/images/linkedin-icon.svg';
 import instagram from '../../assets/images/instagram-icon.svg';
 import whatsapp from '../../assets/images/whatsapp-icon.svg';
 import flag from '../../assets/images/flag-icon.svg';
+import { IoIosArrowDown } from "react-icons/io";
 
 const Header = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [navLinks, setNavLinks] = useState([]);
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  useEffect(() => {
+    const fetchNavLinks = async () => {
+      try {
+        const response = await axios.get('https://ghandhinagaru.shopperbite.com/api/getNavLinks');
+        const data = response.data;
+
+        // Exclude the first title value
+        const filteredNavLinks = data.filter((_, index) => index !== 0);
+
+        setNavLinks(filteredNavLinks);
+      } catch (error) {
+        console.error("Error fetching navigation links:", error);
+      }
+    };
+
+    fetchNavLinks();
+  }, []);
 
   return (
     <React.Fragment>
@@ -33,7 +59,7 @@ const Header = () => {
                   <Link to="/"> <img src={logo} alt="logo" /> </Link>
                 </div>
                 <div className="header-menu-icon">
-                  <Link onClick={toggleDrawer(true)}> <img src={menuIcon} alt="logo" /> </Link>
+                  <Link onClick={toggleDrawer(true)}> <img src={menuIcon} alt="menu" /> </Link>
                 </div>
                 <Drawer anchor="top" open={open} onClose={toggleDrawer(false)}>
                   <div className="menu-content-box">
@@ -48,7 +74,28 @@ const Header = () => {
                             <div className="mnlb-link-item">
                               <ul className='mli-list'>
                                 <li className='mli-item'> <Link to='/about' onClick={toggleDrawer(false)}> About GU </Link> </li>
-                                <li className='mli-item'> <Link to='/' onClick={toggleDrawer(false)}> Institutions </Link> </li>
+                                <li className='mli-item'>
+                                  <Link to='/' onClick={toggleDropdown}>
+                                    Institutions <IoIosArrowDown />
+                                  </Link>
+                                  {isDropdownOpen && (
+                                    <ul className='dropdown'>
+                                      {navLinks.map((link, index) => (
+                                        <li key={index}>
+                                          <Link 
+                                            to={`/institute/${link.slug}`} 
+                                            onClick={() => {
+                                              toggleDropdown();
+                                              toggleDrawer(false)(); // Ensure the drawer closes
+                                            }}
+                                          >
+                                            {link.title} {link.name}
+                                          </Link>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  )}
+                                </li>
                                 <li className='mli-item'> <Link to='/campusfacility' onClick={toggleDrawer(false)}> Campus Facilities </Link> </li>
                                 <li className='mli-item'> <Link to='/admissions' onClick={toggleDrawer(false)}> Admissions </Link> </li>
                                 <li className='mli-item'> <Link to='/international' onClick={toggleDrawer(false)}> Internationals </Link> </li>
@@ -58,8 +105,6 @@ const Header = () => {
                                 <li className='mli-item'> <Link to='/gallery' onClick={toggleDrawer(false)}> Gallery </Link> </li>
                                 <li className='mli-item'> <Link to='/announcements' onClick={toggleDrawer(false)}> Announcements </Link> </li>
                                 <li className='mli-item'> <Link to='/contact' onClick={toggleDrawer(false)}> Contact Us </Link> </li>
-                                <li className='mli-item'> <Link to='/git' onClick={toggleDrawer(false)}> Git </Link> </li>
-                                <li className='mli-item'> <Link to='/gim' onClick={toggleDrawer(false)}> Gim </Link> </li>
                               </ul>
                             </div>
                             <div className="mnlb-link-item">
@@ -75,9 +120,6 @@ const Header = () => {
                                 <li className='mli-item'> <Link to='/iqac' onClick={toggleDrawer(false)}> IQAC </Link> </li>
                                 <li className='mli-item'> <Link to='/approvals' onClick={toggleDrawer(false)}> Approvals </Link> </li>
                                 <li className='mli-item'> <Link to='/career' onClick={toggleDrawer(false)}> Career </Link> </li>
-                                <li className='mli-item'> <Link to='/gis' onClick={toggleDrawer(false)}> Gis </Link> </li>
-                                <li className='mli-item'> <Link to='/gia' onClick={toggleDrawer(false)}> Gia </Link> </li>
-                                <li className='mli-item'> <Link to='/gic' onClick={toggleDrawer(false)}>Gic </Link> </li>
                               </ul>
                             </div>
                           </div>

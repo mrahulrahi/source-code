@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
 
 import './campusfacility.css';
 import InnerHeroBg from '../../assets/images/inner-img-15.png';
@@ -7,13 +10,15 @@ import img2 from '../../assets/images/facility-img-2.jpg';
 import img3 from '../../assets/images/campus-img-1.jpg';
 import img4 from '../../assets/images/campus-img-2.jpg';
 import letterR from '../../assets/images/r-letter-img.png';
+import letterC from '../../assets/images/c-letter-img.png';
+import letterT from '../../assets/images/t-letter-img.png';
 import campusBoxImg from '../../assets/images/box-img.png';
 import campusbg from '../../assets/images/campus-box-bg.png';
 import bus from '../../assets/images/bus-icon.png';
 import bed from '../../assets/images/bed-icon.png';
 import bedicon from '../../assets/images/bad-svg.svg';
 import busicon from '../../assets/images/bus-svg.svg';
-import transportation from '../../assets/images/transportation-svg.svg'; 
+import transportation from '../../assets/images/transportation-svg.svg';
 import wifiicon from '../../assets/images/wifi-icon.svg';
 import moblieicon from '../../assets/images/moblie-icon.svg';
 import cupicon from '../../assets/images/cup-icon.svg';
@@ -33,14 +38,14 @@ import bookicon from '../../assets/images/book-icon.svg';
 import clockicon from '../../assets/images/clock-icon.svg';
 
 const HoverCard = () => {
-    const [hoveredIndex, setHoveredIndex] = useState(1); 
+    const [hoveredIndex, setHoveredIndex] = useState(1);
 
     const handleMouseEnter = (index) => {
         setHoveredIndex(index);
     };
 
     const handleMouseLeave = () => {
-        setHoveredIndex(-1); 
+        setHoveredIndex(-1);
     };
     return (
         <div className="main-card-list">
@@ -217,56 +222,120 @@ const CampusFacility = () => {
             <div className="col-lg-12 text-center">
               <h1>CAMPUS FACILITIES</h1>
               <p>The campus provides a refreshing environment with different facilities which makes our students feel at home.</p>
-              <Link className="btn btn-default"> Apply Now </Link>
+              <Link className="btn btn-default"> Contact Us </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className="content-container fc-container">
-         <div className="container">
-            <div className="row">
-                <div className="col-xl-10 mx-auto">
-                    
-                    <div className="fc-list">
-                        <div className="fc-item">
-                              <div className="facility-box w-full h-full relative">
-                                  <div className="facility-img relative"><img src={img2} alt="" /></div>
-                                    <div className="facility-hover-box">
-                                      <div className="facility-hover-letter">
-                                          <img src={letterR} alt="" />
-                                      </div>
-                                  </div>
-                                  <div className="facility-content">RESOURCE <br/> CENTER</div>
-                              </div>
-                        </div>
-                        <div className="fc-item">
-                              <div className="facility-box w-full h-full relative">
-                                  <div className="facility-img relative"><img src={img3} alt="" /></div>
-                                    <div className="facility-hover-box">
-                                      <div className="facility-hover-letter">
-                                          <img src={letterR} alt="" />
-                                      </div>
-                                  </div>
-                                  <div className="facility-content">CAMPUS <br/> FACILITY</div>
-                              </div>
-                        </div>
-                        <div className="fc-item">
-                              <div className="facility-box w-full h-full relative">
-                                  <div className="facility-img relative"><img src={img4} alt="" /></div>
-                                    <div className="facility-hover-box">
-                                      <div className="facility-hover-letter">
-                                          <img src={letterR} alt="" />
-                                      </div>
-                                  </div>
-                                  <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
-                              </div>
-                        </div>
-                    </div>
 
+        <div className="content-container fc-container">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xl-10 mx-auto">
+                        <Swiper
+                              spaceBetween={0}
+                              slidesPerView={1}
+                              loop={true}
+                              breakpoints={{
+                                  576: {
+                                      slidesPerView: 2,
+                                  },
+                                  768: {
+                                      slidesPerView: 3,
+                                  },
+                                  1024: {
+                                      slidesPerView: 4,
+                                  },
+                              }}
+                              navigation={{
+                                  nextEl: ".swiper-button-next",
+                                  prevEl: ".swiper-button-prev",
+                              }}
+                          >
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img2} alt="Resource Center" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterR} alt="R" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">RESOURCE <br/> CENTER</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img3} alt="Campus Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterC} alt="C" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">CAMPUS <br/> FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img4} alt="Transport & Hostel Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterT} alt="T" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img4} alt="Transport & Hostel Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterT} alt="T" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img4} alt="Transport & Hostel Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterT} alt="T" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img4} alt="Transport & Hostel Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterT} alt="T" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="fc-item">
+                                <div className="facility-box w-full h-full relative">
+                                    <div className="facility-img relative"><img src={img4} alt="Transport & Hostel Facility" /></div>
+                                    <div className="facility-hover-box">
+                                        <div className="facility-hover-letter">
+                                            <img src={letterT} alt="T" />
+                                        </div>
+                                    </div>
+                                    <div className="facility-content">TRANSPORT & HOSTEL FACILITY</div>
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
             </div>
-         </div>
-      </div>
+        </div>
+
+
       <div className="content-container campus-box type-3" style={{ backgroundImage: `url(${cmapusbg2})` }}>
         <div className="campus-lable"> </div>
          <div className="container">
@@ -322,24 +391,24 @@ const CampusFacility = () => {
                                 <li className="cb-deco-item"> InTech Open Access</li>
                                 <li className="cb-deco-item"> MATH WORLD </li>
                                 <li className="cb-deco-item"> Indian Academy of Sciences (IAS) </li>
-                            </ul> 
+                            </ul>
                         </div>
                     </div>
                     <div className="campus-dt-img"> <img src={campusBoxImg} alt="" /> </div>
                 </div>
             </div>
          </div>
-      </div>    
+      </div>
       <div className="content-container campus-box tye-2" style={{ backgroundImage: `url(${campusbg})` }}>
         <div className="campus-lable"> </div>
          <div className="container">
             <div className="row">
                 <div className="col-lg-10 mx-auto">
-                   
+
                     <div className="cb-heading">
                         <h4> CAMPUS <span> FACILITIES</span>  </h4>
                     </div>
-                    
+
                     <div className="cb-list">
                       <div className="cb-item">
                         <div className="cb-box">
@@ -377,7 +446,7 @@ const CampusFacility = () => {
                         <div className="cb-text-lable-item">
                             <div className="ctli-box">
                                 <div className="ctli-icon"> <img src={wifiicon} alt="" /> </div>
-                                <div className="ctli-text"> 
+                                <div className="ctli-text">
                                    <h4> WI-FI ENABLED CAMPUS </h4>
                                    <p> The entire campus of GIT is Wi-Fi enabled which facilitates the students to access the internet from anywhere in the campus. </p>
                                 </div>
@@ -386,29 +455,29 @@ const CampusFacility = () => {
                         <div className="cb-text-lable-item">
                             <div className="ctli-box">
                                 <div className="ctli-icon"> <img src={moblieicon} alt="" /> </div>
-                                <div className="ctli-text"> 
+                                <div className="ctli-text">
                                    <h4> Computing Facilities </h4>
                                    <p> The entire campus of GIT is Wi-Fi enabled which facilitates the students to access the internet from anywhere in the campus. </p>
-                                </div>   
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="campus-dt-img"> <img src={campusBoxImg} alt="" /> </div>
                 </div>
             </div>
          </div>
-      </div>   
+      </div>
       <div className="content-container campus-box" style={{ backgroundImage: `url(${campusbg})` }}>
          <div className="campus-lable"> </div>
          <div className="container">
             <div className="row">
                 <div className="col-lg-10 mx-auto">
-                   
+
                     <div className="cb-heading">
                         <h4> TRANSPORT & <span> HOSTEL </span>  </h4>
                     </div>
-                    
+
                     <div className="cb-list">
                       <div className="cb-item">
                         <div className="cb-box">
@@ -436,7 +505,7 @@ const CampusFacility = () => {
                         <div className="cb-text-lable-item">
                             <div className="ctli-box">
                                 <div className="ctli-icon"> <img src={transportation} alt="" /> </div>
-                                <div className="ctli-text"> 
+                                <div className="ctli-text">
                                    <h4> Transportation </h4>
                                    <p> The entire campus of GIT is Wi-Fi enabled which facilitates the students to access the internet from anywhere in the campus. </p>
                                 </div>
@@ -445,23 +514,21 @@ const CampusFacility = () => {
                         <div className="cb-text-lable-item">
                             <div className="ctli-box">
                                 <div className="ctli-icon"> <img src={bedicon} alt="" /> </div>
-                                <div className="ctli-text"> 
+                                <div className="ctli-text">
                                    <h4> Hostel Facility </h4>
                                    <p> The entire campus of GIT is Wi-Fi enabled which facilitates the students to access the internet from anywhere in the campus. </p>
-                                </div>   
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="campus-dt-img"> <img src={campusBoxImg} alt="" /> </div>
                 </div>
             </div>
          </div>
-      </div>    
+      </div>
     </React.Fragment>
   )
 }
 
 export default CampusFacility;
-
-
