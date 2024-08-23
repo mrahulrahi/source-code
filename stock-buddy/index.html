@@ -18,13 +18,17 @@
         <header class="page-header flex-shrink-0">
             <nav>
                 <div class="d-flex">
-                    <a href="#!" class="btn btn-default"> <span class=""></span> Mein Profil </a>
-                    <a href="#!" class="btn btn-primary">Logout</a>
+                    <a href="#!" class="btn btn-default d-flex"> <span class=""></span> Mein Profil <button
+                            type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            bearbeiten
+                        </button>
+                    </a>
+                    <a href="login.html" class="btn btn-primary">Logout</a>
                 </div>
                 <div class="">
-                    
+
                 </div>
-        
+
             </nav>
         </header>
         <!--============================== SideBar Nav End ==============================-->
@@ -97,6 +101,131 @@
         </aside>
         <!--============================== SideBar End ==============================-->
     </main>
+
+    <div class="profile-modal-wrapper">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content position-relative">
+                    <button type="button"
+                        class="modal-close-btn d-flex align-items-center justify-content-center rounded-circle"
+                        data-bs-dismiss="modal" aria-label="Close">
+                        <img src="include/images/close.svg" alt="">
+                    </button>
+                    <div class="profile-modal-body">
+
+                        <div class="profile-modal-row">
+                            <div class="profile-modal-heading d-flex align-items-center gap-4">
+                                <span
+                                    class="pmh-icon d-flex align-items-center justify-content-center rounded-circle"><img
+                                        src="include/images/user.svg" alt=""></span>
+                                <h3>Profil</h3>
+                            </div>
+                            <p>Verwalten Sie Ihre E-Mail-Adresse, um wichtige Updates und Benachrichtigungen zu
+                                erhalten.</p>
+                            <div class="change-email-box d-flex align-items-center gap-4">
+                                <div class="change-email-value">info@2netmedia.de</div><button
+                                    class="btn btn-default">eMail ändern</button>
+                            </div>
+                        </div>
+
+                        <div class="profile-modal-row">
+                            <div class="profile-modal-heading d-flex align-items-center gap-4">
+                                <span
+                                    class="pmh-icon d-flex align-items-center justify-content-center rounded-circle"><img
+                                        src="include/images/info.svg" alt=""></span>
+                                <h3>Informationen</h3>
+                            </div>
+                            <p>Verwalte Deine Profil Informationen</p>
+
+                            <div class="row gx-4 gy-2 mt-4">
+                                <div class="col-lg-12">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Anrede">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Vorname">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Nachname">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Straße / Hausnr">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="PLZ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Ort">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Bundesland">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="text" class="form-control" placeholder="Land">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="d-flex justify-content-end">
+                                        <input type="submit" class="btn btn-primary" value="Infos aktualisieren">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="profile-modal-row">
+                            <div class="profile-modal-heading d-flex align-items-center gap-4">
+                                <span
+                                    class="pmh-icon d-flex align-items-center justify-content-center rounded-circle"><img
+                                        src="include/images/passwort.svg" alt=""></span>
+                                <h3>Passwort</h3>
+                            </div>
+                            <p>Ändern Sie hier ihr Passwort</p>
+
+                            <div class="row gx-4 gy-2 mt-2">
+                                <div class="col-lg-12">
+                                    <div class="form-group grey">
+                                        <input type="password" class="form-control" placeholder="altes Passwort">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="password" class="form-control" placeholder="neues Passwort">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group grey">
+                                        <input type="password" class="form-control"
+                                            placeholder="Bestätige dein neues Passwort">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="d-flex justify-content-end">
+                                        <input type="submit" class="btn btn-primary" value="Passwort ändern">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="include/js/bootstrap.bundle.min.js"></script>
     <script src="include/js/custom.js"></script>
