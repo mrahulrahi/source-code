@@ -13,63 +13,215 @@
 
 <body>
     <div class="page-bg" style="background-image: url(include/images/bg-image.jpg);"></div>
-    <main class="page-wapper d-flex position-relative">
+    <main class="page-wrapper d-flex position-relative">
         <!--============================== SideBar Nav Start ==============================-->
         <header class="page-header flex-shrink-0">
             <nav>
-                <div class="d-flex">
-                    <a href="#!" class="btn btn-default d-flex"> <span class=""></span> Mein Profil <button
-                            type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="d-flex item-nav">
+                    <a href="#!" class="blue-btn d-flex"> <span class=""> <img src="include/images/user.svg" alt=""> </span> Mein Profil <button
+                            type="button" class="pink-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             bearbeiten
                         </button>
                     </a>
-                    <a href="login.html" class="btn btn-primary">Logout</a>
-                </div>
-                <div class="">
-
+                    <a href="#!" class="btn btn-primary">Logout</a>
                 </div>
 
+                <div class="data-list">
+                    <div class="data-item1">
+                        <h4 class="data-heading"> Deine Favoriten </h4>
+                        <ul class="dl1">
+                            <li class="dl2"> Volkswagen AG</li>
+                            <li class="dl2"> Salvay Ag </li>
+                            <li class="dl2"> Deutsche Bank AG </li>
+                            <li class="dl2"> Stellantis </li>
+                        </ul>
+                    </div>
+                    <div class="data-item2">
+                        <h4 class="data-heading"> Deine Sessions vom </h4>
+                        <ul class="dl2-list">
+                            <li class="dl2-item">
+                                <div class="date"> 13.03.2024 </div>
+                                <p> Volskwagen, Mercedes-Benz, Deutsche Bank ....  </p>   
+                            </li>
+                            <li class="dl2-item">
+                                <div class="date"> 15.03.2024 </div>
+                                <p> Stellantis, Mercedes-Benz, Solvay,  Deutsche Bank ....  </p>   
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item3">
+                        <h4 class="data-heading"> Deine Portfolio </h4>
+                        <ul class="dl3-list">
+                            <li class="dl3-item">
+                              <h4> Style </h4>
+                              <div class="circle-box-1">
+                                 <div class="cbi1" style="background-color: #1d3a8e;"> </div>
+                                 <div class="cbi2" style="background-color: #b1b1b1;"> </div>
+                                 <div class="cbi3" style="background-color: #b52481;">  </div>
+                              </div>
+                            </li>
+                            <li class="dl3-item">
+                                <h4> Streuung </h4>
+                                <div class="circle-box-2">
+                                <div class="cbi1" style="background-color: #b1b1b1;"> </div>
+                                <div class="cbi2" style="background-color: #1d3a8e;"> </div>
+                                <div class="cbi3" style="background-color: #b52481;">  </div>
+                                </div>
+                            </li>
+                            <li class="dl3-item">
+                                <h4> Risiko </h4>
+                                <div class="circle-box-1">
+                                    <div class="cbi1" style="background-color: #1d3a8e;"> </div>
+                                    <div class="cbi2" style="background-color: #b1b1b1;"> </div>
+                                    <div class="cbi3" style="background-color: #b52481;">  </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-item4">
+                        <h4 class="data-heading"> Deine Sessions vom </h4>
+                        <div class="deco-list">
+                            <div class="arrow-icon"> <img src="include/images/performance-green.svg" alt=""> +27% </div>
+                            <div class="teco-text">  € 33.423 </div>
+                        </div>
+                    </div> 
+                    <div class="data-item5">
+                        <h4 class="data-heading">Deine Anlageabsichten</h4>
+
+                         <div class="chart-main">
+                            <div class="ch-left">
+                              <div class="ch-list">
+                                 <div class="ch-item"> Wachstum </div>
+                                 <div class="ch-item"> Momentum </div>
+                                 <div class="ch-item"> Sentiment </div>
+                                 <div class="ch-item"> Analysen </div>
+                                 <div class="ch-item"> Finanzen </div>
+                                 <div class="ch-item"> Bewertung </div>
+                                 <div class="ch-item"> Dividenden </div>
+                                 <div class="ch-item"> Risiko </div>
+                              </div>
+                            </div>
+                            <div class="ch-right">
+                                 <div class="ch-deco" style="width: 126px;"> 0,9 </div>
+                                 <div class="ch-deco" style="width: 126px;"> 0,9 </div>
+                                 <div class="ch-deco" style="width: 116px;"> 0,8 </div>
+                                 <div class="ch-deco" style="width: 94px;"> 0,7 </div>
+                                 <div class="ch-deco" style="width: 94px;"> 0,7 </div>
+                                 <div class="ch-deco" style="width: 80px;"> 0,6 </div>
+                                 <div class="ch-deco" style="width: 60px;"> 0,4 </div>
+                                 <div class="ch-deco" style="width: 44px;"> 0,3 </div>
+                                 <div class="line1"> 0,00 </div>
+                                 <div class="line2"> 0,25 </div>
+                                 <div class="line3"> 0,50 </div>
+                                 <div class="line4"> 0,75 </div>
+                                 <div class="line5"> 1,00 </div>
+                            </div>
+                         </div>
+                    </div>   
+                </div>
             </nav>
         </header>
         <!--============================== SideBar Nav End ==============================-->
 
-        <section class="page-body flex-grow-1">
+        <section class="page-body flex-grow-lg-1">
             <div class="navbar-toggler-wrapper">
                 <a href="#!" class="navbar-toggler">
                     <span class="navbar-toggler-icon"><img src="include/images/menu-icon.png" alt=""></span>
                 </a>
             </div>
-            <!--============================== Content Start ==============================-->
-            <div class="content-container">
+
+            <!--============================== Header Start ==============================-->
+            <div class="person-head">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto">
-                            <h1>Heading 1</h1>
-                            <h2>Heading 2</h2>
-                            <h3>Heading 3</h3>
-                            <h4>Heading 4</h4>
-                            <h5>Heading 5</h5>
-                            <h6>Heading 6</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                                in
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat
-                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <a href="#" class="btn btn-default">Button 1</a>
-                            <a href="#" class="btn btn-primary">Button 2</a>
+                           
+                           <div class="person-box">
+                                <div class="person-img"> <img src="include/images/robot-big.png" alt="">  </div>
+                                <div class="person-name"> <h4> Deine Performance </h4> <p> Empowering Your Financial Future with AI-Driven Insights</p> </div>
+                           </div> 
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!--============================== Header End ==============================-->
+
+            <!--============================== Content Start ==============================-->
+            <div class="chat-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 mx-auto">
+                              
+                           <div class="main-chat">
+                              <div class="chat-left">
+                                  <div class="chat-box"> 
+                                     <div class="chat-text"> <h4> Lorem ipsum dolor sit amet, cest onsetetur sadipscing? </h4>  </div>
+                                     <div class="chat-icon"> <img src="include/images/user.svg" alt=""> </div>  
+                                  </div>
+                                  <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-right">
+                                <div class="chat-box"> 
+                                   <div class="chat-text"> <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. </p>  </div>
+                                   <div class="chat-icon"> <img src="include/images/robot-small.png" alt=""> </div>  
+                                </div>
+                                <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-left">
+                                <div class="chat-box"> 
+                                   <div class="chat-text"> <h4> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren dolor?  </h4> </div>
+                                   <div class="chat-icon"> <img src="include/images/user.svg" alt=""> </div>  
+                                </div>
+                                <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-right">
+                                <div class="chat-box"> 
+                                   <div class="chat-text">  
+                                      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                                      <h4> Lorem Ipsum dolor sit amet</h4> 
+                                      <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                                      <h4> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. </h4>    
+                                  </div>
+                                   <div class="chat-icon"> <img src="include/images/robot-small.png" alt=""> </div>  
+                                </div>
+                                <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-left">
+                                <div class="chat-box"> 
+                                   <div class="chat-text"> <h4> Lorem ipsum dolor sit amet, cest onsetetur sadipscing? </h4>  </div>
+                                   <div class="chat-icon"> <img src="include/images/user.svg" alt=""> </div>  
+                                </div>
+                                <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-right">
+                            <div class="chat-box"> 
+                                <div class="chat-text"> <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. </p>  </div>
+                                <div class="chat-icon"> <img src="include/images/robot-small.png" alt=""> </div>  
+                            </div>
+                            <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-left">
+                            <div class="chat-box"> 
+                                <div class="chat-text"> <h4> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren dolor?  </h4> </div>
+                                <div class="chat-icon"> <img src="include/images/user.svg" alt=""> </div>  
+                            </div>
+                            <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                              <div class="chat-right">
+                            <div class="chat-box"> 
+                                <div class="chat-text">  
+                                    <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                                    <h4> Lorem Ipsum dolor sit amet</h4> 
+                                    <p> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                                    <h4> At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. </h4>    
+                                </div>
+                                <div class="chat-icon"> <img src="include/images/robot-small.png" alt=""> </div>  
+                            </div>
+                            <div class="chat-date"> 14.08.2024  &nbsp;  |  &nbsp;   <span>  12:25 </span> </div>
+                              </div>
+                           </div>
+
                         </div>
                     </div>
                 </div>
@@ -80,8 +232,17 @@
             <footer id="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-
+                        <div class="col-lg-10 mx-auto">
+                            <div class="chat-send">
+                                <div class="cs-icon"> <img src="include/images/write-message.svg" alt=""> </div>
+                                <div class="cs-send"> <input type="text" placeholder="Stellen Sie Ihre Fragen!"> </div>
+                            </div>
+                            <ul class="logo-list">
+                                <li class="logo-item"> <img src="include/images/icon1.png" alt=""> </li>
+                                <li class="logo-item"> <img src="include/images/icon2.png" alt=""> </li>
+                                <li class="logo-item"> <img src="include/images/icon3.png" alt=""> </li>
+                            </ul>
+                            <p> © 2024 | answer-42.io  -  Alle Rechte gesichert. </p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +254,37 @@
         <aside class="page-sidebar flex-shrink-0">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 p-0">
+                        
+                        <div class="side-box-list d-flex d-sm-block">
+                            <div class="sbl1">
+                                <h4> Interessante News </h4>
+                                <span> 15.08.2024  </span>
+                                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  </p>
+                            </div>
+                            <div class="sbl2">
+                                <h4> <img src="include/images/check-white.svg" alt="check"> Kaufempfehlung </h4>
+                                <p> Bestes Ranking diese Woche </p>  
+                                <ul class="sbl-list">  
+                                    <li class="sbl-item">  Volkswagen AG </li>
+                                    <li class="sbl-item">  Stellantis </li>
+                                    <li class="sbl-item">  Deutche Bank AG </li>
+                                </ul>
+                            </div>
+                            <div class="sbl3">
+                                <h4> <img src="include/images/question.png" alt="check"> Verkäufe erwägen </h4>
+                                <p> Du solltest ggf. verkaufen </p>  
+                                <ul class="sbl-list ">  
+                                    <li class="sbl-item type2"> <img src="include/images/minus-icon.png" alt="check">  Volkswagen AG </li>
+                                    <li class="sbl-item type2"> <img src="include/images/minus-icon.png" alt="check"> Stellantis </li>
+                                    <li class="sbl-item type2"> <img src="include/images/minus-icon.png" alt="check"> Deutche Bank AG </li>
+                                </ul>
+                                <a href=""> weiter zum Portfolio Ranking </a>
+                            </div>
+                            <div class="sbl4">
+                                <img src="include/images/banner.jpg" alt="" />
+                            </div>
+                        </div>
 
                     </div>
                 </div>
