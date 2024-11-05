@@ -29,8 +29,8 @@ const ProductPage = async ({ params: { slug }, searchParams: { sortOrder } }: Pr
       <div className="container-xxl">
         <div className="row g-4">
           {products.map(product =>
-            <div className="col-4">
-              <div key={product.id} className="card h-100 shadow-xl">
+            <div className="col-4" key={product.id}>
+              <div className="card h-100 shadow-xl">
                 <div className="card-body">
                   <div className='badge text-bg-dark'>{product.id}</div>
                   <h2 className="card-title line-clamp">{product.title}</h2>
