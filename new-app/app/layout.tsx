@@ -2,11 +2,16 @@ import type { Metadata } from 'next'
 import 'bootstrap/dist/css/bootstrap.css'
 import ImportBsJS from "./importBsJS";
 import './globals.css'
-import { Oswald, Inter } from 'next/font/google'
+import { Oswald, Inter, Varela_Round } from 'next/font/google'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './Sidebar';
 
+export const varelaRound = Varela_Round({
+  subsets: ['latin'], display: 'swap',
+  weight: '400',
+  variable: '--font-varelaRound',
+});
 
 export const oswald = Oswald({
   subsets: ['latin'], display: 'swap',
@@ -14,6 +19,7 @@ export const oswald = Oswald({
 });
 export const inter = Inter({
   subsets: ['latin'], display: 'swap',
+
   variable: '--font-inter',
 });
 
@@ -29,11 +35,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ImportBsJS />
-      <body className={`layout ${oswald.variable} ${inter.variable}`}>
+      <body className={`layout ${oswald.variable} ${inter.variable} ${varelaRound.variable}`}>
         <Header />
         <main className="d-flex">
           <Sidebar />
-          {children}</main>
+          <div className="content d-flex flex-column">
+            {children}
+          </div>
+        </main>
         <Footer />
       </body>
     </html>

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
 :root {
     --first-color: #386c5f;
     --second-color: #d9eddf;
@@ -16,7 +14,7 @@ ul{list-style:none;}
 a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================reset css ends here================= */
 /* =================core css starts here================= */
-body{font-family: var(--font-josefinSans);font-size:16px;line-height:1.6;font-weight:300;;color: inherit;background: var(--mrr-white);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; }
+body{font-family: var(--font-varelaRound);font-size:16px;line-height:1.6;font-weight:300;;color: inherit;background: var(--mrr-white);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; }
 .container{width:100%;max-width:1320px;}
 a,input,button{display:inline-block;text-decoration:none;color:inherit;outline:none;transition:all 0.2s ease-in;-webkit-transition:all 0.2s ease-in;}
 a img{border:0px none;}
@@ -30,82 +28,28 @@ a:focus{outline:none;outline-offset:0px;text-decoration:none;color:inherit;}
 .os-animation{opacity:0;}
 .os-animation.animated{opacity:1;}
 img{max-width:100%;border:0;height:auto;}
-h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;margin-bottom:20px;font-family: var(--font-oswald);line-height:1.3;font-weight:600;color:inherit;}
-h1{font-size:58px;font-size: 1.5rem;font-weight:800;margin-bottom: 12px;}
+h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;margin-bottom:16px;font-family: var(--font-oswald);line-height:1.3;font-weight:600;color:inherit;}
+h1{font-size:58px;font-weight:800;}
 h2{font-size:48px;}
 h3{font-size:40px;}
 h4{font-size:30px;}
-h5{font-size:26px;}
-h6{font-size:22px;}
-p{margin:0px;padding:0px;margin-bottom:20px;}
+h5{font-size:24px;}
+h6{font-size:20px;}
+p{margin:0px;padding:0px;margin-bottom:16px;}
 strong{font-weight:700;}
 b{font-weight:400;}
 p:last-child{margin-bottom:0;}
-
-
 /* =================core css ends here================= */
-
+/* =================custom css starts here================= */
 html,body,.layout {max-width: 100vw;overflow-x: hidden;font-family: var(--font-inter)!important;}
-
-
 header{font-family: var(--font-oswald);}
-
 .content-container{padding: 80px 0;}
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: yellowgreen!important;}
-
-.blog-list{width: calc(100% + 20px);margin-left: -10px;margin-bottom: -20px;}
-.blog-item{width: 33.33%;padding: 0 10px;margin-bottom: 20px;}
-.blog-box{width: 100%;height: 100%;padding: 20px;border: 1px solid grey;font-size: 16px;border-radius: 20px;text-transform: capitalize;}
-.blog-box h3{font-size: 18px; border-radius: 50%;background: lightblue;width: 30px;height: 30px;margin-bottom: 20px;}
-.blog-box h2{font-size: 22px;text-transform: capitalize;margin-bottom: 20px;}
-
-.blog-box.limit-text p{ overflow: hidden;display: -webkit-box;line-clamp: 2;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
-.hero-container{min-height: 50vh;padding: 0 30px;}
-
-@media (max-width:991.98px){
-  .blog-item{width: 50%;}
-  
-}
-@media (max-width:575.98px){
-  .blog-item{width: 100%;}
-}
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0;
-}
-
-.pagination .page-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-}
-
-.pagination .page-link:hover {
-
-  @apply bg-secondary border-secondary text-primary
-}
-
-.pagination .page-item.active .page-link {
-  @apply bg-primary border-primary text-white
-}
-
-
-
-
-
-body {width: 100%;height: 100%;margin: 0;padding: 0;box-sizing: border-box;font-family: "Varela Round", sans-serif;font-weight: bold;  color: rgb(var(--foreground-rgb));}
-
-.content-container{padding: 100px 0;}
+.content-container + .content-container{padding-top: 0;}
+body {width: 100%;height: 100%;margin: 0;padding: 0;box-sizing: border-box;font-family: var(--font-varelaRound), sans-serif;font-weight: bold;  color: rgb(var(--foreground-rgb));}
 .gap-20{gap: 20px;}
+.line-clamp {display: -webkit-box;line-clamp: 3;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;}
 
-.btn {min-width: 160px;padding: 10px 20px;border: solid 2px #f00;border-radius: 10px;font-size: 16px;}
+.btn {min-width: 160px;padding: 10px 20px;border: solid 2px #f00;border-radius: 10px;font-size: 16px;font-weight: 500;font-family: var(--font-inter);}
 .btn-primary {background: #f00;border-color: #f00;color: #fff;}
 .btn-primary:hover {border-color: #C20E0E;background: #C20E0E;color: #fff;}
 .btn-secondary {background: #000;border-color: #000;color: #fff;}
@@ -115,73 +59,70 @@ body {width: 100%;height: 100%;margin: 0;padding: 0;box-sizing: border-box;font-
 .btn.btn-sm {padding: 10px 10px;min-width: auto;}
 .btn.btn-lg {padding: 10px 40px;min-width: 240px;}
 
-
 .btn-icon{display: flex; align-items: center;justify-content: center;}
 .btn.has-icon {display: flex;gap: 10px;align-items: center;justify-content: center;}
+/* =================custom css ends here================= */
+/* =================navbar css starts here================= */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: yellowgreen!important;}
+header {width: 100%;background-color: var(--first-color);}
+.navbar {padding: 10px 0;}
+header img {width: 240px;height: auto;border-radius: 50px;}
+header .navbar-title {font-size: 40px;color: var(--second-color);}
+aside {width: 20%;}
+.navbar-nav {font-size: 22px;font-weight: bolder;flex-direction: column;justify-content: center;font-family: var(--font-varelaRound);}
+.navbar-nav a {width: 100%;color: var(--first-color);display: block;padding: 15px 10px;text-decoration: none;text-align: center;}
+.navbar-nav a:hover {color: var(--second-color);background-color: var(--first-color);}
+.navbar-nav a.active {color: var(--third-color);background-color: var(--first-color);}
+/* =================navbar css ends here================= */
 
 .cc-heading{font-size: 32px;font-weight: 700;line-height: 1;margin-bottom: 24px;}
 
 .list-group-item{border-color: #000;}
 .list-group-item.active{background: #f00;border-color: #f00;}
 
+form {display: flex;flex-direction: column;justify-content: center;}
+form span {height: 40px;float: left;display: inline-flex;align-items: center;color: var(--first-color);}
+input,textarea {float: right;width: 300px;height: 40px;border-radius: 10px;border: 1px solid;margin-left: 50px;font-size: 10pt;text-align: center;}
+input[type="submit"] {width: 100px;font-size: 14pt;font-family: "Varela Round", sans-serif;align-content: center;background-color: var(--first-color);color: var(--second-color);}
+textarea {max-width: 300px;min-width: 300px;max-height: 125px;overflow: hidden;}
+.errorcss {font-size: 14pt;color: red;}
 input.form-control:focus{box-shadow: none;border-color: #C20E0E;}
 
-.line-clamp {display: -webkit-box;line-clamp: 3;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;}
-
-
-
-
-
-
-header {width: 100%;height: 16%;background-color: var(--fourth-color);}
-
-header div {background-color: var(--first-color);padding: 10px 40px;}
-
-header img {width: 300px;height: auto;border-radius: 50px;}
-
-header .navbar-title {font-size: 30pt;color: var(--second-color);}
-
-
-
-
-aside {width: 20%;}
-.navbar-nav {font-size: 16pt;font-weight: bolder;flex-direction: column;justify-content: center;}
-
-.navbar-nav a {width: 100%;color: var(--first-color);display: block;padding: 15px 10px;text-decoration: none;text-align: center;}
-
-.navbar-nav a:hover {color: var(--second-color);background-color: var(--first-color);}
-
-.navbar-nav a.active {color: var(--third-color);background-color: var(--first-color);}
-
-
-
 .content {overflow: hidden;width: 80%;flex-direction: column;justify-content: center;background-color: var(--second-color);}
-
-.content h1 {color: var(--third-color);font-size: 60pt;line-height: 0;}
-
+.content h1 {color: var(--third-color);font-size: 60pt;line-height: 1;}
 .content h2 {font-size: 20pt;color: var(--first-color);}
 
-.errorcss {font-size: 14pt;color: red;}
+footer {font-size: 18px;width: 100%;color: var(--second-color);background-color: var(--first-color);justify-content: center;}
 
-footer {font-size: 14pt;width: 100%;height: 9%;color: var(--second-color);background-color: var(--first-color);justify-content: center;}
-
-form {display: flex;flex-direction: column;justify-content: center;}
-
-form span {height: 40px;float: left;display: inline-flex;align-items: center;color: var(--first-color);}
-
-input,
-textarea {float: right;width: 300px;height: 40px;border-radius: 10px;border: 1px solid;margin-left: 50px;font-size: 10pt;text-align: center;}
-
-input[type="submit"] {width: 100px;font-size: 14pt;font-family: "Varela Round", sans-serif;align-content: center;background-color: var(--first-color);color: var(--second-color);}
-
-textarea {max-width: 300px;min-width: 300px;max-height: 125px;overflow: hidden;}
-
-table,
-th,
-td {border-style: hidden;}
-
+table,th,td {border-style: hidden;}
 th {color: var(--second-color);background-color: var(--first-color);}
-
 tr:nth-child(2n) {color: var(--second-color);background-color: var(--first-color);}
-
 tr:nth-child(2n + 1) {color: var(--first-color);background-color: var(--fourth-color);}
+
+.card{padding: 1rem;border: 1px solid #ccc;}
+
+.blog-list{width: calc(100% + 20px);margin-left: -10px;margin-bottom: -20px;}
+.blog-item{width: 33.33%;padding: 0 10px;margin-bottom: 20px;}
+.blog-box{width: 100%;height: 100%;padding: 20px;border: 1px solid grey;font-size: 16px;border-radius: 20px;text-transform: capitalize;}
+.blog-box h3{font-size: 18px; border-radius: 50%;background: lightblue;width: 30px;height: 30px;margin-bottom: 20px;}
+.blog-box h2{font-size: 22px;text-transform: capitalize;margin-bottom: 20px;}
+
+.blog-box.limit-text p{ overflow: hidden;display: -webkit-box;line-clamp: 2;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+
+.pagination {display: flex;justify-content: center;align-items: center;margin: 40px 0;}
+.pagination .page-link {display: block;padding: 0.5rem 1rem;text-decoration: none;color: #333;border: 1px solid #ccc;border-radius: 0.25rem;}
+.pagination .page-link:hover {background-color: var(--second-color);border-color: var(--second-color);color: var(--first-color);}
+.pagination .page-item.active .page-link {background-color: var(--first-color);border-color: var(--first-color);color: var(--second-color);}
+
+@media (max-width:991.98px){
+  .blog-item{width: 50%;}
+  
+}
+@media (max-width:575.98px){
+  .blog-item{width: 100%;}
+}
+
+
+
+

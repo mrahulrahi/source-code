@@ -20,27 +20,31 @@ const UserTable = async ({ sortOrder }: Props) => {
     const sortedUsers = sort(users).asc(sortOrder === 'email' ? user => user.email : user => user.name)
 
     return (
-        <div className="container-xxl">
-            <div className="row">
-                <div className="col-md-12">
-                    <table className="table table-success table-striped-columns">
-                        <thead>
-                            <tr>
-                                <th>
-                                    <Link href="/users?sortOrder=name">Name</Link>
-                                </th>
-                                <th>
-                                    <Link href="/users?sortOrder=email">Email</Link>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {sortedUsers.map(user => <tr key={user.id}>
-                                <td>{user.name}</td>
-                                <td>{user.email}</td>
-                            </tr>)}
-                        </tbody>
-                    </table>
+
+        <div className="content-container">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <h3>Users Table</h3>
+                        <table className="table table-success table-striped-columns">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <Link href="/users?sortOrder=name">Name</Link>
+                                    </th>
+                                    <th>
+                                        <Link href="/users?sortOrder=email">Email</Link>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {sortedUsers.map(user => <tr key={user.id}>
+                                    <td>{user.name}</td>
+                                    <td>{user.email}</td>
+                                </tr>)}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
