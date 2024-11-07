@@ -14,8 +14,8 @@ ul{list-style:none;}
 a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================reset css ends here================= */
 /* =================core css starts here================= */
-body{font-family: var(--font-varelaRound);font-size:16px;line-height:1.6;font-weight:300;;color: inherit;background: var(--mrr-white);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; }
-.container{width:100%;max-width:1320px;}
+body{font-family: var(--font-varelaRound);font-size:16px;line-height:1.5;font-weight:500;color: rgb(var(--foreground-rgb));background: var(--second-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.container{width: calc(100% - 36px);max-width:1320px;}
 a,input,button{display:inline-block;text-decoration:none;color:inherit;outline:none;transition:all 0.2s ease-in;-webkit-transition:all 0.2s ease-in;}
 a img{border:0px none;}
 a:hover{outline:none;color:var(--mrr-main-color);text-decoration:none;}
@@ -39,41 +39,46 @@ p{margin:0px;padding:0px;margin-bottom:16px;}
 strong{font-weight:700;}
 b{font-weight:400;}
 p:last-child{margin-bottom:0;}
-/* =================core css ends here================= */
-/* =================custom css starts here================= */
-html,body,.layout {max-width: 100vw;overflow-x: hidden;font-family: var(--font-inter)!important;}
-header{font-family: var(--font-oswald);}
-.content-container{padding: 80px 0;}
-.content-container + .content-container{padding-top: 0;}
-body {width: 100%;height: 100%;margin: 0;padding: 0;box-sizing: border-box;font-family: var(--font-varelaRound), sans-serif;font-weight: bold;  color: rgb(var(--foreground-rgb));}
-.gap-20{gap: 20px;}
-.line-clamp {display: -webkit-box;line-clamp: 3;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;}
 
-.btn {min-width: 160px;padding: 10px 20px;border: solid 2px #f00;border-radius: 10px;font-size: 16px;font-weight: 500;font-family: var(--font-inter);}
+.btn {min-width: 160px;padding: 10px 20px;font-family: var(--font-varelaRound);font-size: 18px;font-weight: 500;line-height: 1;border: solid 2px transparent;border-radius: 10px;}
 .btn-primary {background: #f00;border-color: #f00;color: #fff;}
 .btn-primary:hover {border-color: #C20E0E;background: #C20E0E;color: #fff;}
 .btn-secondary {background: #000;border-color: #000;color: #fff;}
 .btn-secondary:hover {border-color: #333;background: #333;color: #fff;}
-.btn-outline {background: transparent;border-color: #000;}
+.btn-outline {background: transparent;border-color: #000;color: #000;}
 .btn-outline:hover {border-color: #000;background: #000;color: #fff;}
+.btn-green {background: var(--first-color); color: var(--second-color);}
+.btn-green:hover {border-color: var(--first-color);background: var(--first-color);color: var(--second-color);}
 .btn.btn-sm {padding: 10px 10px;min-width: auto;}
 .btn.btn-lg {padding: 10px 40px;min-width: 240px;}
-
 .btn-icon{display: flex; align-items: center;justify-content: center;}
 .btn.has-icon {display: flex;gap: 10px;align-items: center;justify-content: center;}
+
+.gap-20{gap: 20px;}
+.line-clamp {display: -webkit-box;line-clamp: 3;-webkit-line-clamp: 3;-webkit-box-orient: vertical;  overflow: hidden;}
+
+.content-container{padding: 80px 0;}
+.content-container + .content-container{padding-top: 0;}
+.main-container{width: 100%;height: calc(100dvh - 80px);}
+/* =================core css ends here================= */
+/* =================custom css starts here================= */
+
+
 /* =================custom css ends here================= */
 /* =================navbar css starts here================= */
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{color: yellowgreen!important;}
-header {width: 100%;background-color: var(--first-color);}
-.navbar {padding: 10px 0;}
-header img {width: 240px;height: auto;border-radius: 50px;}
-header .navbar-title {font-size: 40px;color: var(--second-color);}
-aside {width: 20%;}
-.navbar-nav {font-size: 22px;font-weight: bolder;flex-direction: column;justify-content: center;font-family: var(--font-varelaRound);}
-.navbar-nav a {width: 100%;color: var(--first-color);display: block;padding: 15px 10px;text-decoration: none;text-align: center;}
-.navbar-nav a:hover {color: var(--second-color);background-color: var(--first-color);}
-.navbar-nav a.active {color: var(--third-color);background-color: var(--first-color);}
+
+header{width: 100%;font-family: var(--font-oswald);background: var(--first-color);}
+.navbar {height: 80px;}
+.navbar-title {font-size: 40px;font-weight: 700;line-height: 1;color: var(--second-color);}
+.navbar-logo {width: 200px;border-radius: 50px;overflow: hidden;}
+
+.sidebar {width: 20%;height: 100%;background: var(--fourth-color);}
+.sidebar-nav {font-size: 22px;font-weight: bolder;flex-direction: column;justify-content: center;font-family: var(--font-varelaRound);}
+.sidebar-nav .nav-link {width: 100%;color: var(--first-color);display: block;padding: 15px 10px;text-decoration: none;text-align: center;}
+.sidebar-nav .nav-link:hover {color: var(--second-color);background: var(--first-color);}
+.sidebar-nav .nav-link.active {color: yellowgreen;background: var(--first-color);}
 /* =================navbar css ends here================= */
+.main-body {width: 80%;}
 
 .cc-heading{font-size: 32px;font-weight: 700;line-height: 1;margin-bottom: 24px;}
 
@@ -83,21 +88,22 @@ aside {width: 20%;}
 form {display: flex;flex-direction: column;justify-content: center;}
 form span {height: 40px;float: left;display: inline-flex;align-items: center;color: var(--first-color);}
 input,textarea {float: right;width: 300px;height: 40px;border-radius: 10px;border: 1px solid;margin-left: 50px;font-size: 10pt;text-align: center;}
-input[type="submit"] {width: 100px;font-size: 14pt;font-family: "Varela Round", sans-serif;align-content: center;background-color: var(--first-color);color: var(--second-color);}
+
 textarea {max-width: 300px;min-width: 300px;max-height: 125px;overflow: hidden;}
 .errorcss {font-size: 14pt;color: red;}
 input.form-control:focus{box-shadow: none;border-color: #C20E0E;}
 
-.content {overflow: hidden;width: 80%;flex-direction: column;justify-content: center;background-color: var(--second-color);}
+
 .content h1 {color: var(--third-color);font-size: 60pt;line-height: 1;}
 .content h2 {font-size: 20pt;color: var(--first-color);}
 
-footer {font-size: 18px;width: 100%;color: var(--second-color);background-color: var(--first-color);justify-content: center;}
+footer {font-size: 18px;width: 100%;color: var(--second-color);background: var(--first-color);justify-content: center;}
 
-table,th,td {border-style: hidden;}
-th {color: var(--second-color);background-color: var(--first-color);}
-tr:nth-child(2n) {color: var(--second-color);background-color: var(--first-color);}
-tr:nth-child(2n + 1) {color: var(--first-color);background-color: var(--fourth-color);}
+.custom-table{min-width: 767px;font-family: var(--font-varelaRound);}                                    
+.custom-table .table > :not(caption) > * > * {border: 2px solid var(--second-color);}
+.custom-table table thead th {color: var(--second-color);background: var(--first-color);}
+.custom-table table tbody tr:nth-child(even) td {color: var(--second-color);background: var(--first-color);}
+.custom-table table tbody tr:nth-child(odd) td{color: var(--first-color);background: var(--fourth-color);}
 
 .card{padding: 1rem;border: 1px solid #ccc;}
 
@@ -112,8 +118,8 @@ tr:nth-child(2n + 1) {color: var(--first-color);background-color: var(--fourth-c
 
 .pagination {display: flex;justify-content: center;align-items: center;margin: 40px 0;}
 .pagination .page-link {display: block;padding: 0.5rem 1rem;text-decoration: none;color: #333;border: 1px solid #ccc;border-radius: 0.25rem;}
-.pagination .page-link:hover {background-color: var(--second-color);border-color: var(--second-color);color: var(--first-color);}
-.pagination .page-item.active .page-link {background-color: var(--first-color);border-color: var(--first-color);color: var(--second-color);}
+.pagination .page-link:hover {background: var(--second-color);border-color: var(--second-color);color: var(--first-color);}
+.pagination .page-item.active .page-link {background: var(--first-color);border-color: var(--first-color);color: var(--second-color);}
 
 @media (max-width:991.98px){
   .blog-item{width: 50%;}

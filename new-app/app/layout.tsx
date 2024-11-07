@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import 'bootstrap/dist/css/bootstrap.css'
 import ImportBsJS from "./importBsJS";
 import './globals.css'
-import { Oswald, Inter, Varela_Round } from 'next/font/google'
+import { Varela_Round, Oswald } from 'next/font/google'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './Sidebar';
@@ -17,11 +17,6 @@ export const oswald = Oswald({
   subsets: ['latin'], display: 'swap',
   variable: '--font-oswald',
 });
-export const inter = Inter({
-  subsets: ['latin'], display: 'swap',
-
-  variable: '--font-inter',
-});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -35,15 +30,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ImportBsJS />
-      <body className={`layout ${oswald.variable} ${inter.variable} ${varelaRound.variable}`}>
+      <body className={`${oswald.variable} ${varelaRound.variable}`}>
         <Header />
-        <main className="d-flex">
+        <main className="main-container d-flex">
           <Sidebar />
-          <div className="content d-flex flex-column">
+          <div className="main-body d-flex flex-column overflow-y-auto">
             {children}
+            <Footer />
           </div>
         </main>
-        <Footer />
       </body>
     </html>
   )

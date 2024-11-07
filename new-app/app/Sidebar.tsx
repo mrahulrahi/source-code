@@ -14,8 +14,8 @@ const Sidebar = () => {
     ]
 
     return (
-        <aside className=" min-h-screen">
-            <nav className="navbar-nav">
+        <aside className="sidebar">
+            <nav className="sidebar-nav">
                 <ul className="nav-menu d-flex flex-column">
                     {links.map(link =>
                         <li key={link.href} className="nav-item">
