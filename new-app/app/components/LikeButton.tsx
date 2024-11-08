@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 
-
 interface Props {
     title: string;
     style: 'primary' | 'secondary' | 'outline';

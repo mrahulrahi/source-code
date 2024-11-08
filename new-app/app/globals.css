@@ -14,7 +14,7 @@ ul{list-style:none;}
 a:focus,input:focus,textarea:focus,*:focus{outline:0!important;}
 /* =================reset css ends here================= */
 /* =================core css starts here================= */
-body{font-family: var(--font-varelaRound);font-size:16px;line-height:1.5;font-weight:500;color: rgb(var(--foreground-rgb));background: var(--second-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+body{font-family: var(--font-varelaRound);font-size:16px;line-height:1.5;font-weight:500;color: var(--foreground-rgb);background: var(--second-color);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .container{width: calc(100% - 36px);max-width:1320px;}
 a,input,button{display:inline-block;text-decoration:none;color:inherit;outline:none;transition:all 0.2s ease-in;-webkit-transition:all 0.2s ease-in;}
 a img{border:0px none;}
