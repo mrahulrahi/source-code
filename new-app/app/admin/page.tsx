@@ -24,77 +24,86 @@ export default function Home() {
   let [likeBtn1, setLikedBtn1] = useState({ title: 'Like', icon: <FaRegHeart /> })
   let [likeBtn2, setLikedBtn2] = useState({ title: 'Follow', icon: <SlUserFollow /> })
 
-
   const handleSelectCity = (item: Item,) => {
-     setCity(item);
-  
+    setCity(item);
   }
+
   const handleSelectFood = (item: Item) => {
     setFood(item);
   }
+
   function handleLikeItem1() {
     setLikedBtn1(likeBtn1.title === 'Like' ? { title: 'Liked', icon: <FaHeart /> } : { title: 'Like', icon: <FaRegHeart /> });
   }
+
   function handleLikeItem2() {
     setLikedBtn2(likeBtn2.title === 'Follow' ? { title: 'Unfollow', icon: <SlUserUnfollow /> } : { title: 'Follow', icon: <SlUserFollow /> });
   }
 
   return (
-    <main>
-      <div className="container">
-        <div className="content-container">
-          <div className="cc-heading">All Button Type</div>
-          <div className="d-flex flex-wrap gap-20">
-            <Button title="Primary SM" style="primary" size="sm" />
-            <Button title="Primary" style="primary" />
-            <Button title="Primary LG" style="primary" size="lg" />
-            <Button title="Secondary SM" style="secondary" size="sm" />
-            <Button title="Secondary" style="secondary" />
-            <Button title="Secondary LG" style="secondary" size="lg" />
-            <Button title="Outline SM" style="outline" size="sm" />
-            <Button title="Outline" style="outline" />
-            <Button title="Like" style="primary" size="sm" hasIcon={<FaRegHeart />} />
-            <Button title="Like" style="secondary" size="sm" hasIcon={<FaHeart />} />
-            <Button title="Like" style="primary" size="sm" hasIcon={<FaRegFaceGrinHearts />} />
-            <Button title="Like" style="secondary" size="sm" hasIcon={<FaHeartPulse />} />
-          </div>
-        </div>
-        <div className="content-container pt-0">
-          <div className="cc-heading">Like Button</div>
-          <div className="d-flex flex-wrap gap-20">
-            <LikeButton title={likeBtn1.title} style="secondary" size="sm" hasIcon={likeBtn1.icon} onLikeItem={handleLikeItem1} />
-            <LikeButton title={likeBtn2.title} style="secondary" size="sm" hasIcon={likeBtn2.icon} onLikeItem={handleLikeItem2} />
-          </div>
-        </div>
-        <div className="content-container pt-0">
-          <div className="cc-heading">Form</div>
-          <div className="d-flex flex-wrap gap-20">
-           <Form />
-          </div>
-        </div>
-        <div className="content-container pt-0">
-          <div className="cc-heading">List Group</div>
-          <div className="d-flex gap-20">
-            <ListGroup items={cities} heading="Cities" onSelectItem={handleSelectCity} />
-            <ListGroup items={foods} heading="Foods" onSelectItem={handleSelectFood} />
-          </div>
-          <div className="d-flex gap-20 mt-5">
-            <div className="w-50">
-              <ListItemTable data={city} />
-            </div>
-            <div className="w-50">
-              <ListItemTable data={food} />
-            </div>
-          </div>
+    <>
 
-        </div>
-        <div className="content-container pt-0">
-          <div className="cc-heading">Counter</div>
-          <div className="d-flex flex-wrap gap-20">
-            <Counter />
+      <div className="content-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="heading">All Button Type</div>
+              <div className="d-flex flex-wrap gap-20">
+                <Button title="Primary SM" style="primary" size="sm" />
+                <Button title="Primary" style="primary" />
+                <Button title="Primary LG" style="primary" size="lg" />
+                <Button title="Secondary SM" style="secondary" size="sm" />
+                <Button title="Secondary" style="secondary" />
+                <Button title="Secondary LG" style="secondary" size="lg" />
+                <Button title="Outline SM" style="outline" size="sm" />
+                <Button title="Outline" style="outline" />
+                <Button title="Like" style="primary" size="sm" hasIcon={<FaRegHeart />} />
+                <Button title="Like" style="secondary" size="sm" hasIcon={<FaHeart />} />
+                <Button title="Like" style="primary" size="sm" hasIcon={<FaRegFaceGrinHearts />} />
+                <Button title="Like" style="secondary" size="sm" hasIcon={<FaHeartPulse />} />
+              </div>
+            </div>
+
+            <div className="col-12 mt-5">
+              <div className="heading">Like Button</div>
+              <div className="d-flex flex-wrap gap-20">
+                <LikeButton title={likeBtn1.title} style="secondary" size="sm" hasIcon={likeBtn1.icon} onLikeItem={handleLikeItem1} />
+                <LikeButton title={likeBtn2.title} style="secondary" size="sm" hasIcon={likeBtn2.icon} onLikeItem={handleLikeItem2} />
+              </div>
+            </div>
+
+            <div className="col-12 mt-5">
+              <div className="heading">Form</div>
+              <div className="d-flex flex-wrap gap-20">
+                <Form />
+              </div>
+            </div>
+
+            <div className="col-12 mt-5">
+              <div className="heading">List Group</div>
+              <div className="d-flex gap-20">
+                <ListGroup items={cities} heading="Cities" onSelectItem={handleSelectCity} />
+                <ListGroup items={foods} heading="Foods" onSelectItem={handleSelectFood} />
+              </div>
+              <div className="d-flex gap-20 mt-5">
+                <div className="w-50">
+                  <ListItemTable data={city} />
+                </div>
+                <div className="w-50">
+                  <ListItemTable data={food} />
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 mt-5">
+              <div className="heading">Counter</div>
+              <div className="d-flex flex-wrap gap-20">
+                <Counter />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </>
   )
 }

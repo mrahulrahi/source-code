@@ -36,8 +36,8 @@ const UserTable = async ({ sortOrder }: Props) => {
                                         <th style={{ width: '30%' }}>
                                             <Link href="/users?sortOrder=email">Email</Link>
                                         </th>
-                                        <th style={{ width: '25%' }}>Mobile No.</th>
-                                        <th style={{ width: '15%' }}>No. of Books Issued</th>
+                                        <th style={{ width: '25%' }}><Link href="/users?sortOrder=mobile">Mobile No.</Link></th>
+                                        <th style={{ width: '15%' }}><Link href="/users?sortOrder=books">No. of Books Issued</Link></th>
 
                                     </tr>
                                 </thead>
@@ -106,7 +106,6 @@ const UserTable = async ({ sortOrder }: Props) => {
                 </div>
             </div>
         </div>
-
     )
 }
 

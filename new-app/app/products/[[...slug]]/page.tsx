@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
+import Hero from '@/app/components/Hero';
 interface Product {
   id: number;
   title: string;
@@ -22,7 +22,8 @@ const ProductPage = async ({ params: { slug }, searchParams: { sortOrder } }: Pr
 
   return (
     <>
-      <h1 className='my-5 text-dark text-center'>ProductPage {slug} {sortOrder}</h1>
+      <Hero title={`Product Page ${slug} ${sortOrder}`} ></Hero>
+
       <div className="content-container">
         <div className="container">
           <div className="row g-4">
@@ -40,10 +41,9 @@ const ProductPage = async ({ params: { slug }, searchParams: { sortOrder } }: Pr
                       <div className="badge text-bg-dark">{product.category}</div>
                       <div className="badge text-bg-dark">{product.price} $</div>
                     </div>
-                    <div className="card-actions mb-5">
+                    <div className="card-actions">
                       <Link href={'/products/' + product.id} className="btn btn-primary">open</Link>
                     </div>
-
                   </div>
                 </div>
               </div>

@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react'
 
 interface Props {
-    subTitle: string | number;
+    subTitle?: string | number;
     title: string | number;
-    para: string;
+    para?: string;
     children?: ReactNode;
 }
 

@@ -56,7 +56,7 @@ const BlogPage = () => {
                     <div className='badge badge-primary badge-lg'>{blog.id}</div>
                     <h2 className="card-title">{blog.title}</h2>
                     <p className='card-text line-clamp'>{blog.body}</p>
-                    <div className="card-actions justify-start mb-5">
+                    <div className="card-actions justify-start">
                       <Link href={'/blog/' + blog.id} className="btn btn-primary">open</Link>
                     </div>
                   </div>

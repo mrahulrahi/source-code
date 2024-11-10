@@ -1,24 +1,23 @@
 import type { Metadata } from 'next'
 import 'bootstrap/dist/css/bootstrap.css'
 import ImportBsJS from "./importBsJS";
+import { Varela_Round, Oswald } from 'next/font/google'
 import './globals.css'
-import { Oswald, Varela_Round } from 'next/font/google'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './Sidebar';
+
+export const varelaRound = Varela_Round({
+  subsets: ['latin'], display: 'swap',
+  weight: ['400',],
+  variable: '--font-varelaRound',
+});
 
 export const oswald = Oswald({
   subsets: ['latin'], display: 'swap',
   weight: ['400', '500', '600', '700'],
   variable: '--font-oswald',
 });
-
-export const varelaRound = Varela_Round({
-  subsets: ['latin'], display: 'swap',
-  weight: '400',
-  variable: '--font-varelaRound',
-});
-
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -33,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ImportBsJS />
-      <body className={`${oswald.variable} ${varelaRound.variable}`}>
+      <body className={`${varelaRound.variable} ${oswald.variable}`}>
         <Header />
         <main className="main-container d-flex">
           <Sidebar />
