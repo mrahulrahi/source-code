@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import 'bootstrap/dist/css/bootstrap.css'
 import ImportBsJS from "./importBsJS";
 import { Varela_Round, Oswald } from 'next/font/google'
-import './globals.css'
+import './styles.css'
 import Header from './Header'
 import Footer from './Footer'
 import Sidebar from './Sidebar';

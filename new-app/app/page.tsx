@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Hero subTitle='Online Library Management' title='Welcome' para='All members are Welcome to the Online Library Management Portal.' >
-        <Link className='btn btn-primary' href="/login">Add to cart</Link>
+        <Link className='btn btn-primary' href="/styleguide">Styleguide</Link>
       </Hero>
             
       <div className="content-container">
@@ -36,9 +36,9 @@ export default function Home() {
           <div className="col">
             <div className="card w-96 glass">
               <div className="card-body">
-                <h2 className="card-title">Admin</h2>
+                <h2 className="card-title">Blog</h2>
                 <div className="card-actions justify-end">
-                  <Link className='btn btn-primary' href="/admin">Open</Link>
+                  <Link className='btn btn-primary' href="/blog">Open</Link>
                 </div>
               </div>
             </div>

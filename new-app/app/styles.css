@@ -1,5 +1,6 @@
 :root {
-  --first-color: #386c5f;
+  --white: #fff;
+  --first-color: #242c2e;
   --second-color: #d9eddf;
   --third-color: #2ecc71;
   --fourth-color: #2ecc7188;
@@ -39,12 +40,12 @@ b{font-weight:400;}
 p:last-child{margin-bottom:0;}
 
 .btn {min-width: 160px;padding: 10px 20px;font-family: var(--font-varelaRound);font-size: 18px;font-weight: 500;line-height: 1;border: solid 2px transparent;border-radius: 10px;}
-.btn-primary {background: #f00;border-color: #f00;color: #fff;}
-.btn-primary:hover {border-color: #C20E0E;background: #C20E0E;color: #fff;}
-.btn-secondary {background: #000;border-color: #000;color: #fff;}
-.btn-secondary:hover {border-color: #333;background: #333;color: #fff;}
-.btn-outline {background: transparent;border-color: #000;color: #000;}
-.btn-outline:hover {border-color: #000;background: #000;color: #fff;}
+.btn-primary {background: var(--third-color);border-color: var(--third-color);color: var(--white);}
+.btn-primary:hover {border-color: var(--third-color);background: var(--third-color);color: var(--white);}
+.btn-secondary {background: var(--first-color);border-color: var(--first-color);color: var(--white);}
+.btn-secondary:hover {border-color: #333;background: #333;color: var(--white);}
+.btn-outline {background: transparent;border-color: var(--first-color);color: var(--first-color);}
+.btn-outline:hover {border-color: var(--first-color);background: var(--first-color);color: var(--white);}
 .btn-green {background: var(--first-color);color: var(--second-color);}
 .btn-green:hover {border-color: var(--first-color);background: var(--first-color);color: var(--second-color);}
 .btn.btn-sm {padding: 10px 10px;min-width: auto;}
@@ -77,8 +78,8 @@ header{width: 100%;font-family: var(--font-oswald);background: var(--first-color
 
 .heading{font-size: 32px;font-weight: 700;line-height: 1;margin-bottom: 24px;}
 
-.list-group-item{border-color: #000;}
-.list-group-item.active{background: #f00;border-color: #f00;}
+.list-group-item{border-color: var(--first-color);}
+.list-group-item.active{background: var(--third-color);border-color: var(--third-color);}
 
 
 form span {height: 40px;float: left;display: inline-flex;align-items: center;color: var(--first-color);}
