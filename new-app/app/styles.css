@@ -3,7 +3,7 @@
   --first-color: #242c2e;
   --second-color: #d9eddf;
   --third-color: #2ecc71;
-  --fourth-color: #2ecc7188;
+  --fourth-color: #7edca4;
 }
 
 /* =================reset css starts here=================  */
@@ -68,7 +68,7 @@ header{width: 100%;font-family: var(--font-oswald);background: var(--first-color
 .navbar-title {font-size: 40px;font-weight: 700;line-height: 1;color: var(--second-color);}
 .navbar-logo {width: 200px;border-radius: 50px;overflow: hidden;}
 
-.sidebar {width: 20%;height: 100%;background: var(--fourth-color);}
+.sidebar {width: 20%;min-width: 200px;height: 100%;background: var(--fourth-color);}
 .sidebar-nav {font-size: 22px;font-weight: bolder;flex-direction: column;justify-content: center;font-family: var(--font-varelaRound);}
 .sidebar-nav .nav-link {width: 100%;color: var(--first-color);display: block;padding: 15px 10px;text-decoration: none;text-align: center;}
 .sidebar-nav .nav-link:hover {color: var(--second-color);background: var(--first-color);}
@@ -81,11 +81,9 @@ header{width: 100%;font-family: var(--font-oswald);background: var(--first-color
 .list-group-item{border-color: var(--first-color);}
 .list-group-item.active{background: var(--third-color);border-color: var(--third-color);}
 
-
+.form-label{width: 140px;}
 form span {height: 40px;float: left;display: inline-flex;align-items: center;color: var(--first-color);}
-input,textarea {float: right;width: 300px;height: 40px;border-radius: 10px;border: 1px solid;margin-left: 50px;font-size: 10pt;text-align: center;}
-
-textarea {max-width: 300px;min-width: 300px;max-height: 125px;overflow: hidden;}
+input.form-control {float: right;width: 100%;height: 40px;border-radius: 10px;border: 1px solid;font-size: 14px;text-align: center;}
 .errorcss {font-size: 14pt;color: red;}
 input.form-control:focus{box-shadow: none;border-color: #C20E0E;}
 
@@ -101,7 +99,8 @@ footer {font-size: 18px;width: 100%;color: var(--second-color);background: var(-
 .custom-table table tbody tr:nth-child(even) td {color: var(--second-color);background: var(--first-color);}
 .custom-table table tbody tr:nth-child(odd) td{color: var(--first-color);background: var(--fourth-color);}
 
-.card{padding: 1rem;border: 1px solid #ccc;}
+.card{padding: 32px;border: 1px solid #ccc;}
+.badge{font-size: 16px;font-weight: 500;background: var(--third-color);color: var(--white);}
 
 .blog-list{width: calc(100% + 20px);margin-left: -10px;margin-bottom: -20px;}
 .blog-item{width: 33.33%;padding: 0 10px;margin-bottom: 20px;}
@@ -117,8 +116,16 @@ footer {font-size: 18px;width: 100%;color: var(--second-color);background: var(-
 
 @media (max-width:991.98px){
   .blog-item{width: 50%;}
-  
 }
+
+@media (max-width:767.98px){
+  .sidebar{width: fit-content;height: max-content;position: fixed;bottom: 20px;right: 20px;z-index: 1000;transform: translateX(calc(100% + 40px));transition: all 0.3s ease-in-out;border-radius: 6px;overflow: hidden;margin-bottom: 70px;}
+  .sidebar.open{transform: translateX(0);}
+
+  .sidebar-toggler{width: 60px;min-width: 60px;height: 60px; position: fixed;bottom: 20px;right: 20px;z-index: 1000;}
+  .main-body{width: 100%;}
+}
+
 @media (max-width:575.98px){
   .blog-item{width: 100%;}
 }

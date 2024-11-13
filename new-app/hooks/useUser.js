@@ -1,103 +1,60 @@
-import User from "../models/User";
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
-// const createUser = (req, res) => {
-//   res.render("user");
-//   console.log(req.body);
-//   // const user = new User({
-//   //   name: req.body.name,
-//   //   age: req.body.age,
-//   //   email: req.body.email,
-//   //   username: req.body.username,
-//   //   password: req.body.password,
-//   // });
-//   // user.save();
-// };
+const useUser = () => {
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-// const store = async (req, res, nex) => {
-//   console.log(req.body);
-//   res.send("hello");
-//   const data = await User.create(req.body);
-//   console.log(data);
-// };
-// // const getUser = (req, res) => {
-// //   User.findById(req.params.id, (err, user) => {
-// //     if (err) {
-// //       return next(err);
-// //     }
-// //     res.send(user);
-// //   });
-// // };
+  // Fetch users
+  const fetchUsers = async () => {
+    try {
+      const response = await axios.get('/api/users'); // Adjust the endpoint as necessary
+      setUsers(response.data);
+    } catch (err) {
+      setError(err);
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  // Create user
+  const createUser = async (userData) => {
+    try {
+      const response = await axios.post('/api/users', userData);
+      setUsers((prevUsers) => [...prevUsers, response.data]);
+    } catch (err) {
+      setError(err);
+    }
+  };
 
-// // const deleteUser = (req, res) => {
-// //   User.findByIdAndRemove(req.params.id, (err) => {
-// //     if (err) {
-// //       return next(err);
-// //     }
-// //     res.send("User deleted successfully");
-// //   });
-// // };
+  // Update user
+  const updateUser = async (id, userData) => {
+    try {
+      const response = await axios.put(`/api/users/${id}`, userData);
+      setUsers((prevUsers) =>
+        prevUsers.map((user) => (user._id === id ? response.data : user))
+      );
+    } catch (err) {
+      setError(err);
+    }
+  };
 
+  // Delete user
+  const deleteUser = async (id) => {
+    try {
+      await axios.delete(`/api/users/${id}`);
+      setUsers((prevUsers) => prevUsers.filter((user) => user._id !== id));
+    } catch (err) {
+      setError(err);
+    }
+  };
 
+  useEffect(() => {
+    fetchUsers();
+  }, []);
 
-class userController {
-  async showRegistrationForm(req, res, next) {
-    res.render("user");
-  }
+  return { users, loading, error, createUser, updateUser, deleteUser };
+};
 
-  async storeData(req, res, next) {
-    const rows = await User.create(req.body);
-    res.redirect("/table");
-  }
-
-  async showTables(req, res) {
-    var userData = await User.find({});
-    console.log(userData);
-    res.render("table", {
-      rows: userData,
-    });
-  }
-
-  async editUser(req, res) {
-    console.log(req.params);
-    // const updateUrl = "/update/" + req.params.id;
-    // console.log(updateUrl);
-    const data = await User.findById(req.params.id);
-    const rows = [data]
-    console.log(rows);
-    res.render('edit', {
-      rows: rows,
-      // updateUrl: updateUrl
-    })
-  }
-
-  async updateUser(req, res) {
-    console.log(req.params);
-    const id = req.body.id;
-    console.log(id);
-    return
-    const update = req.body
-    const row = await User.findByIdAndUpdate(_id = id, {
-      update
-    });
-    console.log(row)
-
-    res.redirect("/table");
-  }
-
-  async delUser(req, res, next) {
-    // console.log(req.params);
-    // return false;
-    // Delete the document by its _id
-    const id = req.params.id
-    // console.log(id);
-    // return false
-    const del = await User.deleteOne({
-      _id: id
-    });
-    console.log(del);
-    res.redirect("/table");
-  }
-}
-
-module.exports = new userController();
+export default useUser;

@@ -2,22 +2,10 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
-  username: {
-    type: String,
-    required: true,
-    index: {
-      unique: true
-    }
-  },
-  first_name: {
+
+  full_name: {
     type: String,
     required: true
-  },
-  last_name: {
-    type: String
-  },
-  father_name: {
-    type: String
   },
   email: {
     type: String,
@@ -29,15 +17,9 @@ const UserSchema = new Schema({
   phone_no: {
     type: Number
   },
-  gender: {
-    type: String
-  },
-  age: Number,
-  state: {
-    type: String
-  },
-  city: {
-    type: String
+  noOfBooks: {
+    type: Number,
+    default: 0
   }
 });
 

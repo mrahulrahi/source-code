@@ -3,10 +3,7 @@ import mongoose from "mongoose";
 dotenv.config();
 async function connectMongoDB() {
   try {
-    await mongoose.connect(process.env.MONGO_CONNECTION_URL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect(process.env.MONGO_CONNECTION_URL);
     console.log("Database connected!");
   } catch (error) {
     console.log("You got an error, Database isn't connected! ");

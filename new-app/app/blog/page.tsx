@@ -27,18 +27,19 @@ const BlogPage = () => {
     getBlogs();
   },
     [limit]);
+
   const fetchBlogs = async (currentPage: any) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=${limit}`, { cache: 'no-store' });
     const data: Blog[] = await res.json();
     return data;
   };
+
   const handlePageClick = async (data: { selected: number; }) => {
     console.log(data.selected);
     let currentPage = data.selected + 1;
     const blogsFormServer = await fetchBlogs(currentPage);
     setItems(blogsFormServer);
   };
-
 
   return (
     <>
@@ -50,16 +51,14 @@ const BlogPage = () => {
         <div className="container">
           <div className="row g-3">
             {items.slice(0, 10).map(blog =>
-              <div className="col-6" key={blog.id}>
-                <div className="card h-100">
-                  <div className="card-body">
-                    <div className='badge badge-primary badge-lg'>{blog.id}</div>
-                    <h2 className="card-title">{blog.title}</h2>
-                    <p className='card-text line-clamp'>{blog.body}</p>
-                    <div className="card-actions justify-start">
+              <div className="col-md-6" key={blog.id}>
+                <div className="card d-flex flex-column h-100">
+                <div className="badge text-bg-dark">{blog.id}</div>
+                    <h3 className="card-title line-clamp-2">{blog.title}</h3>
+                    <p className='card-text line-clamp-3'>{blog.body}</p>
+                    <div className="card-actions justify-start mt-auto">
                       <Link href={'/blog/' + blog.id} className="btn btn-primary">open</Link>
                     </div>
-                  </div>
                 </div>
               </div>
             )}
@@ -69,7 +68,7 @@ const BlogPage = () => {
         <ReactPaginate
           pageCount={pageCount}
           marginPagesDisplayed={2}
-          pageRangeDisplayed={3}
+          pageRangeDisplayed={2}
           onPageChange={handlePageClick}
           containerClassName={"pagination justify-content-center"}
           pageClassName={"page-item"}

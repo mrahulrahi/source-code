@@ -7,7 +7,7 @@ const NewUserPage = () => {
 
   return (
     <>
-      <Hero title="Book Registration" />
+      <Hero title="New User Registration" para='Please fill the form below to register a new user.'/>
       <div className="content-container">
         <div className="container">
           <div className="row">
@@ -16,35 +16,27 @@ const NewUserPage = () => {
                 <h2>Book Registration</h2>
                 <form className="mt-5" name="Display">
                   <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Member Name</label>
-                    <input type="text" className="form-control w-50" id="mname" name="mname" />
+                    <label className="form-label flex-shrink-0">Member Name</label>
+                    <input type="text" className="form-control flex-grow-1" id="mname" name="mname" placeholder='Enter your name' />
                   </div>
                   <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Member Name</label>
-                    <input type="text" className="form-control w-50" id="mname" name="mname" />
+                    <label className="form-label flex-shrink-0">Email Address</label>
+                    <input type="text" className="form-control flex-grow-1" id="email" name="email" placeholder='Enter your email address' />
                   </div>
                   <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Phone No.</label>
-                    <input type="text" className="form-control w-50" id="phone" name="phone" />
+                    <label className="form-label flex-shrink-0">Phone No.</label>
+                    <input type="text" className="form-control flex-grow-1" id="phone" name="phone" placeholder='Enter your phone number' />
                   </div>
+          
                   <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Title of Book</label>
-                    <input type="text" className="form-control w-50" id="booktitle" name="booktitle" />
-                  </div>
-
-                  <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Subject</label>
-                    <input type="text" className="form-control w-50" id="subject" name="subject" />
-                  </div>
-                  <div className="form-group d-flex align-items-center justify-content-between mb-4">
-                    <label className="form-label w-25">Feedback</label>
-                    <textarea className="form-control w-50" id=" feedback" name="feedback" placeholder="Enter text here..." />
+                    <label className="form-label flex-shrink-0">No. of Books</label>
+                    <input type="text" className="form-control flex-grow-1" id="noOfBooks" name="noOfBooks" placeholder='Enter no. of books' />
                   </div>
 
                   <div className="errorcss">
                     <label id="blankLabel"></label>
                   </div>
-                  <div className="form-group d-flex"><input className="btn btn-primary" type="submit" value="Create" onClick={() => router.push('/users')} /></div>
+                  <div className="form-group d-flex"><input className="btn btn-primary ms-auto" type="submit" value="Create" onClick={() => router.push('/users')} /></div>
                 </form>
               </div>
             </div>
