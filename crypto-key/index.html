@@ -12,7 +12,6 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
     <link href="include/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="include/css/plugins.css" rel="stylesheet" type="text/css">
     <link href="include/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -44,14 +43,14 @@
                                 </li>
                             </ul>
 
-                            <div class="nav-inside-content d-block d-lg-none text-center">
-                                <a href="#" class="btn btn-green header-btn">Download</a>
+                            <div class="navbar-bottom d-lg-none text-center">
+                                <a href="#" class="btn btn-green btn-block">Download</a>
                             </div>
 
                         </div>
                     </div>
                     <div class="header-right d-flex align-items-center">
-                        <a href="#" class="btn btn-green header-btn d-none d-lg-block">Download</a>
+                        <a href="#" class="btn btn-green d-none d-lg-block">Download</a>
 
                         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
@@ -62,7 +61,6 @@
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="theme-toggler">
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -70,25 +68,27 @@
     </header>
     <!--============================== Header End ==============================-->
     <!--============================== Hero Start ==============================-->
-    <div class="hero-container">
+    <div class="hero-container overflow-hidden">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1>Your trusted companion for all things crypto.</h1>
-                    <p>Experience the future of finance with CryptoKey, Whether you're a beginner or an experienced
-                        trader, our wallet is designed to provide a secure and user-friendly platform for buying,
-                        storing, trading, and managing your cryptocurrency.</p>
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1>Your trusted companion for all things crypto.</h1>
+                        <p>Experience the future of finance with CryptoKey, Whether you're a beginner or an experienced
+                            trader, our wallet is designed to provide a secure and user-friendly platform for buying,
+                            storing, trading, and managing your cryptocurrency.</p>
 
-                    <div class="hero-btn d-flex gap-20">
-                        <a href="#" class="btn btn-green"><span
-                                class="btn-icon d-flex align-items-center justify-content-center"><img
-                                    src="include/images/app-store.svg" alt="App Store"></span> App Store</a>
-                        <a href="#" class="btn btn-green"><span
-                                class="btn-icon d-flex align-items-center justify-content-center"><img
-                                    src="include/images/google-play.svg" alt="Google Play"></span> Google Play</a>
+                        <div class="hero-btn d-flex flex-column flex-sm-row align-items-start gap-20">
+                            <a href="#" class="btn btn-green"><span
+                                    class="btn-icon d-flex align-items-center justify-content-center"><img
+                                        src="include/images/app-store.svg" alt="App Store"></span> App Store</a>
+                            <a href="#" class="btn btn-green"><span
+                                    class="btn-icon d-flex align-items-center justify-content-center"><img
+                                        src="include/images/google-play.svg" alt="Google Play"></span> Google Play</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="hero-mobile-container">
                         <div class="mobile-frame-container mobile-1">
                             <div class="mobile-frame">
@@ -141,158 +141,272 @@
     <div class="content-container features-container">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12"></div>
-                <div class="heading text-center">
-                    <h3>Features at a Glance</h3>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div
-                        class="features-img position-relative">
-                        <div class="mobile-frame-container mobile-5">
-                            <div class="mobile-frame">
-                                <div class="mobile-frame-body">
-                                    <div class="mobile-frame-body-2"></div>
-                                    <div class="mobile-frame-body-1"></div>
-                                </div>
-                                <div class="buttons">
-                                    <div class="plus-btn"></div>
-                                    <div class="minus-btn"></div>
-                                    <div class="silence-btn"></div>
-                                    <div class="power-btn"></div>
-                                </div>
-                                <div class="mobile-frame-screen">
-                                    <div class="mobile-frame-screen-img">
-                                        <img decoding="async" src="include/images/screen-img-1.avif" alt="">
+                <div class="col-md-12">
+                    <div class="heading text-center">
+                        <h3>Features at a Glance</h3>
+                    </div>
+                    <div class="features-wrapper">
+                        <div class="row">
+                            <div class="col-md-6 d-none d-md-block">
+                                <div class="sticky-top d-flex align-items-center justify-content-center">
+                                    <div class="features-img-wrap" style="width: 320px;height: 545PX;">
+                                        <div class="child-wrap">
+                                            <div class="features-img w-100 h-100 position-relative">
+                                                <div class="mobile-frame-container">
+                                                    <div class="mobile-frame">
+                                                        <div class="mobile-frame-body">
+                                                            <div class="mobile-frame-body-2"></div>
+                                                            <div class="mobile-frame-body-1"></div>
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <div class="plus-btn"></div>
+                                                            <div class="minus-btn"></div>
+                                                            <div class="silence-btn"></div>
+                                                            <div class="power-btn"></div>
+                                                        </div>
+                                                        <div class="mobile-frame-screen">
+                                                            <div class="mobile-frame-screen-img">
+                                                                <img decoding="async"
+                                                                    src="include/images/screen-img-1.avif" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="mobile-frame-notch"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="child-wrap">
+                                            <div class="features-img position-relative">
+                                                <div class="mobile-frame-container">
+                                                    <div class="mobile-frame">
+                                                        <div class="mobile-frame-body">
+                                                            <div class="mobile-frame-body-2"></div>
+                                                            <div class="mobile-frame-body-1"></div>
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <div class="plus-btn"></div>
+                                                            <div class="minus-btn"></div>
+                                                            <div class="silence-btn"></div>
+                                                            <div class="power-btn"></div>
+                                                        </div>
+                                                        <div class="mobile-frame-screen">
+                                                            <div class="mobile-frame-screen-img">
+                                                                <img decoding="async"
+                                                                    src="include/images/screen-img-4.avif" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="mobile-frame-notch"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="child-wrap">
+                                            <div class="features-img position-relative">
+                                                <div class="mobile-frame-container">
+                                                    <div class="mobile-frame">
+                                                        <div class="mobile-frame-body">
+                                                            <div class="mobile-frame-body-2"></div>
+                                                            <div class="mobile-frame-body-1"></div>
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <div class="plus-btn"></div>
+                                                            <div class="minus-btn"></div>
+                                                            <div class="silence-btn"></div>
+                                                            <div class="power-btn"></div>
+                                                        </div>
+                                                        <div class="mobile-frame-screen">
+                                                            <div class="mobile-frame-screen-img">
+                                                                <img decoding="async"
+                                                                    src="include/images/screen-img-5.avif" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="mobile-frame-notch"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="child-wrap">
+                                            <div class="features-img position-relative">
+                                                <div class="mobile-frame-container">
+                                                    <div class="mobile-frame">
+                                                        <div class="mobile-frame-body">
+                                                            <div class="mobile-frame-body-2"></div>
+                                                            <div class="mobile-frame-body-1"></div>
+                                                        </div>
+                                                        <div class="buttons">
+                                                            <div class="plus-btn"></div>
+                                                            <div class="minus-btn"></div>
+                                                            <div class="silence-btn"></div>
+                                                            <div class="power-btn"></div>
+                                                        </div>
+                                                        <div class="mobile-frame-screen">
+                                                            <div class="mobile-frame-screen-img">
+                                                                <img decoding="async"
+                                                                    src="include/images/screen-img-5.avif" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="mobile-frame-notch"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mobile-frame-notch"></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="features-content  vh-100 d-flex flex-column align-items-center justify-content-center">
-                        <h3>Access major cryptocurrencies with ease.</h3>
-                        <p>CryptoKey allows you to buy and sell Bitcoin, Ethereum, and other leading cryptocurrencies
-                            with just a few clicks. Our user-friendly interface makes it easy for both beginners and
-                            experienced traders to navigate the market. Enjoy competitive rates and low fees to maximize
-                            your investment potential.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div
-                        class="features-img position-relative">
-                        <div class="mobile-frame-container mobile-5">
-                            <div class="mobile-frame">
-                                <div class="mobile-frame-body">
-                                    <div class="mobile-frame-body-2"></div>
-                                    <div class="mobile-frame-body-1"></div>
-                                </div>
-                                <div class="buttons">
-                                    <div class="plus-btn"></div>
-                                    <div class="minus-btn"></div>
-                                    <div class="silence-btn"></div>
-                                    <div class="power-btn"></div>
-                                </div>
-                                <div class="mobile-frame-screen">
-                                    <div class="mobile-frame-screen-img">
-                                        <img decoding="async" src="include/images/screen-img-4.avif" alt="">
-                                    </div>
-                                </div>
-                                <div class="mobile-frame-notch"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="features-content  vh-100 d-flex flex-column align-items-center justify-content-center">
-                        <h3>Top-tier security features to keep your assets safe.</h3>
-                        <p>Your security is our top priority. CryptoKey employs advanced encryption protocols,
-                            two-factor
-                            authentication (2FA), and cold storage solutions to ensure your digital assets are protected
-                            against unauthorized access and cyber threats. Sleep easy knowing your crypto is stored in
-                            one of the safest wallets available.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div
-                        class="features-img position-relative">
-                        <div class="mobile-frame-container mobile-5">
-                            <div class="mobile-frame">
-                                <div class="mobile-frame-body">
-                                    <div class="mobile-frame-body-2"></div>
-                                    <div class="mobile-frame-body-1"></div>
-                                </div>
-                                <div class="buttons">
-                                    <div class="plus-btn"></div>
-                                    <div class="minus-btn"></div>
-                                    <div class="silence-btn"></div>
-                                    <div class="power-btn"></div>
-                                </div>
-                                <div class="mobile-frame-screen">
-                                    <div class="mobile-frame-screen-img">
-                                        <img decoding="async" src="include/images/screen-img-5.avif" alt="">
+                            <div class="col-md-6">
+                                <div class="features-box d-flex flex-column align-items-center justify-content-center">
+                                    <div class="features-img position-relative d-md-none">
+                                        <div class="mobile-frame-container position-relative">
+                                            <div class="mobile-frame">
+                                                <div class="mobile-frame-body">
+                                                    <div class="mobile-frame-body-2"></div>
+                                                    <div class="mobile-frame-body-1"></div>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div class="plus-btn"></div>
+                                                    <div class="minus-btn"></div>
+                                                    <div class="silence-btn"></div>
+                                                    <div class="power-btn"></div>
+                                                </div>
+                                                <div class="mobile-frame-screen">
+                                                    <div class="mobile-frame-screen-img">
+                                                        <img decoding="async" src="include/images/screen-img-1.avif"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="mobile-frame-notch"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-content">
+                                        <h3>Top-tier security features to keep your assets safe.</h3>
+                                        <p>Your security is our top priority. CryptoKey employs advanced encryption
+                                            protocols, two-factor authentication (2FA), and cold storage solutions
+                                            to
+                                            ensure your digital assets are protected against unauthorized access and
+                                            cyber threats. Sleep easy knowing your crypto is stored in one of the
+                                            safest
+                                            wallets available.</p>
                                     </div>
                                 </div>
-                                <div class="mobile-frame-notch"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="features-content  vh-100 d-flex flex-column align-items-center justify-content-center">
-                        <h3>Swift and reliable Crypto exchanges.</h3>
-                        <p>Take advantage of market opportunities as they arise with CryptoKey Wallet's real-time
-                            trading
-                            capabilities. Our platform updates prices instantly and executes trades with minimal
-                            latency, providing you with a seamless trading experience. Whether you’re looking to hedge,
-                            arbitrage, or simply exchange your crypto, our wallet is equipped to meet your needs.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div
-                        class="features-img position-relative">
-                        <div class="mobile-frame-container mobile-5">
-                            <div class="mobile-frame">
-                                <div class="mobile-frame-body">
-                                    <div class="mobile-frame-body-2"></div>
-                                    <div class="mobile-frame-body-1"></div>
-                                </div>
-                                <div class="buttons">
-                                    <div class="plus-btn"></div>
-                                    <div class="minus-btn"></div>
-                                    <div class="silence-btn"></div>
-                                    <div class="power-btn"></div>
-                                </div>
-                                <div class="mobile-frame-screen">
-                                    <div class="mobile-frame-screen-img">
-                                        <img decoding="async" src="include/images/screen-img-5.avif" alt="">
+
+                                <div class="features-box d-flex flex-column align-items-center justify-content-center">
+                                    <div class="features-img position-relative d-md-none">
+                                        <div class="mobile-frame-container position-relative">
+                                            <div class="mobile-frame">
+                                                <div class="mobile-frame-body">
+                                                    <div class="mobile-frame-body-2"></div>
+                                                    <div class="mobile-frame-body-1"></div>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div class="plus-btn"></div>
+                                                    <div class="minus-btn"></div>
+                                                    <div class="silence-btn"></div>
+                                                    <div class="power-btn"></div>
+                                                </div>
+                                                <div class="mobile-frame-screen">
+                                                    <div class="mobile-frame-screen-img">
+                                                        <img decoding="async" src="include/images/screen-img-4.avif"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="mobile-frame-notch"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-content">
+                                        <h3>Access major cryptocurrencies with ease.</h3>
+                                        <p>CryptoKey allows you to buy and sell Bitcoin, Ethereum, and other leading
+                                            cryptocurrencies with just a few clicks. Our user-friendly interface
+                                            makes
+                                            it easy for both beginners and experienced traders to navigate the
+                                            market.
+                                            Enjoy competitive rates and low fees to maximize your investment
+                                            potential.
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="mobile-frame-notch"></div>
+
+                                <div class="features-box d-flex flex-column align-items-center justify-content-center">
+                                    <div class="features-img position-relative d-md-none">
+                                        <div class="mobile-frame-container position-relative">
+                                            <div class="mobile-frame">
+                                                <div class="mobile-frame-body">
+                                                    <div class="mobile-frame-body-2"></div>
+                                                    <div class="mobile-frame-body-1"></div>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div class="plus-btn"></div>
+                                                    <div class="minus-btn"></div>
+                                                    <div class="silence-btn"></div>
+                                                    <div class="power-btn"></div>
+                                                </div>
+                                                <div class="mobile-frame-screen">
+                                                    <div class="mobile-frame-screen-img">
+                                                        <img decoding="async" src="include/images/screen-img-5.avif"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="mobile-frame-notch"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-content">
+                                        <h3>Swift and reliable Crypto exchanges.</h3>
+                                        <p>Take advantage of market opportunities as they arise with CryptoKey
+                                            Wallet's
+                                            real-time trading capabilities. Our platform updates prices instantly
+                                            and
+                                            executes trades with minimal latency, providing you with a seamless
+                                            trading
+                                            experience. Whether you’re looking to hedge, arbitrage, or simply
+                                            exchange
+                                            your crypto, our wallet is equipped to meet your needs.</p>
+                                    </div>
+                                </div>
+
+                                <div class="features-box d-flex flex-column align-items-center justify-content-center">
+                                    <div class="features-img position-relative d-md-none">
+                                        <div class="mobile-frame-container position-relative">
+                                            <div class="mobile-frame">
+                                                <div class="mobile-frame-body">
+                                                    <div class="mobile-frame-body-2"></div>
+                                                    <div class="mobile-frame-body-1"></div>
+                                                </div>
+                                                <div class="buttons">
+                                                    <div class="plus-btn"></div>
+                                                    <div class="minus-btn"></div>
+                                                    <div class="silence-btn"></div>
+                                                    <div class="power-btn"></div>
+                                                </div>
+                                                <div class="mobile-frame-screen">
+                                                    <div class="mobile-frame-screen-img">
+                                                        <img decoding="async" src="include/images/screen-img-5.avif"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="mobile-frame-notch"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="features-content">
+                                        <h3>Always here to help you navigate the crypto world.</h3>
+                                        <p>Our support team is available around the clock to help you with any
+                                            questions
+                                            or issues you may encounter. Whether you need help with a transaction,
+                                            understanding features, or securing your account, our knowledgeable
+                                            staff is
+                                            just a click or call away. Experience customer service that keeps you in
+                                            focus, ensuring your crypto journey is smooth and enjoyable.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="features-content  vh-100 d-flex flex-column align-items-center justify-content-center">
-                        <h3>Always here to help you navigate the crypto world.</h3>
-                        <p>Our support team is available around the clock to help you with any questions or issues you
-                            may
-                            encounter. Whether you need help with a transaction, understanding features, or securing
-                            your
-                            account, our knowledgeable staff is just a click or call away. Experience customer service
-                            that
-                            keeps you in focus, ensuring your crypto journey is smooth and enjoyable.</p>
                     </div>
                 </div>
             </div>
@@ -306,13 +420,13 @@
                 <div class="col-lg-12">
                     <div class="cta-box">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="cta-content" style="margin-bottom: 30px;">
+                            <div class="col-md-6">
+                                <div class="cta-content text-center text-md-start" style="margin-bottom: 30px;">
                                     <h3>Download CryptoKey Now and Start your transactions</h3>
                                     <p>Trade with confidence knowing that our platform has high liquidity and fast
                                         transactions.</p>
 
-                                    <div class="cta-btn">
+                                    <div class="cta-btn d-flex flex-column flex-md-row align-items-center gap-10">
                                         <a href="#" class="btn btn-default"> <span
                                                 class="btn-icon d-flex align-items-center justify-content-center"><img
                                                     src="include/images/app-store.svg" alt="App Store"></span> App
@@ -325,7 +439,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-md-6">
                                 <div class="cta-img">
                                     <div class="mobile-frame-container mobile-3">
                                         <div class="mobile-frame">
@@ -520,7 +634,7 @@
                         <div class="footer-card bg-body">
                             <h6>Download the app</h6>
                             <p>Download the app today and start investing in crypto</p>
-                            <div class="footer-card-btn d-flex gap-10">
+                            <div class="footer-card-btn d-flex flex-column flex-sm-row gap-10">
                                 <a href="#" class="btn btn-green"> <span
                                         class="btn-icon d-flex align-items-center justify-content-center"><img
                                             src="include/images/app-store.svg" alt="App Store"></span> App

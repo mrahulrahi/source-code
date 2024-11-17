@@ -5,32 +5,51 @@ var $ = jQuery.noConflict();
 jQuery(document).ready(function ($) {
 
 
-  const headerHeight = document.getElementById("header").offsetHeight - 1;
+  if (window.innerWidth > 768) {
 
-  gsap.utils.toArray(".features-img").forEach((serviceBlock, index) => {
-    ScrollTrigger.create({
-      trigger: serviceBlock,
-      pin: '.features-img',
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-      markers: true,
-      // New properties for rotation and scaling
-      onEnter: () => gsap.to(serviceBlock, { rotation: -15.1349, scale: 1 }),
-      onLeave: () => gsap.to(serviceBlock, { rotation: 1.18485, scale: 1.2 }),
-      });
+    const image = document.querySelector('.sticky-top .features-img-wrap');
+    gsap.fromTo(
+      image, {
+        transform: "perspective(1200px) translateX(0px) translateY(0px) scale(1.01702) rotate(-14.6166deg) rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg) translateZ(0px)",
+      }, {
+        transform: "perspective(1200px) translateX(0px) translateY(60px) scale(1.12156) rotate(0.0184805deg) rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg) translateZ(0px)",
+        scrollTrigger: {
+          trigger: ".features-container",
+          start: "top center",
+          end: "bottom bottom",
+          scrub: true,
+          toggleActions: "play pause resume pause",
+          // markers: true,
+        },
+      }
+    )
+    const featuresBoxes = document.querySelectorAll(".features-box");
+    const childWraps = document.querySelectorAll(".features-img-wrap .child-wrap");
+
+    // Ensure the number of children matches the features-box count
+    featuresBoxes.forEach((box, index) => {
+      if (index < childWraps.length) {
+        const child = childWraps[index];
+        gsap.fromTo(
+          child, {
+            zIndex: 0,
+            opacity: 1
+          }, // Start invisible
+          {
+            zIndex: index + 1,
+            opacity: 1, // Fade in
+            scrollTrigger: {
+              trigger: box,
+              start: "top center",
+              end: "bottom center",
+              scrub: true,
+            },
+          }
+        );
+      }
     });
 
-  gsap.utils.toArray(".features-content").forEach((serviceBlock, index) => {
-    ScrollTrigger.create({
-      trigger: serviceBlock,
-      pin: '.features-content',
-      start: "top top",
-      end: "bottom top",
-      scrub: true,
-      markers: true,
-      });
-    });
+  }
 
 
   /*==========================*/
