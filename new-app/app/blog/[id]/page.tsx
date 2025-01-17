@@ -1,6 +1,4 @@
-import Hero from '@/app/components/Hero';
-import React from 'react'
-
+// Url: /blog/:id
 interface Post {
     id: number;
     title: string;
@@ -19,7 +17,7 @@ const BlogPage = async ({ params: { id } }: Props) => {
     const post: Post = await res.json();
     return (
         <>
-            <Hero title={post.id} para={post.title}></Hero>
+            <h1>{post.id} <br />{post.title}</h1>
 
             <div className="content-container">
                 <div className="container">

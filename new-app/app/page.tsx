@@ -16,7 +16,6 @@ import Form from "./components/Form";
 export default function Home() {
   const cards = [
     { title: 'User', href: '/users' },
-    { title: 'Products', href: '/products' },
     { title: 'Blog', href: '/blog' },
   ]
 

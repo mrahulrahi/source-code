@@ -38,7 +38,7 @@ const UserPage = async ({ searchParams: { sortOrder } }: Props) => {
                   <div className="errorcss">
                     <label id="blankLabel"></label>
                   </div>
-                  <div className="form-group d-flex"><input className="btn btn-primary ms-auto" type="submit" value="Create" onClick={() => alert("new user created")} /></div>
+                  <div className="form-group d-flex"><input className="btn btn-primary ms-auto" type="submit" value="Create" /></div>
                 </form>
               </div>
             </div>

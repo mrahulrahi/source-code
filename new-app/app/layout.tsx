@@ -5,7 +5,6 @@ import { Varela_Round, Oswald } from 'next/font/google'
 import './styles.css'
 import Header from './Header'
 import Footer from './Footer'
-import Sidebar from './Sidebar';
 
 export const varelaRound = Varela_Round({
   subsets: ['latin'], display: 'swap',
@@ -34,12 +33,9 @@ export default function RootLayout({
       <ImportBsJS />
       <body className={`${varelaRound.variable} ${oswald.variable}`}>
         <Header />
-        <main className="main-container d-flex">
-          <Sidebar />
-          <div className="main-body d-flex flex-column overflow-y-auto">
-            {children}
-            <Footer />
-          </div>
+        <main className="main-container d-flex flex-column">
+          {children}
+          <Footer />
         </main>
       </body>
     </html>
