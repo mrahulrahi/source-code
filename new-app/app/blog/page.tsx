@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import Link from 'next/link';
-import Hero from "../components/Hero";
 
 interface Blog {
   slice(arg0: number, arg1: number): unknown;
@@ -43,9 +42,6 @@ const BlogPage = () => {
 
   return (
     <>
-      <Hero title='Blog Page' para='Read latest blog' subTitle={""}>
-        <Link className='btn btn-success' href="/users">Open</Link>
-      </Hero>
 
       <div className="content-container">
         <div className="container">

@@ -11,7 +11,6 @@ let name;
 let message = "Hello World";
 let _message = "Hello World";
 let $message = "Hello World";
-
 num =10;
 
 console.log(num);
