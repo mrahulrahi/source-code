@@ -1,9 +1,0 @@
-.authority-card-box{min-height: 232px;padding: 27px 12px;border: 6px solid var(--white);border-radius: 19px;font-size: 15px;line-height: 1.21;}
-.authority-card-name{font-weight: 700;margin-bottom: 9px;}
-.authority-card-post{margin-bottom: 14px;}
-.authority-card-email{font-size: 12px;margin-bottom: 8px;}
-.authority-card-phone{font-weight: 700;}
-
-@media(max-width:767.98px){   
-    .authority-card-box{min-height: 180px;}
-}
